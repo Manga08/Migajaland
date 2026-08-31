@@ -1,0 +1,26 @@
+{
+	id: "2000000000000005"
+	group: "1000000000000002"
+	order_index: 3
+	filename: "vivienda_almacen"
+	icon: { id: "farmersdelight:cooking_pot" }
+	default_quest_shape: "rsquare"
+	default_hide_dependency_lines: false
+	progression_mode: "flexible"
+	autofocus_id: "3500000000000001"
+	images: [ ]
+	quest_links: [ ]
+	quests: [
+		{ id: "3500000000000001", x: 0.0d, y: 0.0d, size: 2.0d, shape: "hexagon", optional: true, icon: { id: "minecraft:oak_planks" }, tasks: [{ id: "4500000000000001", type: "checkmark" }] }
+		{ id: "3500000000000002", dependencies: ["3500000000000001"], x: -4.5d, y: 3.0d, optional: true, icon: { id: "farmersdelight:cutting_board" }, tasks: [{ id: "4500000000000002", type: "checkmark" }] }
+		{ id: "3500000000000003", dependencies: ["3500000000000001"], x: -1.5d, y: 3.0d, optional: true, icon: { id: "farmersdelight:cooking_pot" }, tasks: [{ id: "4500000000000003", type: "checkmark" }] }
+		{ id: "3500000000000004", dependencies: ["3500000000000001"], x: 1.5d, y: 3.0d, optional: true, icon: { id: "farmersdelight:tomato" }, tasks: [{ id: "4500000000000004", type: "checkmark" }] }
+		{ id: "3500000000000005", dependencies: ["3500000000000001"], x: 4.5d, y: 3.0d, optional: true, icon: { id: "handcrafted:hammer" }, tasks: [{ id: "4500000000000005", type: "checkmark" }] }
+		{ id: "3500000000000006", dependencies: ["3500000000000001"], x: -4.5d, y: 6.0d, optional: true, icon: { id: "supplementaries:wrench" }, tasks: [{ id: "4500000000000006", type: "checkmark" }] }
+		{ id: "3500000000000007", dependencies: ["3500000000000001"], x: -1.5d, y: 6.0d, optional: true, icon: { id: "sophisticatedbackpacks:backpack" }, tasks: [{ id: "4500000000000007", type: "checkmark" }] }
+		{ id: "3500000000000008", dependencies: ["3500000000000001"], x: 1.5d, y: 6.0d, optional: true, icon: { id: "sophisticatedstorage:chest" }, tasks: [{ id: "4500000000000008", type: "checkmark" }] }
+		{ id: "3500000000000009", dependencies: ["3500000000000001"], x: 4.5d, y: 6.0d, optional: true, icon: { id: "sophisticatedstorage:controller" }, tasks: [{ id: "4500000000000009", type: "checkmark" }] }
+		{ id: "350000000000000A", dependencies: ["3500000000000001"], x: -2.0d, y: 9.0d, optional: true, icon: { id: "minetraps:bear_trap" }, tasks: [{ id: "450000000000000A", type: "checkmark" }] }
+		{ id: "350000000000000B", dependencies: ["3500000000000001"], x: 2.0d, y: 9.0d, optional: true, icon: { id: "minecraft:chest" }, tasks: [{ id: "450000000000000B", type: "checkmark" }] }
+	]
+}

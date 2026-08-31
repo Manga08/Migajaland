@@ -1,0 +1,8 @@
+name = "Paladins & Priests (RPG Series)"
+filename = "paladins-neoforge-3.1.0+1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/FxXkHaLe/versions/z3MF6Q0o/paladins-neoforge-3.1.0%2B1.21.1.jar"
+hash-format = "sha256"
+hash = "7d7f14f711e6581a8b11ef397b592126feb4f01f97a08efbc794963cc1c2d242"

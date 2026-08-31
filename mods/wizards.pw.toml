@@ -1,0 +1,8 @@
+name = "Wizards (RPG Series)"
+filename = "wizards-neoforge-3.1.0.111+1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/NkGaQMDA/versions/k4iKmldG/wizards-neoforge-3.1.0.111%2B1.21.1.jar"
+hash-format = "sha256"
+hash = "144df1a766808845ad99c7497accbb82d0fd117d80b7afeba35d046fdb6a9db9"

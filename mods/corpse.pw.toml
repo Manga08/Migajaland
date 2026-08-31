@@ -1,0 +1,8 @@
+name = "Corpse"
+filename = "corpse-neoforge-1.21.1-1.1.13.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/WrpuIfhw/versions/Zwf8nv8y/corpse-neoforge-1.21.1-1.1.13.jar"
+hash-format = "sha256"
+hash = "80d984f0a17d968220129cc58edd5c9f28a5f61a84ec67dcc41228a46dfa4bb1"

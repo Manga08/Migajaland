@@ -1,0 +1,25 @@
+{
+	id: "2000000000000002"
+	group: "1000000000000002"
+	order_index: 0
+	filename: "controles_interfaz"
+	icon: { id: "minecraft:lever" }
+	default_quest_shape: "rsquare"
+	default_hide_dependency_lines: false
+	progression_mode: "flexible"
+	autofocus_id: "3200000000000001"
+	images: [ ]
+	quest_links: [ ]
+	quests: [
+		{ id: "3200000000000001", x: 0.0d, y: 0.0d, size: 2.0d, shape: "hexagon", optional: true, icon: { id: "minecraft:lever" }, tasks: [{ id: "4200000000000001", type: "checkmark" }] }
+		{ id: "3200000000000002", dependencies: ["3200000000000001"], x: -4.0d, y: 3.0d, optional: true, icon: { id: "ftbquests:book" }, tasks: [{ id: "4200000000000002", type: "checkmark" }] }
+		{ id: "3200000000000003", dependencies: ["3200000000000001"], x: 0.0d, y: 3.0d, optional: true, icon: { id: "minecraft:knowledge_book" }, tasks: [{ id: "4200000000000003", type: "checkmark" }] }
+		{ id: "3200000000000004", dependencies: ["3200000000000001"], x: 4.0d, y: 3.0d, optional: true, icon: { id: "minecraft:spyglass" }, tasks: [{ id: "4200000000000004", type: "checkmark" }] }
+		{ id: "3200000000000005", dependencies: ["3200000000000001"], x: -4.0d, y: 6.0d, optional: true, icon: { id: "minecraft:bundle" }, tasks: [{ id: "4200000000000005", type: "checkmark" }] }
+		{ id: "3200000000000006", dependencies: ["3200000000000001"], x: 0.0d, y: 6.0d, optional: true, icon: { id: "minecraft:apple" }, tasks: [{ id: "4200000000000006", type: "checkmark" }] }
+		{ id: "3200000000000007", dependencies: ["3200000000000001"], x: 4.0d, y: 6.0d, optional: true, icon: { id: "minecraft:painting" }, tasks: [{ id: "4200000000000007", type: "checkmark" }] }
+		{ id: "3200000000000008", dependencies: ["3200000000000001"], x: 0.0d, y: 9.0d, optional: true, icon: { id: "minecraft:barrier" }, tasks: [{ id: "4200000000000008", type: "checkmark" }] }
+		{ id: "3200000000000009", dependencies: ["3200000000000001"], x: -2.0d, y: 9.0d, optional: true, icon: { id: "minecraft:comparator" }, tasks: [{ id: "4200000000000009", type: "checkmark" }] }
+		{ id: "320000000000000A", dependencies: ["3200000000000001"], x: 2.0d, y: 9.0d, optional: true, icon: { id: "minecraft:enchanted_book" }, tasks: [{ id: "420000000000000A", type: "checkmark" }] }
+	]
+}

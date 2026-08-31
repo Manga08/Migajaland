@@ -1,0 +1,8 @@
+name = "Better Combat"
+filename = "bettercombat-neoforge-2.4.0+1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/5sy6g3kz/versions/VhIOvcXP/bettercombat-neoforge-2.4.0%2B1.21.1.jar"
+hash-format = "sha256"
+hash = "0446e9faa98b764ba010ac31e337d14ac96bbb2fbfeff9b599e1efd510dfde5a"

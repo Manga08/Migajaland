@@ -1,0 +1,8 @@
+name = "Mowzie's Mobs"
+filename = "mowziesmobs-1.21.1-1.8.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/BFbX9xcm/versions/xgAXTl17/mowziesmobs-1.21.1-1.8.2.jar"
+hash-format = "sha256"
+hash = "b8e7e39fb6430326de7fbb193db56588ee8bd04d0054527924fe588f37131e4f"

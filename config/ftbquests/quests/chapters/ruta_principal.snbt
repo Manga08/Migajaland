@@ -1,0 +1,381 @@
+{
+	id: "2000000000000001"
+	group: "1000000000000001"
+	order_index: 0
+	filename: "ruta_principal"
+	icon: { id: "minecraft:bread" }
+	default_quest_shape: "circle"
+	default_hide_dependency_lines: false
+	hide_quest_details_until_startable: true
+	progression_mode: "linear"
+	autofocus_id: "3100000000000001"
+	images: [ ]
+	quest_links: [
+		{ id: "5100000000000001", linked_quest: "3200000000000001", x: -4.0d, y: 10.0d }
+		{ id: "5100000000000002", linked_quest: "3300000000000001", x: 4.0d, y: 18.0d }
+		{ id: "5100000000000003", linked_quest: "3400000000000001", x: -4.0d, y: 28.0d }
+		{ id: "5100000000000004", linked_quest: "3500000000000001", x: 4.0d, y: 34.0d }
+		{ id: "5100000000000005", linked_quest: "3600000000000001", x: -4.0d, y: 44.0d }
+		{ id: "5100000000000006", linked_quest: "3700000000000001", x: 4.0d, y: 52.0d }
+	]
+	quests: [
+		{
+			id: "3100000000000001"
+			x: 0.0d
+			y: 0.0d
+			size: 2.0d
+			shape: "hexagon"
+			icon: { id: "minecraft:bread" }
+			tasks: [{ id: "4100000000000001", type: "checkmark" }]
+		}
+		{
+			id: "3100000000000002"
+			dependencies: ["3100000000000001"]
+			x: 0.0d
+			y: 2.5d
+			icon: { id: "minecraft:name_tag" }
+			tasks: [{ id: "4100000000000002", type: "checkmark" }]
+		}
+		{
+			id: "3100000000000003"
+			dependencies: ["3100000000000002"]
+			x: 0.0d
+			y: 5.0d
+			icon: { id: "minecraft:crafting_table" }
+			tasks: [{ id: "4100000000000003", type: "item", item: { count: 1, id: "minecraft:crafting_table" } }]
+		}
+		{
+			id: "3100000000000004"
+			dependencies: ["3100000000000003"]
+			x: 0.0d
+			y: 7.5d
+			icon: { id: "minecraft:red_bed" }
+			tasks: [{ id: "4100000000000004", type: "checkmark" }]
+		}
+		{
+			id: "3100000000000005"
+			dependencies: ["3100000000000004"]
+			x: 0.0d
+			y: 10.0d
+			icon: { id: "minecraft:knowledge_book" }
+			tasks: [{ id: "4100000000000005", type: "checkmark" }]
+		}
+		{
+			id: "3100000000000006"
+			dependencies: ["3100000000000005"]
+			x: 0.0d
+			y: 12.5d
+			icon: { id: "minecraft:shield" }
+			require_sequential_tasks: true
+			tasks: [
+				{ id: "4100000000000006", type: "item", item: { count: 1, id: "minecraft:stone_pickaxe" } }
+				{ id: "4100000000000007", type: "item", optional_task: true, item: { count: 1, id: "minecraft:shield" } }
+			]
+		}
+		{
+			id: "3100000000000007"
+			dependencies: ["3100000000000006"]
+			x: 0.0d
+			y: 15.0d
+			icon: { id: "minecraft:compass" }
+			require_sequential_tasks: true
+			tasks: [
+				{ id: "4100000000000008", type: "checkmark" }
+				{ id: "4100000000000009", type: "checkmark" }
+				{ id: "410000000000000A", type: "checkmark" }
+			]
+		}
+		{
+			id: "3100000000000008"
+			dependencies: ["3100000000000007"]
+			x: 0.0d
+			y: 17.5d
+			icon: { id: "minecraft:lodestone" }
+			require_sequential_tasks: true
+			tasks: [
+				{ id: "410000000000000B", type: "checkmark" }
+				{ id: "410000000000000C", type: "checkmark" }
+				{ id: "410000000000000D", type: "checkmark" }
+			]
+		}
+		{
+			id: "3100000000000009"
+			dependencies: ["3100000000000008"]
+			x: 0.0d
+			y: 20.0d
+			icon: { id: "sophisticatedbackpacks:backpack" }
+			tasks: [{ id: "410000000000000E", type: "item", item: { count: 1, id: "sophisticatedbackpacks:backpack" } }]
+		}
+		{
+			id: "310000000000000A"
+			dependencies: ["3100000000000009"]
+			x: 0.0d
+			y: 22.5d
+			icon: { id: "minecraft:stone_sword" }
+			tasks: [
+				{ id: "410000000000000F", type: "item", optional_task: true, item: { count: 1, id: "minecraft:stone_sword" } }
+				{ id: "4100000000000010", type: "item", optional_task: true, item: { count: 1, id: "rogues:flint_dagger" } }
+				{ id: "4100000000000011", type: "item", optional_task: true, item: { count: 1, id: "archers:flint_spear" } }
+				{ id: "4100000000000012", type: "item", optional_task: true, item: { count: 1, id: "paladins:stone_great_hammer" } }
+				{ id: "4100000000000013", type: "item", optional_task: true, item: { count: 1, id: "wizards:wand_novice" } }
+			]
+		}
+		{
+			id: "310000000000000B"
+			dependencies: ["310000000000000A"]
+			x: 0.0d
+			y: 25.0d
+			icon: { id: "minecraft:experience_bottle" }
+			tasks: [{ id: "4100000000000014", type: "checkmark" }]
+		}
+		{
+			id: "310000000000000C"
+			dependencies: ["310000000000000B"]
+			x: 0.0d
+			y: 27.5d
+			icon: { id: "armageddon_mod:iron_remote" }
+			tasks: [{ id: "4100000000000015", type: "item", item: { count: 1, id: "armageddon_mod:iron_remote" } }]
+		}
+		{
+			id: "310000000000000D"
+			dependencies: ["310000000000000C"]
+			x: 0.0d
+			y: 30.0d
+			shape: "diamond"
+			size: 1.5d
+			icon: { id: "minecraft:iron_block" }
+			tasks: [
+				{ id: "4100000000000016", type: "kill", optional_task: true, entity: "armageddon_mod:the_iron_colossus", value: 1L }
+				{ id: "4100000000000017", type: "checkmark", optional_task: true }
+				{ id: "4100000000000037", type: "item", item: { count: 1, id: "minecraft:iron_pickaxe" } }
+				{ id: "4100000000000038", type: "checkmark" }
+			]
+		}
+		{
+			id: "310000000000000E"
+			dependencies: ["310000000000000D"]
+			x: 0.0d
+			y: 32.5d
+			shape: "diamond"
+			icon: { id: "minecraft:emerald" }
+			tasks: [
+				{ id: "4100000000000018", type: "kill", optional_task: true, entity: "armageddon_mod:the_gobelin_lord", value: 1L }
+				{ id: "4100000000000019", type: "checkmark", optional_task: true }
+			]
+		}
+		{
+			id: "310000000000000F"
+			dependencies: ["310000000000000E"]
+			x: 0.0d
+			y: 35.0d
+			shape: "diamond"
+			icon: { id: "minecraft:saddle" }
+			tasks: [
+				{ id: "410000000000001A", type: "kill", optional_task: true, entity: "armageddon_mod:arion_tyrantofthe_emerald_wrath_ravager", value: 1L }
+				{ id: "410000000000001B", type: "checkmark", optional_task: true }
+			]
+		}
+		{
+			id: "3100000000000010"
+			dependencies: ["310000000000000F"]
+			x: 0.0d
+			y: 37.5d
+			shape: "diamond"
+			icon: { id: "minecraft:chiseled_stone_bricks" }
+			tasks: [
+				{ id: "410000000000001C", type: "kill", optional_task: true, entity: "armageddon_mod:eldoraththe_ancient_builder", value: 1L }
+				{ id: "410000000000001D", type: "checkmark", optional_task: true }
+			]
+		}
+		{
+			id: "3100000000000011"
+			dependencies: ["3100000000000010"]
+			x: 0.0d
+			y: 40.0d
+			icon: { id: "minecraft:flint_and_steel" }
+			tasks: [{ id: "410000000000001E", type: "dimension", dimension: "minecraft:the_nether" }]
+		}
+		{
+			id: "3100000000000012"
+			dependencies: ["3100000000000011"]
+			x: 0.0d
+			y: 42.5d
+			shape: "diamond"
+			icon: { id: "minecraft:prismarine_shard" }
+			tasks: [
+				{ id: "410000000000001F", type: "kill", optional_task: true, entity: "minecraft:elder_guardian", value: 1L }
+				{ id: "4100000000000020", type: "checkmark", optional_task: true }
+			]
+		}
+		{
+			id: "3100000000000013"
+			dependencies: ["3100000000000012"]
+			x: 0.0d
+			y: 45.0d
+			shape: "diamond"
+			icon: { id: "minecraft:nether_star" }
+			tasks: [
+				{ id: "4100000000000021", type: "kill", optional_task: true, entity: "minecraft:wither", value: 1L }
+				{ id: "4100000000000022", type: "checkmark", optional_task: true }
+			]
+		}
+		{
+			id: "3100000000000014"
+			dependencies: ["3100000000000013"]
+			x: 0.0d
+			y: 47.5d
+			shape: "diamond"
+			icon: { id: "minecraft:echo_shard" }
+			tasks: [
+				{ id: "4100000000000023", type: "kill", optional_task: true, entity: "armageddon_mod:zoranththe_forgotten_one", value: 1L }
+				{ id: "4100000000000024", type: "checkmark", optional_task: true }
+			]
+		}
+		{
+			id: "3100000000000015"
+			dependencies: ["3100000000000014"]
+			x: 0.0d
+			y: 50.0d
+			icon: { id: "endrem:lost_eye" }
+			tasks: [{ id: "4100000000000025", type: "checkmark" }]
+		}
+		{
+			id: "3100000000000016"
+			dependencies: ["3100000000000015"]
+			x: 0.0d
+			y: 52.5d
+			icon: { id: "minecraft:ender_eye" }
+			tasks: [
+				{ id: "4100000000000026", type: "structure", optional_task: true, structure: "minecraft:stronghold" }
+				{ id: "4100000000000027", type: "checkmark", optional_task: true }
+			]
+		}
+		{
+			id: "3100000000000017"
+			dependencies: ["3100000000000016"]
+			x: 0.0d
+			y: 55.0d
+			shape: "rsquare"
+			size: 1.5d
+			icon: { id: "minecraft:dragon_head" }
+			tasks: [{ id: "4100000000000028", type: "checkmark" }]
+		}
+		{
+			id: "3100000000000018"
+			dependencies: ["3100000000000017"]
+			x: 0.0d
+			y: 57.5d
+			shape: "diamond"
+			size: 1.8d
+			icon: { id: "minecraft:dragon_head" }
+			tasks: [
+				{ id: "4100000000000029", type: "kill", optional_task: true, entity: "minecraft:ender_dragon", value: 1L }
+				{ id: "410000000000002A", type: "checkmark", optional_task: true }
+			]
+		}
+		{
+			id: "3100000000000019"
+			dependencies: ["3100000000000018"]
+			x: 0.0d
+			y: 60.0d
+			icon: { id: "armageddon_mod:titan_insigna" }
+			require_sequential_tasks: true
+			tasks: [
+				{ id: "410000000000002B", type: "structure", optional_task: true, structure: "minecraft:end_city" }
+				{ id: "410000000000002C", type: "checkmark", optional_task: true }
+				{ id: "4100000000000039", type: "item", item: { count: 1, id: "armageddon_mod:titan_insigna" } }
+			]
+		}
+		{
+			id: "310000000000001A"
+			dependencies: ["3100000000000019"]
+			x: 0.0d
+			y: 62.5d
+			shape: "diamond"
+			icon: { id: "minecraft:diamond_chestplate" }
+			tasks: [
+				{ id: "410000000000002D", type: "kill", optional_task: true, entity: "armageddon_mod:the_elvenite_paladin", value: 1L }
+				{ id: "410000000000002E", type: "checkmark", optional_task: true }
+			]
+		}
+		{
+			id: "310000000000001B"
+			dependencies: ["310000000000001A"]
+			x: 0.0d
+			y: 65.0d
+			shape: "diamond"
+			icon: { id: "minecraft:phantom_membrane" }
+			tasks: [
+				{ id: "410000000000002F", type: "kill", optional_task: true, entity: "armageddon_mod:vaedricthe_fallen_wanderer", value: 1L }
+				{ id: "4100000000000030", type: "checkmark", optional_task: true }
+			]
+		}
+		{
+			id: "310000000000001C"
+			dependencies: ["310000000000001B"]
+			x: 0.0d
+			y: 67.5d
+			shape: "diamond"
+			icon: { id: "minecraft:wither_skeleton_skull" }
+			tasks: [
+				{ id: "4100000000000031", type: "kill", optional_task: true, entity: "armageddon_mod:bringer_of_doom", value: 1L }
+				{ id: "410000000000003A", type: "checkmark", optional_task: true }
+			]
+		}
+		{
+			id: "310000000000001D"
+			dependencies: ["310000000000001C"]
+			x: 0.0d
+			y: 70.0d
+			shape: "diamond"
+			icon: { id: "minecraft:fire_charge" }
+			tasks: [{ id: "4100000000000032", type: "checkmark" }]
+		}
+		{
+			id: "310000000000001E"
+			dependencies: ["310000000000001D"]
+			x: 0.0d
+			y: 72.5d
+			shape: "diamond"
+			icon: { id: "armageddon_mod:cocoon_of_blood" }
+			tasks: [
+				{ id: "4100000000000034", type: "kill", optional_task: true, entity: "armageddon_mod:sanghor_lord_of_blood", value: 1L }
+				{ id: "4100000000000035", type: "checkmark", optional_task: true }
+			]
+		}
+		{
+			id: "310000000000001F"
+			dependencies: ["310000000000001E"]
+			x: 0.0d
+			y: 75.0d
+			shape: "diamond"
+			icon: { id: "minecraft:beacon" }
+			tasks: [
+				{ id: "4100000000000036", type: "kill", optional_task: true, entity: "armageddon_mod:zoranth_newborn_of_the_zenith", value: 1L }
+				{ id: "410000000000003B", type: "checkmark", optional_task: true }
+			]
+		}
+		{
+			id: "3100000000000020"
+			dependencies: ["310000000000001F"]
+			x: 0.0d
+			y: 77.5d
+			shape: "diamond"
+			icon: { id: "minecraft:end_crystal" }
+			tasks: [
+				{ id: "410000000000003C", type: "kill", optional_task: true, entity: "armageddon_mod:nyxaris_the_veil_of_oblivion", value: 1L }
+				{ id: "410000000000003D", type: "checkmark", optional_task: true }
+			]
+		}
+		{
+			id: "3100000000000021"
+			dependencies: ["3100000000000020"]
+			x: 0.0d
+			y: 80.0d
+			shape: "hexagon"
+			size: 2.0d
+			icon: { id: "minecraft:nether_star" }
+			tasks: [{ id: "410000000000003E", type: "checkmark" }]
+		}
+	]
+}

@@ -1,0 +1,26 @@
+{
+	id: "2000000000000006"
+	group: "1000000000000002"
+	order_index: 4
+	filename: "exploracion_aventura"
+	icon: { id: "minecraft:filled_map" }
+	default_quest_shape: "rsquare"
+	default_hide_dependency_lines: false
+	progression_mode: "flexible"
+	autofocus_id: "3600000000000001"
+	images: [ ]
+	quest_links: [ ]
+	quests: [
+		{ id: "3600000000000001", x: 0.0d, y: 0.0d, size: 2.0d, shape: "hexagon", optional: true, icon: { id: "minecraft:filled_map" }, tasks: [{ id: "4600000000000001", type: "checkmark" }] }
+		{ id: "3600000000000002", dependencies: ["3600000000000001"], x: -4.5d, y: 3.0d, optional: true, icon: { id: "minecraft:grass_block" }, tasks: [{ id: "4600000000000002", type: "checkmark" }] }
+		{ id: "3600000000000003", dependencies: ["3600000000000001"], x: -1.5d, y: 3.0d, optional: true, icon: { id: "minecraft:stone_bricks" }, tasks: [{ id: "4600000000000003", type: "checkmark" }] }
+		{ id: "3600000000000004", dependencies: ["3600000000000001"], x: 1.5d, y: 3.0d, optional: true, icon: { id: "lootr:lootr_chest" }, tasks: [{ id: "4600000000000004", type: "checkmark" }] }
+		{ id: "3600000000000005", dependencies: ["3600000000000001"], x: 4.5d, y: 3.0d, optional: true, icon: { id: "minecraft:recovery_compass" }, tasks: [{ id: "4600000000000005", type: "checkmark" }] }
+		{ id: "3600000000000006", dependencies: ["3600000000000001"], x: -4.5d, y: 6.0d, optional: true, icon: { id: "mowziesmobs:ice_crystal" }, tasks: [{ id: "4600000000000006", type: "checkmark" }] }
+		{ id: "3600000000000007", dependencies: ["3600000000000001"], x: -1.5d, y: 6.0d, optional: true, icon: { id: "armageddon_mod:iron_remote" }, tasks: [{ id: "4600000000000007", type: "checkmark" }] }
+		{ id: "3600000000000008", dependencies: ["3600000000000001"], x: 1.5d, y: 6.0d, optional: true, icon: { id: "endrem:lost_eye" }, tasks: [{ id: "4600000000000008", type: "checkmark" }] }
+		{ id: "3600000000000009", dependencies: ["3600000000000001"], x: 4.5d, y: 6.0d, optional: true, icon: { id: "minecraft:nether_bricks" }, tasks: [{ id: "4600000000000009", type: "checkmark" }] }
+		{ id: "360000000000000A", dependencies: ["3600000000000001"], x: -2.0d, y: 9.0d, optional: true, icon: { id: "minecraft:compass" }, tasks: [{ id: "460000000000000A", type: "checkmark" }] }
+		{ id: "360000000000000B", dependencies: ["3600000000000001"], x: 2.0d, y: 9.0d, optional: true, icon: { id: "minecraft:chest" }, tasks: [{ id: "460000000000000B", type: "checkmark" }] }
+	]
+}

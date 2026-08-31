@@ -1,0 +1,8 @@
+name = "Skill Tree (RPG Series)"
+filename = "skill_tree-neoforge-1.6.0+1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/PjDhruSC/versions/sxJUD8Hf/skill_tree-neoforge-1.6.0%2B1.21.1.jar"
+hash-format = "sha256"
+hash = "6403a34061edd82fc966102041bc1c0639b4dbb106441eaf171746ea59856f5d"

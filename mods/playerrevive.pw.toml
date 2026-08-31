@@ -1,0 +1,8 @@
+name = "PlayerRevive"
+filename = "PlayerRevive_NEOFORGE_v2.1.2_mc1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/ABIMzABM/versions/LS7UoW1b/PlayerRevive_NEOFORGE_v2.1.2_mc1.21.1.jar"
+hash-format = "sha256"
+hash = "bb0f482c43156e9fbdea8e6309c707c62f301d673e5e5e5b268315d0b9272276"

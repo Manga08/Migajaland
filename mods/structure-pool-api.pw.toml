@@ -1,0 +1,8 @@
+name = "Structure Pool API"
+filename = "structure_pool_api-neoforge-1.2.1+1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/LrYZi08Q/versions/kdWVYKdx/structure_pool_api-neoforge-1.2.1%2B1.21.1.jar"
+hash-format = "sha256"
+hash = "c18460025b07bc05fdc95bf62621c6b56f45e4eeb1c319f12787f39eb9315ea9"

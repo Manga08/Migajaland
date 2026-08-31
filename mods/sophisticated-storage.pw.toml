@@ -1,0 +1,8 @@
+name = "Sophisticated Storage"
+filename = "sophisticatedstorage-1.21.1-1.5.91.2127.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/hMlaZH8f/versions/H7wGZ8Sl/sophisticatedstorage-1.21.1-1.5.91.2127.jar"
+hash-format = "sha256"
+hash = "a2c3521edd88196f2948ea9a3db08187907baaa4cdcb27c1b004069782c6bf8f"

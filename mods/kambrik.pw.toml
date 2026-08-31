@@ -1,0 +1,8 @@
+name = "Kambrik"
+filename = "kambrik-neoforge-8.0.0-beta.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/zfbCkvdZ/versions/rCSmCZpX/kambrik-neoforge-8.0.0-beta.2.jar"
+hash-format = "sha256"
+hash = "a9b14170f2eeb323261c14bf40137ae78920ce2d61d52c85cdccc45bd9f37c2c"

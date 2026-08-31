@@ -1,0 +1,8 @@
+name = "Bountiful"
+filename = "bountiful-neoforge-8.0.0-beta.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/BpwWFOVM/versions/swTb6NU9/bountiful-neoforge-8.0.0-beta.2.jar"
+hash-format = "sha256"
+hash = "dca5e0af724e3076b3d950b7ec88cf63c509435cf41371a6e1c7c306cb6a7e51"

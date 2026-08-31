@@ -1,0 +1,8 @@
+name = "Enchantment Descriptions"
+filename = "enchdesc-neoforge-1.21.1-21.1.9.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/UVtY3ZAC/versions/zfAkJn0r/enchdesc-neoforge-1.21.1-21.1.9.jar"
+hash-format = "sha256"
+hash = "74d546ecb147da7e2cb53fe3115f6e062094329dcf15639b3da694cc00d3f843"

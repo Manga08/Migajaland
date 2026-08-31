@@ -1,0 +1,8 @@
+name = "Small Ships"
+filename = "smallships-neoforge-1.21.1-2.0.0-b2.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/rGWEHQrP/versions/6poGZvvr/smallships-neoforge-1.21.1-2.0.0-b2.1.jar"
+hash-format = "sha256"
+hash = "423d81eaeccf32088ed0b42a3a1c0976695fa5ab99c2b6b1d4c5706537fcbf62"

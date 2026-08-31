@@ -1,0 +1,29 @@
+{
+	id: "2000000000000004"
+	group: "1000000000000002"
+	order_index: 2
+	filename: "personaje_combate"
+	icon: { id: "minecraft:diamond_sword" }
+	default_quest_shape: "rsquare"
+	default_hide_dependency_lines: false
+	progression_mode: "flexible"
+	autofocus_id: "3400000000000001"
+	images: [ ]
+	quest_links: [ ]
+	quests: [
+		{ id: "3400000000000001", x: 0.0d, y: 0.0d, size: 2.0d, shape: "hexagon", optional: true, icon: { id: "minecraft:diamond_sword" }, tasks: [{ id: "4400000000000001", type: "checkmark" }] }
+		{ id: "3400000000000002", dependencies: ["3400000000000001"], x: -4.5d, y: 3.0d, optional: true, icon: { id: "minecraft:iron_sword" }, tasks: [{ id: "4400000000000002", type: "checkmark" }] }
+		{ id: "3400000000000003", dependencies: ["3400000000000001"], x: -1.5d, y: 3.0d, optional: true, icon: { id: "minecraft:feather" }, tasks: [{ id: "4400000000000003", type: "checkmark" }] }
+		{ id: "3400000000000004", dependencies: ["3400000000000001"], x: 1.5d, y: 3.0d, optional: true, icon: { id: "rogues:iron_dagger" }, tasks: [{ id: "4400000000000004", type: "checkmark" }] }
+		{ id: "3400000000000005", dependencies: ["3400000000000001"], x: 4.5d, y: 3.0d, optional: true, icon: { id: "archers:iron_spear" }, tasks: [{ id: "4400000000000005", type: "checkmark" }] }
+		{ id: "3400000000000006", dependencies: ["3400000000000001"], x: -4.5d, y: 6.0d, optional: true, icon: { id: "paladins:iron_mace" }, tasks: [{ id: "4400000000000006", type: "checkmark" }] }
+		{ id: "3400000000000007", dependencies: ["3400000000000001"], x: -1.5d, y: 6.0d, optional: true, icon: { id: "wizards:wand_novice" }, tasks: [{ id: "4400000000000007", type: "checkmark" }] }
+		{ id: "3400000000000008", dependencies: ["3400000000000001"], x: 1.5d, y: 6.0d, optional: true, icon: { id: "minecraft:amethyst_shard" }, tasks: [{ id: "4400000000000008", type: "checkmark" }] }
+		{ id: "3400000000000009", dependencies: ["3400000000000001"], x: 4.5d, y: 6.0d, optional: true, icon: { id: "minecraft:experience_bottle" }, tasks: [{ id: "4400000000000009", type: "checkmark" }] }
+		{ id: "340000000000000A", dependencies: ["3400000000000001"], x: -3.0d, y: 9.0d, optional: true, icon: { id: "minecraft:book" }, tasks: [{ id: "440000000000000A", type: "checkmark" }] }
+		{ id: "340000000000000B", dependencies: ["3400000000000001"], x: 0.0d, y: 9.0d, optional: true, icon: { id: "skill_tree_rpgs:orb_of_oblivion" }, tasks: [{ id: "440000000000000B", type: "checkmark" }] }
+		{ id: "340000000000000C", dependencies: ["3400000000000001"], x: 3.0d, y: 9.0d, optional: true, icon: { id: "minecraft:totem_of_undying" }, tasks: [{ id: "440000000000000C", type: "checkmark" }] }
+		{ id: "340000000000000D", dependencies: ["3400000000000001"], x: -1.5d, y: 12.0d, optional: true, icon: { id: "arsenal:unique_claymore_1" }, tasks: [{ id: "440000000000000D", type: "checkmark" }] }
+		{ id: "340000000000000E", dependencies: ["3400000000000001"], x: 1.5d, y: 12.0d, optional: true, icon: { id: "arsenal:unique_shield_1" }, tasks: [{ id: "440000000000000E", type: "checkmark" }] }
+	]
+}

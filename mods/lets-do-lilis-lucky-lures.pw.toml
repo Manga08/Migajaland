@@ -1,0 +1,8 @@
+name = "[Let's Do] Lili's Lucky Lures"
+filename = "letsdo-lilis_lucky_lures-neoforge-1.1.3.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/DMDVFZSF/versions/5QkbWc5J/letsdo-lilis_lucky_lures-neoforge-1.1.3.jar"
+hash-format = "sha256"
+hash = "5fb9b12e1834d2cd0f93359c4c1418e5bb1ad921f2c8cf9b217a1fb9b41aea10"

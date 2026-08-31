@@ -1,0 +1,8 @@
+name = "Pufferfish's Skills"
+filename = "puffish_skills-0.18.3-1.21-neoforge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/hqQqvaa4/versions/PFl7yr35/puffish_skills-0.18.3-1.21-neoforge.jar"
+hash-format = "sha256"
+hash = "7da4fa1a3c6834b76389507ccfd65593f4f92208463b3d64e801cd2b44dcf19f"

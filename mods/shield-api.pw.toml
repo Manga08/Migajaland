@@ -1,0 +1,8 @@
+name = "Shield API"
+filename = "shield_api-neoforge-2.2.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/y9clIFY4/versions/fgK2cNYi/shield_api-neoforge-2.2.0.jar"
+hash-format = "sha256"
+hash = "adbd8facfcaf318956d670ff3f0341c0d8e15e136ae9c00749a255e25a9c0194"

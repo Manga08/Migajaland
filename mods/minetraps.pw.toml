@@ -1,0 +1,8 @@
+name = "MineTraps"
+filename = "MineTraps-1.21-(v.3.0.2).jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/1TVTyRG9/versions/MdOCVRGB/MineTraps-1.21-%28v.3.0.2%29.jar"
+hash-format = "sha256"
+hash = "079f3c4081341ff9f71c88683370c922577482d21cdc136df3d48e76d4a313d8"

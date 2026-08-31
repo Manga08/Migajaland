@@ -1,0 +1,8 @@
+name = "Lootr"
+filename = "lootr-neoforge-1.21.1-1.11.38.124.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/EltpO5cN/versions/Trh49IZt/lootr-neoforge-1.21.1-1.11.38.124.jar"
+hash-format = "sha256"
+hash = "2d51854171dfbee4f19b43030d021d25557535ff601e521ea5899dc8d9c61717"

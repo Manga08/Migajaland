@@ -1,0 +1,4 @@
+Migajaland 0.5.0-rc4
+
+Esta carpeta es la fuente de actualizaciones automaticas del cliente.
+No contiene mundos, cuentas, contrasenas, registros ni datos de jugadores.

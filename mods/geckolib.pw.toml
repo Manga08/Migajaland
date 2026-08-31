@@ -1,0 +1,8 @@
+name = "Geckolib"
+filename = "geckolib-neoforge-1.21.1-4.9.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/8BmcQJ2H/versions/tPkJmim6/geckolib-neoforge-1.21.1-4.9.2.jar"
+hash-format = "sha256"
+hash = "5e548466af9ab6aca7a91a7c7d4dc0dc8bc385e22958aed5da0e7bebd0fa3fba"

@@ -1,0 +1,8 @@
+name = "Ranged Weapon API"
+filename = "ranged_weapon_api-neoforge-2.3.4+1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/AqaIIO6D/versions/o8J1QzYL/ranged_weapon_api-neoforge-2.3.4%2B1.21.1.jar"
+hash-format = "sha256"
+hash = "d4d698e7cf276f2f0d0c03012d0f4273ebe31cd5b0611fe6cf49a7b9364ee2f6"

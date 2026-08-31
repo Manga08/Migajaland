@@ -1,0 +1,26 @@
+{
+	id: "2000000000000007"
+	group: "1000000000000002"
+	order_index: 6
+	filename: "ayuda_problemas"
+	icon: { id: "minecraft:recovery_compass" }
+	default_quest_shape: "rsquare"
+	default_hide_dependency_lines: false
+	progression_mode: "flexible"
+	autofocus_id: "3700000000000001"
+	images: [ ]
+	quest_links: [ ]
+	quests: [
+		{ id: "3700000000000001", x: 0.0d, y: 0.0d, size: 2.0d, shape: "hexagon", optional: true, icon: { id: "minecraft:recovery_compass" }, tasks: [{ id: "4700000000000001", type: "checkmark" }] }
+		{ id: "3700000000000002", dependencies: ["3700000000000001"], x: -4.5d, y: 3.0d, optional: true, icon: { id: "minecraft:crafting_table" }, tasks: [{ id: "4700000000000002", type: "checkmark" }] }
+		{ id: "3700000000000003", dependencies: ["3700000000000001"], x: -1.5d, y: 3.0d, optional: true, icon: { id: "minecraft:amethyst_shard" }, tasks: [{ id: "4700000000000003", type: "checkmark" }] }
+		{ id: "3700000000000004", dependencies: ["3700000000000001"], x: 1.5d, y: 3.0d, optional: true, icon: { id: "minecraft:goat_horn" }, tasks: [{ id: "4700000000000004", type: "checkmark" }] }
+		{ id: "3700000000000005", dependencies: ["3700000000000001"], x: 4.5d, y: 3.0d, optional: true, icon: { id: "minecraft:player_head" }, tasks: [{ id: "4700000000000005", type: "checkmark" }] }
+		{ id: "3700000000000006", dependencies: ["3700000000000001"], x: -4.5d, y: 6.0d, optional: true, icon: { id: "minecraft:chest" }, tasks: [{ id: "4700000000000006", type: "checkmark" }] }
+		{ id: "3700000000000007", dependencies: ["3700000000000001"], x: -1.5d, y: 6.0d, optional: true, icon: { id: "minecraft:barrier" }, tasks: [{ id: "4700000000000007", type: "checkmark" }] }
+		{ id: "3700000000000008", dependencies: ["3700000000000001"], x: 1.5d, y: 6.0d, optional: true, icon: { id: "minecraft:redstone" }, tasks: [{ id: "4700000000000008", type: "checkmark" }] }
+		{ id: "3700000000000009", dependencies: ["3700000000000001"], x: 4.5d, y: 6.0d, optional: true, icon: { id: "minecraft:command_block" }, tasks: [{ id: "4700000000000009", type: "checkmark" }] }
+		{ id: "370000000000000A", dependencies: ["3700000000000001"], x: -2.0d, y: 9.0d, optional: true, icon: { id: "minecraft:comparator" }, tasks: [{ id: "470000000000000A", type: "checkmark" }] }
+		{ id: "370000000000000B", dependencies: ["3700000000000001"], x: 2.0d, y: 9.0d, optional: true, icon: { id: "minecraft:paper" }, tasks: [{ id: "470000000000000B", type: "checkmark" }] }
+	]
+}

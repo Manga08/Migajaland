@@ -1,0 +1,8 @@
+name = "Critical Strike"
+filename = "critical_strike-neoforge-1.0.4+1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/ilvNBzFn/versions/2LZ76MSH/critical_strike-neoforge-1.0.4%2B1.21.1.jar"
+hash-format = "sha256"
+hash = "67c86b107ccf150e4cc2f9267a83550c795d34635ed7550ab3e04ee62b30bd3c"

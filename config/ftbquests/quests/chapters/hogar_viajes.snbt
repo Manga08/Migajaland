@@ -1,0 +1,24 @@
+{
+	id: "2000000000000003"
+	group: "1000000000000002"
+	order_index: 1
+	filename: "hogar_viajes"
+	icon: { id: "minecraft:lodestone" }
+	default_quest_shape: "rsquare"
+	default_hide_dependency_lines: false
+	progression_mode: "flexible"
+	autofocus_id: "3300000000000001"
+	images: [ ]
+	quest_links: [ ]
+	quests: [
+		{ id: "3300000000000001", x: 0.0d, y: 0.0d, size: 2.0d, shape: "hexagon", optional: true, icon: { id: "minecraft:lodestone" }, tasks: [{ id: "4300000000000001", type: "checkmark" }] }
+		{ id: "3300000000000002", dependencies: ["3300000000000001"], x: -4.0d, y: 3.0d, optional: true, icon: { id: "minecraft:red_bed" }, tasks: [{ id: "4300000000000002", type: "checkmark" }] }
+		{ id: "3300000000000003", dependencies: ["3300000000000001"], x: 0.0d, y: 3.0d, optional: true, icon: { id: "minecraft:ender_pearl" }, tasks: [{ id: "4300000000000003", type: "checkmark" }] }
+		{ id: "3300000000000004", dependencies: ["3300000000000001"], x: 4.0d, y: 3.0d, optional: true, icon: { id: "waystones:waystone" }, tasks: [{ id: "4300000000000004", type: "checkmark" }] }
+		{ id: "3300000000000005", dependencies: ["3300000000000001"], x: -4.0d, y: 6.0d, optional: true, icon: { id: "minecraft:filled_map" }, tasks: [{ id: "4300000000000005", type: "checkmark" }] }
+		{ id: "3300000000000006", dependencies: ["3300000000000001"], x: 0.0d, y: 6.0d, optional: true, icon: { id: "minecraft:golden_shovel" }, tasks: [{ id: "4300000000000006", type: "checkmark" }] }
+		{ id: "3300000000000007", dependencies: ["3300000000000001"], x: 4.0d, y: 6.0d, optional: true, icon: { id: "minecraft:player_head" }, tasks: [{ id: "4300000000000007", type: "checkmark" }] }
+		{ id: "3300000000000008", dependencies: ["3300000000000001"], x: -2.0d, y: 9.0d, optional: true, icon: { id: "minecraft:goat_horn" }, tasks: [{ id: "4300000000000008", type: "checkmark" }] }
+		{ id: "3300000000000009", dependencies: ["3300000000000001"], x: 2.0d, y: 9.0d, optional: true, icon: { id: "minecraft:totem_of_undying" }, tasks: [{ id: "4300000000000009", type: "checkmark" }] }
+	]
+}

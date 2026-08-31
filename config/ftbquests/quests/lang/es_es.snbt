@@ -1,0 +1,263 @@
+{
+	chapter_group.1000000000000001.title: "Migajaland"
+	chapter_group.1000000000000002.title: "Miniguías"
+
+	chapter.2000000000000007.title: "Ayuda y problemas"
+	chapter.2000000000000007.chapter_subtitle: ["Comprueba esto antes de tocar archivos"]
+	quest.3700000000000001.title: "Estoy atascado"
+	quest.3700000000000001.quest_desc: ["Busca el síntoma concreto en los nodos siguientes. Haz una captura del mensaje y anota qué estabas haciendo.\n\nNo borres JAR, no cambies versiones y no añadas OptiFine. Mantener el pack intacto hace posible reproducir el problema."]
+	quest.3700000000000002.title: "No sé fabricar algo"
+	quest.3700000000000002.quest_desc: ["Busca el objeto en EMI: &eR&r muestra recetas y &eU&r usos. Revisa todas las pestañas y pasa el cursor por ingredientes. Si hay resultados superpuestos, usa el selector de Polymorph.\n\nAlgunos objetos de jefe solo son accesibles después de la etapa anterior; la receta no reemplaza ese progreso."]
+	quest.3700000000000003.title: "La magia no funciona"
+	quest.3700000000000003.quest_desc: ["Comprueba libro equipado, arma compatible, runas correctas y tecla de Spell Engine. Después mira si la armadura o accesorio requiere una ranura Curios.\n\nSi el icono del hechizo aparece sin cargas, fabrica runas; si no aparece, el libro o arma no coinciden."]
+	quest.3700000000000004.title: "La voz no conecta"
+	quest.3700000000000004.quest_desc: ["Pulsa V y revisa dispositivo de entrada, volumen, modo de activación y permisos de micrófono de Windows. Reinicia el cliente tras cambiar el dispositivo.\n\nSi Minecraft conecta pero todos ven el icono de voz desconectado, el problema suele ser el puerto UDP del servidor; envía captura al administrador."]
+	quest.3700000000000005.title: "No puedo entrar o iniciar sesión"
+	quest.3700000000000005.quest_desc: ["Usa exactamente el nombre agregado a whitelist, respetando mayúsculas. Primera vez: /register con la misma contraseña dos veces y mínimo 10 caracteres. Después: /login.\n\nNo publiques la contraseña. Un mensaje de mods incompatibles normalmente significa que abriste otra instancia o versión del pack."]
+	quest.3700000000000006.title: "Perdí mis objetos"
+	quest.3700000000000006.quest_desc: ["Pulsa U para el historial de Corpse, anota dimensión y coordenadas, equipa un kit de rescate y vuelve. Clic derecho sobre el cadáver recupera el contenido.\n\nSi solo quedaste derribado y hay alguien cerca, PlayerRevive permite ayudarte antes de que aparezca el cadáver."]
+	quest.3700000000000007.title: "No puedo construir o abrir un cofre"
+	quest.3700000000000007.quest_desc: ["Abre M y revisa quién reclamó ese chunk. Un claim puede impedir romper, colocar o interactuar. Si es tuyo, revisa la configuración; si pertenece a otra persona, pide acceso.\n\nNo intentes resolverlo desinstalando FTB Chunks: la protección vive en el servidor."]
+	quest.3700000000000008.title: "Bajones de FPS o memoria"
+	quest.3700000000000008.quest_desc: ["Usa Lite si tu PC tiene 8 GB de RAM total o menos recursos gráficos. Reduce distancia de renderizado, partículas y gráficos; cierra shaders y programas pesados. No asignes toda la RAM del equipo a Minecraft.\n\nEmbeddium, ImmediatelyFast, Entity Culling, BadOptimizations, FerriteCore y ModernFix ya están incluidos y funcionan automáticamente."]
+	quest.3700000000000009.title: "Lag del servidor"
+	quest.3700000000000009.quest_desc: ["Deja de explorar temporalmente, evita invocar otro jefe y avisa con hora y ubicación. ServerCore, ModernFix y FerriteCore ya optimizan; spark diagnostica y Chunky pregenera, pero son herramientas administrativas.\n\nLuckPerms gestiona permisos. Ninguno requiere comandos de un jugador normal."]
+	quest.370000000000000A.title: "Mods técnicos que no tienes que aprender"
+	quest.370000000000000A.quest_desc: ["Architectury, Balm, AzureLib Armor, Bookshelf, Bundle API, Cloth Config, CreativeCore, Curios API, GeckoLib, Iceberg, Kambrik, Kotlin for Forge, Lithostitched, Moonlight, playerAnimator, Prickle, Ranged Weapon API, Resourceful Lib, Searchables, Shield API, Sophisticated Core, Spell Engine, Spell Power, Structure Pool API, YUNG's API, FTB Library y FTB Teams sostienen otros sistemas.\n\nNo aparecen como pasos porque trabajan detrás de la interfaz."]
+	quest.370000000000000B.title: "Qué enviar si hay un crash"
+	quest.370000000000000B.quest_desc: ["Envía el archivo más reciente de &ecrash-reports&r o &elogs/latest.log&r, una captura y los pasos anteriores al error. Indica si usas Lite o Standard.\n\nNo pegues contraseñas, tokens ni datos privados. No recortes el log antes de enviarlo al administrador de confianza."]
+
+	chapter.2000000000000002.title: "Controles e interfaz"
+	chapter.2000000000000002.chapter_subtitle: ["Lo que ves en pantalla y las teclas que sí importan"]
+	quest.3200000000000001.title: "Cómo usar esta guía"
+	quest.3200000000000001.quest_desc: ["Abre la guía con &6L&r o desde el icono del libro en la esquina superior izquierda del inventario. Haz clic en un nodo para leerlo; el ✓ confirma que ya lo entendiste.\n\nLa línea principal es progresión. Este capítulo es consulta opcional: no desbloquea contenido ni entrega ventajas."]
+	quest.3200000000000002.title: "Teclas de Migajaland"
+	quest.3200000000000002.quest_desc: ["&6L&r guía · &6M&r mapa · &6K&r habilidades · &6B&r mochila · &6R&r rodada · &6V&r voz · &6G&r grupo de voz · &6O&r accesorios Curios · &6U&r historial de muertes · &6Y&r equipos FTB · &6J&r carcaj.\n\nPuedes revisar o cambiar todo en Opciones → Controles. El pack ya evita los conflictos principales."]
+	quest.3200000000000003.title: "EMI: recetas y usos"
+	quest.3200000000000003.quest_desc: ["En el inventario, escribe en la barra inferior para buscar. Pon el cursor sobre un objeto y pulsa &eR&r para ver recetas; pulsa &eU&r para ver sus usos. Haz clic en ingredientes para navegar.\n\nSi dos mods comparten la misma receta, Polymorph muestra un botón para elegir el resultado correcto."]
+	quest.3200000000000004.title: "Jade: qué estoy mirando"
+	quest.3200000000000004.quest_desc: ["Jade identifica el bloque o criatura bajo tu mira y muestra datos útiles, como contenido, vida o estado. Funciona automáticamente.\n\nSi la información tapa demasiado, busca Jade en Controles o en la configuración de mods para ocultar partes; no necesitas desinstalarlo."]
+	quest.3200000000000005.title: "Inventario, Curios y Mouse Tweaks"
+	quest.3200000000000005.quest_desc: ["Mouse Tweaks permite arrastrar y repartir pilas con el ratón. Curios añade ranuras para mochila, accesorios y reliquias: ábrelas con &6O&r.\n\nUn accesorio debe estar equipado en una ranura compatible para aplicar su efecto; llevarlo suelto en el inventario normalmente no basta."]
+	quest.3200000000000006.title: "Hambre y saturación"
+	quest.3200000000000006.quest_desc: ["AppleSkin muestra cuánta hambre y saturación recupera la comida antes de comerla. Las marcas amarillas indican saturación, que retrasa la pérdida de hambre.\n\nEs solo información visual: no cambia el balance de comida."]
+	quest.3200000000000007.title: "Rendimiento del cliente"
+	quest.3200000000000007.quest_desc: ["Embeddium e ImmediatelyFast aceleran el renderizado; Entity Culling evita dibujar lo que no ves; BadOptimizations reduce trabajo innecesario; FerriteCore y ModernFix cuidan memoria y carga. Clumps agrupa orbes de experiencia y AttributeFix evita topes incorrectos de atributos RPG. Funcionan solos.\n\nLite y Standard tienen el mismo contenido: Lite usa hasta 4 GB y menos distancia visual; Standard usa hasta 6 GB y más distancia."]
+	quest.3200000000000008.title: "No añadas OptiFine ni mods sueltos"
+	quest.3200000000000008.quest_desc: ["Todos deben usar la misma versión de Migajaland. OptiFine, shaders o JAR añadidos por cuenta propia pueden romper la conexión o causar errores difíciles de reproducir.\n\nSi algo falla, conserva el pack intacto y consulta Ayuda y problemas."]
+	quest.3200000000000009.title: "Encuentra y corrige teclas"
+	quest.3200000000000009.quest_desc: ["En Opciones → Controles, Controlling añade búsqueda por nombre o tecla y permite mostrar solo conflictos. Searchables sostiene esa búsqueda.\n\nSi dos acciones usan la misma tecla, decide cuál necesitas más y reasigna la otra. No borres un mod para resolver un conflicto de controles."]
+	quest.320000000000000A.title: "Compara equipo y entiende encantamientos"
+	quest.320000000000000A.quest_desc: ["Equipment Compare muestra junto al tooltip la pieza equipada para comparar estadísticas sin cambiarla primero. Enchantment Descriptions explica qué hace cada encantamiento al pasar el cursor.\n\nSon ayudas de lectura: no aumentan daño ni cambian el balance. Iceberg, Bookshelf y Prickle son bibliotecas que las sostienen."]
+
+	chapter.2000000000000006.title: "Exploración y aventura"
+	chapter.2000000000000006.chapter_subtitle: ["Qué encontrarás y cómo regresar con vida"]
+	quest.3600000000000001.title: "Antes de salir"
+	quest.3600000000000001.quest_desc: ["Lleva comida, bloques, antorchas, cama, herramientas, un arma, escudo, espacio de mochila y una ruta de regreso. Marca la base y el destino en M.\n\nExplorar abre la progresión, pero generar terreno en muchas direcciones a la vez exige más al servidor."]
+	quest.3600000000000002.title: "Terralith"
+	quest.3600000000000002.quest_desc: ["Terralith rehace los biomas del Overworld con bloques vanilla. Lithostitched sostiene esa generación. No añaden una máquina ni una misión: simplemente explora y observa alturas, cuevas y climas distintos.\n\nUn bioma raro no implica que debas mudarte; usa waypoints antes de perder su ubicación."]
+	quest.3600000000000003.title: "Mazmorras, tabernas y fortalezas"
+	quest.3600000000000003.quest_desc: ["Dungeons and Taverns añade estructuras repartidas por el mundo. YUNG's Better Dungeons amplía mazmorras y YUNG's Better Strongholds transforma fortalezas. Structure Pool API y YUNG's API son soporte técnico.\n\nIlumina, avanza por habitaciones y deja una salida marcada; no rompas cofres antes de revisar si son Lootr."]
+	quest.3600000000000004.title: "Lootr: el cofre es personal"
+	quest.3600000000000004.quest_desc: ["Los cofres especiales de Lootr entregan contenido individual. Para ti cambian de dorado a azul después de abrirlos; otra persona puede abrir el mismo cofre y obtener su propio inventario.\n\nNo hace falta romperlos ni pelear por quién llega primero. Guarda espacio antes de abrir uno."]
+	quest.3600000000000005.title: "Muerte y recuperación"
+	quest.3600000000000005.quest_desc: ["Si quedas derribado, PlayerRevive permite que otra persona te ayude durante un tiempo. Si mueres, Corpse conserva el inventario. Pulsa &6U&r para coordenadas y recupera con clic derecho.\n\nComo /back está desactivado, lleva un kit barato de rescate y no regreses sin comida o bloques."]
+	quest.3600000000000006.title: "Mowzie's Mobs es contenido opcional"
+	quest.3600000000000006.quest_desc: ["Mowzie's Mobs añade criaturas y jefes con patrones propios, animados por GeckoLib. No sustituyen la cadena obligatoria de Armageddon.\n\nObserva antes de atacar, usa Jade para leer vida y conserva los drops. Frostmaw, Ferrous Wroughtnaut y otros encuentros requieren aprender mecánicas, no solo aumentar daño."]
+	quest.3600000000000007.title: "Armageddon: cadena principal"
+	quest.3600000000000007.quest_desc: ["Orden comprobado para Armageddon 3.0.06: Iron Colossus, Goblin Lord, Arion, Eldorath, Elder Guardian, Wither, Zoranth Forgotten y Ender Dragon. El dragón activa Hardmode; después siguen Elvenite Paladin, Vaedric, Bringer of Doom, The Calamities, Sanghor, Zoranth Newborn y Nyxaris.\n\nEn Migajaland el nivel de hierro se habilita automáticamente para evitar un bloqueo al comienzo. Los demás desbloqueos conservan la progresión de Armageddon: Goblin Lord = oro; Arion = esmeralda; Eldorath = diamante y Nether; Zoranth Forgotten = netherita; Elvenite Paladin = elvenita; Vaedric = voiderita; The Calamities = equipo cataclísmico; Sanghor = equipo sangriento; Zoranth Newborn = helionita.\n\nDesde el oro, cada desbloqueo es personal: permanece cerca cuando muera el jefe y abre tu propia bolsa del tesoro. Una casilla de FTB Quests solo registra la guía; no concede el avance de Armageddon."]
+	quest.3600000000000008.title: "End Remastered"
+	quest.3600000000000008.quest_desc: ["Los ojos únicos aparecen por exploración, enemigos, comercio y fabricación. Usa EMI para ver pistas y guarda cada tipo. Los avances de End Remastered registran los ojos encontrados.\n\nYUNG's Better Strongholds cambia el edificio, no el requisito de completar el portal."]
+	quest.3600000000000009.title: "Nether sin overhaul separado"
+	quest.3600000000000009.quest_desc: ["El Nether conserva su progresión base y estructuras compatibles del conjunto. No hay un mod que reemplace por completo sus biomas. Armageddon bloquea su acceso hasta Eldorath y utiliza el Nether para Zoranth.\n\nMarca siempre el portal, lleva encendedor de repuesto y evita abrir rutas sobre lava."]
+	quest.360000000000000A.title: "Waypoints con criterio"
+	quest.360000000000000A.quest_desc: ["Marca base, portales, waystones, stronghold, monumentos y arenas. Usa nombres claros y colores distintos. Demasiados puntos sin nombre hacen el mapa menos útil.\n\nAl descubrir una waystone, actívala y marca su posición antes de alejarte."]
+	quest.360000000000000B.title: "Regresa y clasifica"
+	quest.360000000000000B.quest_desc: ["Después de cada expedición: repara, repón comida, vacía la mochila y clasifica objetos. Separa ojos, invocadores, bolsas, reliquias y planos del material común.\n\nEste hábito evita perder la llave de la siguiente etapa dentro de un cofre cualquiera."]
+	chapter.2000000000000008.title: "Encargos, pesca y navegación"
+	chapter.2000000000000008.chapter_subtitle: ["Cuatro sistemas opcionales, explicados desde cero"]
+	quest.3800000000000001.title: "Elige una ruta opcional"
+	quest.3800000000000001.quest_desc: ["Estas ramas no bloquean la Ruta principal. Puedes aceptar encargos, navegar, pescar o proteger aldeas en el orden que prefieras.\n\nCada rama empieza arriba y continúa hacia abajo. Marca solo lo que ya entendiste; no necesitas completar las cuatro para seguir jugando."]
+	quest.3800000000000002.title: "Bountiful: encuentra un tablón"
+	quest.3800000000000002.quest_desc: ["Los tablones de encargos aparecen en aldeas y también pueden fabricarse; consulta la receta con &eR&r en EMI. Cada tablón renueva sus ofertas con el tiempo.\n\nTodas las personas ven las mismas ofertas, pero cada una toma su propia copia: aceptar un encargo no se lo quita a nadie más."]
+	quest.3800000000000003.title: "Lee y acepta un encargo"
+	quest.3800000000000003.quest_desc: ["Abre el tablón y revisa tres zonas: &erequisitos&r, &erecompensas&r y &etiempo&r. Toma únicamente un encargo que puedas cumplir antes de que venza.\n\nLos objetivos pueden pedir objetos o derrotar criaturas. Conserva el papel del encargo en tu inventario mientras avanzas; su tooltip muestra el progreso."]
+	quest.3800000000000004.title: "Completa y entrega"
+	quest.3800000000000004.quest_desc: ["Reúne todos los objetos indicados o completa las derrotas. Cuando el encargo marque los requisitos como cumplidos, sostenlo y haz clic derecho en un tablón para entregar.\n\nLos objetos requeridos se consumen al entregar. Un encargo vencido ya no sirve; revisa el reloj antes de dedicarle recursos raros."]
+	quest.3800000000000005.title: "Decretos y reputación"
+	quest.3800000000000005.quest_desc: ["Los decretos deciden el tema de las ofertas. Un tablón admite hasta tres: agricultura, pesca, cocina, carpintería, armaduras y otros oficios. Mezclarlos combina requisitos y recompensas.\n\nEntregar encargos mejora tu reputación en ese tablón: aparecen recompensas raras con más frecuencia y recibes mejores descuentos. Cocina y Carpintería conectan Farmer's Delight y Handcrafted con Bountiful."]
+	quest.3800000000000006.title: "Small Ships: elige un barco"
+	quest.3800000000000006.quest_desc: ["Busca &e@smallships&r en EMI. Cog y Brigg priorizan carga; Drakkar y galeras sirven para pasajeros o combate. Los barcos grandes requieren más materiales y espacio para colocarlos.\n\nFabrica primero uno acorde a tus recursos. Colócalo en agua abierta, lejos de orillas, hielo, puentes y muelles estrechos."]
+	quest.3800000000000007.title: "Sube, navega y abre la carga"
+	quest.3800000000000007.quest_desc: ["Clic derecho sube al timón. &6W/S&r aumenta o reduce la marcha, &6A/D&r gira y &6H&r abre o cierra la vela; Migajaland usa H para conservar &6R&r como rodada. &6F5&r ayuda a ver alrededor.\n\nDesde fuera, agáchate + clic derecho para abrir el inventario. Para bajar una entidad transportada, haz clic derecho sobre ella. Practica cerca de la costa antes de una travesía larga."]
+	quest.3800000000000008.title: "Carga, cañones y mantenimiento"
+	quest.3800000000000008.quest_desc: ["Instala un cañón haciendo clic derecho sobre un barco compatible con el cañón en la mano. Guarda balas en el inventario del barco y pulsa &6Espacio&r mirando hacia el lado que quieres disparar. Un pico retira el cañón.\n\nLa carga y cada cañón reducen algo la velocidad. Colorea velas con tintes, nombra el barco con etiqueta y repáralo con tablones y pepitas de hierro."]
+	quest.3800000000000009.title: "Busca bancos flotantes"
+	quest.3800000000000009.quest_desc: ["Lili's Lucky Lures genera bancos de peces, restos y libros flotantes en ríos u océanos. Lanza la caña dentro del banco o acércate con la &eRed de pesca&r de mano, mantén clic derecho y recoge el botín.\n\nCada banco permite pocos intentos antes de desaparecer. Los restos pueden contener equipo y las bolsas empapadas se abren con clic derecho."]
+	quest.380000000000000A.title: "Trampa para peces y cebo"
+	quest.380000000000000A.quest_desc: ["Coloca la trampa dentro del agua o cuélgala bajo cuerda o una valla de red. Haz clic derecho con un cebo —por ejemplo, semillas de melón— y espera.\n\nCuando aparezcan burbujas, usa la mano vacía para retirar la captura. Si aún no hay pez, recuperarás el cebo. La trampa muestra visualmente lo que contiene."]
+	quest.380000000000000B.title: "Dos redes que no hacen lo mismo"
+	quest.380000000000000B.quest_desc: ["La &eRed modular&r es un bloque: Mayús + clic derecho en la mano alterna entre red elástica y valla de red. La elástica amortigua caídas; la valla conecta estructuras y puede sostener trampas.\n\nLa &eRed de pesca&r es una herramienta de mano para extraer botín de bancos flotantes. Consulta el nombre y el tooltip antes de fabricar para no confundirlas."]
+	quest.380000000000000C.title: "Equipo, comida y objetos raros"
+	quest.380000000000000C.quest_desc: ["El sombrero de pescador da Suerte; la lanza puede arrojarse; las bolsas empapadas entregan peces, materiales o equipo. Los marcos exhiben capturas y las comidas aprovechan el pescado.\n\nCuidado: el plato de pez globo crudo envenena, y la dinamita explota poco después de lanzarla. Prueba herramientas peligrosas lejos de la base, aldeas y barcos."]
+	quest.380000000000000D.title: "Recluta y equipa guardias"
+	quest.380000000000000D.quest_desc: ["Las aldeas generan guardias con espada o ballesta. Para crear otro, agáchate y haz clic derecho con una espada o ballesta sobre un aldeano desempleado o simplón.\n\nClic derecho abre el inventario si confía en ti o tú lo reclutaste. Equipa armadura y arma; en la mano secundaria coloca escudo para bloquear o comida/poción para que se cure con poca salud."]
+	quest.380000000000000E.title: "Patrulla, seguimiento y reputación"
+	quest.380000000000000E.quest_desc: ["En el inventario del guardia, el botón de patrulla fija la zona que defenderá. El botón de seguir requiere normalmente Héroe de la aldea; con ese efecto, tocar una campana puede ordenar a varios guardias que te sigan.\n\nClérigos curan y herreros reparan aliados. No ataques aldeanos: una reputación muy baja puede volver hostiles a guardias y gólems."]
+
+	chapter.2000000000000003.title: "Hogar, mapa y viajes"
+	chapter.2000000000000003.chapter_subtitle: ["Volver, proteger y orientarte sin perder la aventura"]
+	quest.3300000000000001.title: "Tu red de seguridad"
+	quest.3300000000000001.quest_desc: ["Migajaland combina homes, mapa, claims y waystones. Ninguno sustituye la preparación: /back está desactivado y los teletransportes tienen espera.\n\nUsa esta miniguía para construir una ruta segura tanto si juegas solo como acompañado."]
+	quest.3300000000000002.title: "Homes y spawn"
+	quest.3300000000000002.quest_desc: ["&e/sethome <nombre>&r guarda tu posición. &e/home <nombre>&r vuelve. Tienes máximo 2 homes. &e/delhome <nombre>&r libera uno. &e/spawn&r te lleva al punto global.\n\nHome y spawn tardan 8 segundos y tienen 120 segundos de enfriamiento; recibir daño o moverte puede cancelar la espera."]
+	quest.3300000000000003.title: "TPA, solo cuando lo necesites"
+	quest.3300000000000003.quest_desc: ["&e/tpa <jugador>&r te lleva directamente hacia esa persona después de 2 segundos, sin que tenga que aceptar. Después debes esperar 30 segundos para volver a usarlo.\n\nEl comando solo te mueve a ti: no permite obligar a otra persona a teletransportarse. Moverte durante la preparación cancela el viaje."]
+	quest.3300000000000004.title: "Waystones"
+	quest.3300000000000004.quest_desc: ["Activa una waystone con clic derecho al encontrarla. Después puedes viajar entre piedras descubiertas desde su interfaz y usar objetos asociados que EMI mostrará.\n\nMarca cada piedra en M antes de irte. Las waystones conectan puntos importantes sin convertir cada viaje en un comando."]
+	quest.3300000000000005.title: "Mapa y puntos personales"
+	quest.3300000000000005.quest_desc: ["Pulsa &6M&r. Acerca o aleja con la rueda y crea waypoints para base, portales, waystones, mazmorras y cadáveres.\n\nEl mapa de FTB Chunks es el único mapa del pack; JourneyMap no está instalado para evitar dos sistemas superpuestos."]
+	quest.3300000000000006.title: "Claims: protege tu construcción"
+	quest.3300000000000006.quest_desc: ["En M, pulsa el botón de chunks reclamados. Clic izquierdo o arrastrar reclama; clic derecho libera. El límite inicial es 50 chunks.\n\nReclama la casa y almacenes importantes, no regiones enormes. Los claims protegen interacción y destrucción, pero no mantienen la zona cargada."]
+	quest.3300000000000007.title: "Equipos FTB son opcionales"
+	quest.3300000000000007.quest_desc: ["FTB Teams existe para quien quiera compartir claims y ciertos datos. Ábrelo con &6Y&r. La guía no exige crear ni unirse a un equipo.\n\nImportante: FTB Quests guarda progreso en el equipo FTB activo. Por defecto cada usuario tiene uno personal; si decides entrar en un equipo compartido, el progreso de la guía también puede compartirse. Los desbloqueos de materiales de Armageddon no se comparten: cada jugador debe estar a menos de 56 bloques cuando muera el jefe correspondiente."]
+	quest.3300000000000008.title: "Voz de proximidad"
+	quest.3300000000000008.quest_desc: ["&6V&r abre el menú de voz y permite elegir micrófono, volumen y modo de activación. La voz normal pierde volumen con la distancia. &6G&r administra grupos de voz privados.\n\nLos grupos de voz son opcionales y no tienen relación con los equipos FTB."]
+	quest.3300000000000009.title: "Caer, revivir y morir"
+	quest.3300000000000009.quest_desc: ["PlayerRevive permite que otra persona levante a quien está derribado antes de morir. Si juegas solo o el tiempo termina, Corpse deja tu inventario en un cadáver recuperable con clic derecho.\n\nPulsa &6U&r para abrir el historial de muertes y ver coordenadas. El cadáver flota en líquidos y resiste la lava, pero aun así conviene volver preparado."]
+
+	chapter.2000000000000004.title: "Personaje, combate y magia"
+	chapter.2000000000000004.chapter_subtitle: ["Prueba estilos; nada te encierra en una clase"]
+	quest.3400000000000001.title: "Tu equipo define tu estilo"
+	quest.3400000000000001.quest_desc: ["No existe una pantalla que te obligue a escoger clase. Arma, armadura, libro y puntos del árbol se combinan. Puedes cambiar cuando quieras y mezclar herramientas compatibles.\n\nEMI muestra recetas; los tooltips explican atributos; Jade muestra vida del objetivo."]
+	quest.3400000000000002.title: "Better Combat"
+	quest.3400000000000002.quest_desc: ["Better Combat añade animaciones y alcance coherente al ataque cuerpo a cuerpo. Mantén pulsado el ataque para encadenar golpes cuando el arma lo permita y respeta su velocidad: atacar demasiado pronto reduce eficacia.\n\nArmas de dos manos, dagas, mazas y lanzas tienen ritmos y áreas distintas."]
+	quest.3400000000000003.title: "Rodar, bloquear y golpear crítico"
+	quest.3400000000000003.quest_desc: ["&6R&r rueda en la dirección de movimiento; tiene recarga, así que úsala para evitar un golpe claro. El escudo bloquea desde el frente. Critical Strike añade atributos de probabilidad y daño crítico que ciertos equipos y nodos mejoran.\n\nCombat Roll, Shield API y Critical Strike trabajan automáticamente con tu equipo."]
+	quest.3400000000000004.title: "Guerrero o pícaro"
+	quest.3400000000000004.quest_desc: ["Rogues & Warriors ofrece dagas, hoces, gujas, hachas dobles y armaduras especializadas. Guerrero favorece golpes fuertes y resistencia; pícaro favorece movilidad, evasión y armas rápidas.\n\nLos Arms Dealers usan la Arms Station. Los libros Warriors' Codex y Rogue Handbook habilitan habilidades compatibles."]
+	quest.3400000000000005.title: "Arquero"
+	quest.3400000000000005.quest_desc: ["Archers añade lanzas, shortbows, longbows, ballestas rápidas y pesadas, carcajes y armaduras. &6J&r gestiona el carcaj configurado.\n\nEl Archery Manual aporta habilidades. Ranged Weapon API calcula velocidad, carga y daño; lee el tooltip antes de elegir entre cadencia y potencia."]
+	quest.3400000000000006.title: "Paladín o sacerdote"
+	quest.3400000000000006.quest_desc: ["Paladins & Priests añade mazas, claymores, martillos, escudos, varitas y báculos sagrados. Paladín combina defensa y daño; sacerdote se centra en curación y apoyo, pero ambos pueden jugarse en solitario.\n\nBusca Paladin Libram, Holy Book y Monk Workbench en EMI."]
+	quest.3400000000000007.title: "Mago"
+	quest.3400000000000007.quest_desc: ["Wizards ofrece tres escuelas: arcano concentra daño, fuego cubre áreas y hielo ralentiza/controla. Empieza con Novice Wand y progresa a varitas o báculos especializados.\n\nLos tomos Tome of Arcane, Tome of Fire y Tome of Frost amplían el repertorio. La armadura mágica mejora poder y lanzamiento."]
+	quest.3400000000000008.title: "Libros, Spell Binding y runas"
+	quest.3400000000000008.quest_desc: ["Equipa el libro correspondiente y sostén un arma compatible. La Spell Binding Table trabaja con libros y hechizos; puede encontrarse o fabricarse y mejora rodeada de librerías.\n\nLas runas son munición: arcana usa adoquín + amatista, fuego adoquín + carbón e hielo adoquín + bola de nieve. El Rune Crafting Altar aumenta producción."]
+	quest.3400000000000009.title: "Si un hechizo no sale"
+	quest.3400000000000009.quest_desc: ["Comprueba cuatro cosas: libro equipado, arma compatible en la mano, runas correctas en el inventario y tecla de Spell Engine configurada.\n\nSpell Power calcula poder por escuela y Spell Engine ejecuta el lanzamiento; ambas son bases técnicas y no tienen una pantalla separada que debas completar."]
+	quest.340000000000000A.title: "Mercaderes y estaciones"
+	quest.340000000000000A.quest_desc: ["Las series RPG añaden profesiones de aldeano y estaciones: Archery Artisan Table, Arms Station y Monk Workbench, además de mercaderes de magos. Son otra ruta para conseguir o intercambiar equipo y libros.\n\nProtege la aldea y consulta usos de cada estación con U en EMI."]
+	quest.340000000000000B.title: "Árbol de habilidades"
+	quest.340000000000000B.quest_desc: ["Pulsa &6K&r. Pufferfish's Skills gestiona experiencia y puntos; Skill Tree aporta los nodos RPG. Prioriza bonificaciones que sí coincidan con tu arma, escuela o defensa.\n\nEl &eOrb of Oblivion&r reinicia los puntos gastados. No necesitas empezar un mundo nuevo para cambiar de construcción."]
+	quest.340000000000000C.title: "Accesorios y reliquias"
+	quest.340000000000000C.quest_desc: ["Abre Curios con &6O&r y equipa accesorios de Armageddon en ranuras válidas. Muchos aplican efectos solo cuando están puestos y algunos no se acumulan.\n\nLee siempre el tooltip completo, incluido Shift. AzureLib Armor y GeckoLib solo animan equipo y criaturas; no requieren acciones del jugador."]
+	quest.340000000000000D.title: "Arsenal: armas legendarias"
+	quest.340000000000000D.quest_desc: ["Arsenal añade más de 40 armas legendarias de 15 tipos: cuerpo a cuerpo, arcos, ballestas, báculos y escudos. &cNo se fabrican&r: aparecen en cofres de contenido avanzado o como botín de jefes, incluido Ender Dragon, Wither, Warden y jefes compatibles.\n\nSon equipo de etapa avanzada. Usa Equipment Compare y el tooltip antes de reemplazar un arma que ya funcione con tu estilo."]
+	quest.340000000000000E.title: "Pasivas de Arsenal"
+	quest.340000000000000E.quest_desc: ["Cada arma de Arsenal incorpora al menos una habilidad pasiva. Puede activarse al golpear, bloquear, lanzar un hechizo, acertar un crítico o terminar un combo: Radiance cura, Shockwave golpea en línea y otras pasivas queman, ralentizan, protegen o reducen tiempos de reutilización.\n\nLee la descripción completa y comprueba el activador y la probabilidad. Una pasiva poderosa que no coincide con tu arma, hechizos o forma de jugar puede rendir menos que estadísticas simples."]
+
+	chapter.2000000000000001.title: "Ruta principal"
+	chapter.2000000000000001.chapter_subtitle: ["Tu partida, en orden y sin conocimientos previos"]
+
+	quest.3100000000000001.title: "Bienvenido a Migajaland"
+	quest.3100000000000001.quest_desc: ["Esta es tu guía principal. Avanza por la línea central de arriba hacia abajo. Los nodos laterales abren miniguías: puedes consultarlas cuando quieras sin frenar tu progreso.\n\nNada de aquí elige una clase permanente ni te obliga a jugar acompañado. Tu avance comienza en tu perfil personal; juega solo o con quien quieras.\n\nPulsa el ✓ cuando termines de leer."]
+	quest.3100000000000002.title: "Protege tu usuario"
+	quest.3100000000000002.quest_desc: ["En tu primera entrada escribe &e/register TuContraseña TuContraseña&r. Debe tener &b10 caracteres o más&r y conviene que sea distinta de otras contraseñas tuyas.\n\nEn las entradas siguientes usa &e/login TuContraseña&r. No compartas esa contraseña. Si ya puedes moverte y abrir el inventario, marca el paso."]
+	quest.3100000000000003.title: "Madera y mesa de trabajo"
+	quest.3100000000000003.quest_desc: ["Consigue madera, conviértela en tablas y fabrica una mesa de trabajo. El objetivo se completa al tener la mesa en el inventario.\n\nEl paisaje lo cambia Terralith, pero las reglas básicas de madera, piedra y herramientas siguen siendo las de Minecraft."]
+	quest.3100000000000004.title: "Primera noche segura"
+	quest.3100000000000004.quest_desc: ["Antes de alejarte: consigue comida, ilumina un refugio y coloca una cama. No tiene que ser una casa bonita; solo un lugar donde sobrevivir y guardar lo importante.\n\nMarca el paso cuando tengas refugio, cama y alimento. La miniguía de vivienda explica después cocina, muebles y almacenamiento."]
+	quest.3100000000000005.title: "Aprende una sola herramienta: EMI"
+	quest.3100000000000005.quest_desc: ["Abre el inventario. A la derecha verás todos los objetos del pack. Busca por nombre y usa estas dos teclas sobre cualquier objeto:\n\n&eR&r = cómo se fabrica.\n&eU&r = para qué se usa.\n\nNo memorices recetas: EMI es el recetario central. Marca el paso después de probar R y U."]
+	quest.3100000000000006.title: "Pico de piedra; escudo opcional"
+	quest.3100000000000006.quest_desc: ["Fabrica un pico de piedra: este es el único objeto obligatorio de este paso. El escudo es una recomendación opcional.\n\nEn Migajaland el nivel de hierro se habilita automáticamente una sola vez al entrar al servidor. El aviso &eThe Iron Keeper&r confirma que ya puedes picar mineral, fabricar y usar herramientas de hierro normalmente. Consigue un lingote y fabrica el escudo si quieres llevar protección adicional."]
+	quest.3100000000000007.title: "Mapa, voz y rodada"
+	quest.3100000000000007.quest_desc: ["Haz tres pruebas cortas, en este orden:\n\n&6M&r abre el mapa de FTB Chunks.\n&6V&r abre Simple Voice Chat; el icono debe indicar conexión.\n&6R&r ejecuta la rodada de combate.\n\nCada casilla es una confirmación personal. Si la voz falla pero Minecraft sí conecta, revisa la miniguía de ayuda técnica."]
+	task.4100000000000008.title: "Abrí el mapa con M"
+	task.4100000000000009.title: "Comprobé la voz con V"
+	task.410000000000000A.title: "Probé la rodada con R"
+	quest.3100000000000008.title: "Asegura tu punto de regreso"
+	quest.3100000000000008.quest_desc: ["Guarda una casa con &e/sethome base&r. Para volver usa &e/home base&r; hay 8 segundos de espera y 120 segundos de enfriamiento. Puedes tener hasta dos homes.\n\nDespués abre M y reclama desde el botón de chunks: clic izquierdo reclama y clic derecho libera. Los chunks forzados están desactivados para cuidar el servidor.\n\nEstos pasos protegen tu ubicación aunque no quieras crear ningún equipo."]
+	task.410000000000000B.title: "Usé /sethome base"
+	task.410000000000000C.title: "Probé /home base"
+	task.410000000000000D.title: "Reclamé mi zona desde M"
+	quest.3100000000000009.title: "Tu primera mochila"
+	quest.3100000000000009.quest_desc: ["Fabrica una mochila de Sophisticated Backpacks. Equípala en su ranura de Curios y ábrela con &6B&r.\n\nMás adelante puedes mejorar el material, añadir upgrades y filtrar objetos. La miniguía de vivienda y almacenamiento explica la diferencia entre mochila, cofres mejorables y controlador."]
+	quest.310000000000000A.title: "Elige un estilo para probar"
+	quest.310000000000000A.quest_desc: ["No eliges una clase permanente. Tu arma y tus hechizos determinan cómo peleas. Antes del primer jefe prueba uno de los ejemplos mostrados: espada de piedra, daga de pedernal, lanza de pedernal, gran martillo de piedra o varita de novato. También puedes usar arco.\n\nSon ejemplos opcionales y puedes cambiar de estilo cuando quieras. Cuando recibas el desbloqueo automático &eThe Iron Keeper&r, también podrás usar armas y herramientas de hierro."]
+	quest.310000000000000B.title: "Abre tu árbol de habilidades"
+	quest.310000000000000B.quest_desc: ["Pulsa &6K&r para abrir el árbol RPG de Pufferfish Skills/Skill Tree. Lee los nodos que beneficien el arma o magia que estás usando y gasta tus primeros puntos con calma.\n\nNo hay una única ruta correcta. El Orb of Oblivion reinicia los puntos si después quieres reconstruir tu personaje."]
+	quest.310000000000000C.title: "Prepara el Iron Remote"
+	quest.310000000000000C.quest_desc: ["Busca &eIron Remote&r en EMI. Se fabrica con cuatro lingotes de hierro alrededor de una flor pequeña. El servidor habilita el nivel de hierro automáticamente, así que puedes conseguirlos picando mineral y fundiéndolo con normalidad.\n\nReserva cuatro lingotes para el invocador. Con otro lingote puedes fabricar el escudo opcional. Usa el control lejos de tu casa y prepara comida, bloques y una cama cercana."]
+	quest.310000000000000D.title: "Jefe 1: Iron Colossus"
+	quest.310000000000000D.quest_desc: ["Haz clic derecho con el Iron Remote en una arena abierta. Bloquea si conseguiste el escudo, esquiva, no permanezcas debajo del jefe y conserva comida en la barra rápida.\n\nEn Migajaland el hierro ya se habilita automáticamente, por lo que puedes llevar pico, herramientas y escudo de hierro a esta pelea. Fabrica un pico de hierro y comprueba que puedes romper mineral y usar herramientas de este nivel. Esas dos verificaciones son obligatorias para avanzar en la guía, pero no dependen de matar al jefe.\n\nDerrota al Iron Colossus como primer gran desafío de la ruta y guarda todos sus objetos."]
+	task.4100000000000038.title: "Comprobé que puedo picar mineral y usar herramientas de hierro"
+	quest.310000000000000E.title: "Jefe 2: Goblin Lord"
+	quest.310000000000000E.quest_desc: ["Busca &eStrange Coin&r en EMI; invoca al Goblin Lord con clic derecho. El oro previo a esta victoria se obtiene sobre todo explorando estructuras.\n\nSu muerte desbloquea el oro de forma personal para quienes estén a menos de 56 bloques. Limpia primero los enemigos cercanos, pelea lejos de aldeanos y conserva todo el tesoro. La confirmación manual solo afecta la guía."]
+	quest.310000000000000F.title: "Jefe 3: Arion"
+	quest.310000000000000F.quest_desc: ["El &eEmerald Totem&r invoca a Arion, Tyrant of the Emerald Wrath. Antes de este punto, comercia con aldeanos para reunir esmeraldas.\n\nSu muerte desbloquea la esmeralda de forma personal para quienes estén a menos de 56 bloques. Arion es móvil y peligroso: lleva buena armadura, curación y espacio. Revisa el tooltip del invocador con Shift y no pierdas su tesoro."]
+	quest.3100000000000010.title: "Jefe 4: Eldorath"
+	quest.3100000000000010.quest_desc: ["El &eBuilder Stone&r invoca a Eldorath, the Ancient Builder. Los diamantes previos pueden encontrarse en estructuras.\n\nSu muerte desbloquea el diamante y el acceso al Nether de forma personal para quienes estén a menos de 56 bloques. No intentes forzar el portal antes: Armageddon puede devolverte al Overworld en una posición peligrosa. La confirmación manual solo afecta la guía."]
+	quest.3100000000000011.title: "Entra al Nether"
+	quest.3100000000000011.quest_desc: ["Ahora sí construye un portal y entra al Nether. El objetivo se completa automáticamente allí.\n\nLleva pedernal y acero de repuesto, bloques resistentes, comida, armadura y anota el portal en M. No dependas de /back: está desactivado."]
+	quest.3100000000000012.title: "Jefe 5: Elder Guardian"
+	quest.3100000000000012.quest_desc: ["Busca un monumento oceánico. Lleva respiración acuática, leche para retirar fatiga minera, comida de Farmer's Delight y un arma fiable. Un barco de Small Ships permite transportar suministros y marcar mejor la expedición.\n\nEl Guardian Eye de End Remastered también está ligado al océano, así que revisa el botín antes de volver. La casilla manual sirve si otra persona consigue el golpe final."]
+	quest.3100000000000013.title: "Jefe 6: Wither"
+	quest.3100000000000013.quest_desc: ["Reúne tres cabezas de esqueleto Wither y cuatro bloques de arena o tierra de almas. Invócalo lejos de tu base y de zonas reclamadas: puede destruir una zona enorme.\n\nLleva leche, comida potente, un arma a distancia de tu estilo RPG y una vía de retirada. Conserva la Nether Star y todos los objetos especiales de Armageddon; el siguiente invocador depende de haber superado esta etapa."]
+	quest.3100000000000014.title: "Jefe 7: Zoranth olvidado"
+	quest.3100000000000014.quest_desc: ["Busca &eFiery Wither Skull&r en EMI. Se fabrica después del Wither y se usa sobre un bloque en el Nether para invocar a Zoranth, the Forgotten One.\n\nSu muerte desbloquea la netherita de forma personal para quienes estén cerca. Marca el portal, abre una arena amplia y lleva una mochila con repuestos; Corpse protege tus objetos, pero recuperar el cadáver en el Nether puede ser peligroso."]
+	quest.3100000000000015.title: "Reúne los ojos del End"
+	quest.3100000000000015.quest_desc: ["End Remastered sustituye la ruta simple de ojos de Ender por ojos únicos repartidos entre estructuras, criaturas y dimensiones. Usa EMI para consultar cada ojo y su procedencia.\n\nDungeons and Taverns, las estructuras de YUNG y la exploración de Terralith forman parte natural de esta búsqueda. Los cofres de Lootr son personales: ábrelos tú mismo. Guarda los ojos originales en un cofre seguro y no descartes duplicados hasta revisar el portal."]
+	quest.3100000000000016.title: "Encuentra la fortaleza"
+	quest.3100000000000016.quest_desc: ["Usa los ojos compatibles para localizar la stronghold. YUNG's Better Strongholds convierte la fortaleza en una estructura mucho mayor que la vanilla: marca la entrada y la sala del portal en M.\n\nCompleta los marcos con los ojos distintos de End Remastered. La detección automática funciona al entrar en la estructura; la casilla manual evita bloquear la guía si una variante no se detecta."]
+	quest.3100000000000017.title: "Prepárate: el dragón inicia Hardmode"
+	quest.3100000000000017.quest_desc: ["&cDerrotar al Ender Dragon activa Hardmode para el mundo de Armageddon.&r Desde ese momento aparecen enemigos posteriores y la ruta final se vuelve más exigente.\n\nAntes de entrar, mejora armadura y mochila, asigna tus puntos de habilidad, prepara comidas completas de Farmer's Delight y deja equipo de repuesto en la base. Las armas de Arsenal o de tu estilo RPG son una ventaja, no un requisito. Marca cuando estés listo para activar esta fase."]
+	quest.3100000000000018.title: "Jefe 8: Ender Dragon"
+	quest.3100000000000018.quest_desc: ["Destruye primero los cristales, usa arco, hechizos o armas a distancia para los más altos y lleva agua para las caídas. Evita mirar a los Endermen.\n\nAl morir, el dragón inicia Hardmode y Armageddon entrega una bolsa del tesoro a cada participante cercano. &ePermanece a menos de 62 bloques y abre tu propia bolsa&r: contiene las Khyros Tears necesarias para Titan's Insigna. Si otra persona da el último golpe, usa la confirmación manual de la guía."]
+	quest.3100000000000019.title: "End City y Titan's Insigna"
+	quest.3100000000000019.quest_desc: ["Cruza un portal de salida del End y busca una End City. En sus cofres puede aparecer el &eAncient Blueprint&r. Lleva bloques, comida, mochila, protección contra caídas y marca el acceso en el mapa. Los cofres de Lootr son personales, por lo que cada jugador debe revisar los suyos.\n\nFabrica &eTitan's Insigna&r con 4 Khyros Tears de la bolsa del dragón, 4 Gilded Plates del Goblin Lord y 1 Ancient Blueprint. La receta forma un anillo alternando lágrimas y placas alrededor del plano. El paso se completa cuando tengas la insignia."]
+	task.410000000000002C.title: "Encontré una End City o conseguí el Ancient Blueprint"
+	quest.310000000000001A.title: "Hardmode 1 · Jefe 9: Elvenite Paladin"
+	quest.310000000000001A.quest_desc: ["Usa &eTitan's Insigna&r en una superficie seca, bajo cielo abierto y lejos de otro Paladín. El objeto tiene varios usos y un enfriamiento corto; prepara la arena antes de activarlo.\n\nSu muerte desbloquea la elvenita de forma personal para quienes estén cerca y entrega una bolsa propia. Mejora tu comida, accesorios de Curios y estilo de combate antes de invocarlo. Guarda el Elvenite Ingot: sirve para fabricar el invocador de Vaedric."]
+	quest.310000000000001B.title: "Hardmode 2 · Jefe 10: Vaedric"
+	quest.310000000000001B.quest_desc: ["Fabrica &eWanderer's Fallen Shard&r con 4 End Stone, 4 Ender Pearls y 1 Elvenite Ingot. Vaedric solo puede invocarse en el End, sobre un bloque con espacio libre, después de vencer al Paladín.\n\nSu muerte desbloquea la voiderita de forma personal para quienes estén cerca. Lleva comida avanzada, movilidad, un punto de regreso seguro y equipo para recuperar tu cadáver en el vacío."]
+	quest.310000000000001C.title: "Hardmode 3 · Jefe 11: Bringer of Doom"
+	quest.310000000000001C.quest_desc: ["Fabrica &eKey of Doom&r colocando en vertical un bloque de redstone, una voiderita y una pepita de hierro. Úsala en una arena abierta después de vencer a Vaedric.\n\nMantén distancia de sus áreas, no pelees junto a cofres importantes y conserva su bolsa. Su progreso permite utilizar el Sigil of Calamity; consulta en EMI los componentes antes de comenzar otra expedición."]
+	quest.310000000000001D.title: "Hardmode 4 · Jefe 12: The Calamities"
+	quest.310000000000001D.quest_desc: ["El &eSigil of Calamity&r convoca tres enemigos —Famine, Chaos y Discord—, no un combate corriente. Solo funciona tras derrotar al Bringer of Doom.\n\nPrepara una arena enorme, comidas, armas para distintas distancias y equipo de repuesto. Debes terminar el encuentro completo para obtener el avance de Armageddon. Conserva el &eCalamitous Core&r: es el ingrediente central del siguiente invocador."]
+	task.4100000000000032.title: "Derroté el encuentro completo de The Calamities"
+	quest.310000000000001E.title: "Hardmode 5 · Jefe 13: Sanghor"
+	quest.310000000000001E.quest_desc: ["Fabrica &eCocoon of Blood&r colocando en vertical un huevo, un Calamitous Core y una Nether Wart. Úsalo bajo cielo abierto después de completar The Calamities.\n\nSanghor, Lord of Blood tiene dos fases; no des por terminada la pelea al caer la primera. Su victoria desbloquea la progresión sangrienta y permite fabricar el Sun Emblem. Conserva la bolsa y los Bloody Ingots."]
+	quest.310000000000001F.title: "Hardmode 6 · Jefe 14: Zoranth del Zenith"
+	quest.310000000000001F.quest_desc: ["Fabrica &eSun Emblem&r con 4 Bloody Ingots alrededor de un girasol; también puede aparecer en el comercio de un cartógrafo maestro. Solo se activa después de derrotar a Sanghor.\n\nSu muerte desbloquea la helionita de forma personal para quienes estén cerca. Usa protección contra fuego, movilidad y una arena sin techo. Guarda al menos un Helionite Ingot para el último invocador."]
+	quest.3100000000000020.title: "Hardmode 7 · Jefe 15: Nyxaris"
+	quest.3100000000000020.quest_desc: ["Fabrica &eCorrupted Tear&r con 1 Helionite Ingot, 3 carbones y 1 Khyros Tear. Solo puede invocar a Nyxaris, the Veil of Oblivion después de derrotar a Zoranth Newborn.\n\nEs el cierre de Armageddon en Migajaland. Entra con tu mejor equipo, comidas, accesorios, mochila de repuestos y el historial de Corpse accesible con U. La casilla manual cubre una victoria compartida si el objetivo de muerte no se registra."]
+	quest.3100000000000021.title: "Ruta principal completada"
+	quest.3100000000000021.quest_desc: ["Has recorrido la progresión recomendada de Migajaland: supervivencia, interfaz, viaje, personaje, exploración, End Remastered y los 15 jefes de la cadena de Armageddon.\n\nLas demás actividades nunca fueron relleno obligatorio: vivienda, cocina, almacenamiento, encargos, pesca, barcos, estructuras y jefes opcionales quedan disponibles para ampliar tu mundo a tu ritmo. Marca el cierre cuando quieras."]
+
+	chapter.2000000000000005.title: "Vivienda, cocina y almacén"
+	chapter.2000000000000005.chapter_subtitle: ["Una base útil antes de hacerla bonita"]
+	quest.3500000000000001.title: "Orden recomendado para tu base"
+	quest.3500000000000001.quest_desc: ["Primero seguridad e iluminación; después comida renovable; luego almacenamiento y, por último, decoración. Nada impide construir desde el primer día, pero este orden evita perder recursos por hambre o desorden.\n\nFarmer's Delight, Handcrafted, Supplementaries y Sophisticated cubren estas etapas."]
+	quest.3500000000000002.title: "Cuchillo y tabla de cortar"
+	quest.3500000000000002.quest_desc: ["En Farmer's Delight, fabrica un cuchillo y una Cutting Board. Coloca el ingrediente sobre la tabla con clic derecho y usa la herramienta adecuada para cortarlo.\n\nMuchos cortes producen porciones adicionales o subproductos como paja. Pulsa R sobre la tabla y U sobre el cuchillo para ver recetas."]
+	quest.3500000000000003.title: "Cocina caliente"
+	quest.3500000000000003.quest_desc: ["La Stove cocina y sostiene Cooking Pots o Skillets. El Cooking Pot combina ingredientes y normalmente necesita un recipiente de salida; la Skillet cocina directamente.\n\nEMI muestra posición, ingredientes y recipiente. Las comidas completas dan más saturación y efectos útiles que comer ingredientes sueltos."]
+	quest.3500000000000004.title: "Cultivos de Farmer's Delight"
+	quest.3500000000000004.quest_desc: ["Explora para obtener tomates, coles, cebollas y arroz. El arroz se planta en agua poco profunda; tomates pueden crecer en cuerda; Rich Soil mejora la granja.\n\nGuarda semillas antes de cocinar todo y usa cajas o gabinetes para separar cosecha, utensilios y platos."]
+	quest.3500000000000005.title: "Handcrafted: muebles"
+	quest.3500000000000005.quest_desc: ["Handcrafted añade sillas, mesas, bancos, sofás, estantes, camas, mostradores, vajilla, trofeos y una cocina decorativa. El Hammer participa en varias recetas y variantes.\n\nEl Oven y la campana de cocina son parte del conjunto de vivienda. Usa EMI: muchos muebles se fabrican por familias de madera."]
+	quest.3500000000000006.title: "Supplementaries: bloques útiles"
+	quest.3500000000000006.quest_desc: ["Supplementaries amplía señales, cuerdas, recipientes, luces, mecanismos y decoración con interacción. Moonlight es su biblioteca y funciona en segundo plano.\n\nPrueba el objeto en un área segura, lee su tooltip y consulta R/U; algunos bloques reaccionan a redstone o a herramientas como la wrench."]
+	quest.3500000000000007.title: "Mochilas y upgrades"
+	quest.3500000000000007.quest_desc: ["Sophisticated Backpacks permite mejorar el material de la mochila y añadir upgrades: filtrado, imán, alimentación, recogida, compactación y otros. &6B&r abre la mochila equipada.\n\nNo instales upgrades al azar: lee su filtro y coste. Algunos consumen energía o interactúan con el inventario de forma activa."]
+	quest.3500000000000008.title: "Cofres, barriles y shulkers mejorables"
+	quest.3500000000000008.quest_desc: ["Sophisticated Storage añade cofres, barriles y shulker boxes con niveles y ranuras de upgrade. Puedes bloquear, filtrar, compactar y aumentar el tamaño sin reemplazar todo el almacén.\n\nEmpieza por separar materiales, comida, equipo y drops de jefes; estos últimos no deben tirarse."]
+	quest.3500000000000009.title: "Controlador y red de almacén"
+	quest.3500000000000009.quest_desc: ["Un Controller enlaza almacenamientos cercanos y permite acceder a una red. Storage Link, Input, Output e I/O amplían el flujo; Storage Tool enlaza y configura.\n\nConstruye primero pocos cofres y prueba el alcance. Usa EMI para la receta exacta y Jade para confirmar a qué controlador está unido cada bloque."]
+	quest.350000000000000A.title: "MineTraps: úsalo con cuidado"
+	quest.350000000000000A.quest_desc: ["MineTraps añade minas, trampas de oso, pinchos, alambre, arenas falsas, bloques fantasma y tóxicos. Pueden herirte a ti y destruir el entorno.\n\nNo las pruebes dentro del almacén ni en caminos comunes. Colócalas en un área marcada, retíralas al terminar y revisa claims antes de asumir que protegen todo."]
+	quest.350000000000000B.title: "Qué guardar siempre"
+	quest.350000000000000B.quest_desc: ["Reserva un cofre para invocadores, bolsas, reliquias, lore scrolls, planos y materiales de Armageddon; otro para ojos de End Remastered.\n\nNo abras o uses un invocador por accidente dentro de la base. Mantén equipo de reemplazo, comida y bloques cerca de tu home principal."]
+}

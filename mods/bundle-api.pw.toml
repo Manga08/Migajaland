@@ -1,0 +1,8 @@
+name = "Bundle API"
+filename = "bundle-api-neoforge-1.1.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/n8QN6Z1a/versions/w5F5wdko/bundle-api-neoforge-1.1.0.jar"
+hash-format = "sha256"
+hash = "73328888d1dede4c121974a0914f5a35cb857283223217a59de7b5b697e43771"
