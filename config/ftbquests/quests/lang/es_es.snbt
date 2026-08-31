@@ -110,7 +110,7 @@
 	quest.3300000000000001.title: "Tu red de seguridad"
 	quest.3300000000000001.quest_desc: ["Migajaland combina homes, mapa, claims y waystones. Ninguno sustituye la preparación: /back está desactivado y los teletransportes tienen espera.\n\nUsa esta miniguía para construir una ruta segura tanto si juegas solo como acompañado."]
 	quest.3300000000000002.title: "Homes y spawn"
-	quest.3300000000000002.quest_desc: ["&e/sethome <nombre>&r guarda tu posición. &e/home <nombre>&r vuelve. Tienes máximo 2 homes. &e/delhome <nombre>&r libera uno. &e/spawn&r te lleva al punto global.\n\nHome y spawn tardan 8 segundos y tienen 120 segundos de enfriamiento; recibir daño o moverte puede cancelar la espera."]
+	quest.3300000000000002.quest_desc: ["&e/sethome <nombre>&r guarda tu posición. &e/home <nombre>&r vuelve. Tienes máximo 2 homes. &e/delhome <nombre>&r libera uno. &e/spawn&r te lleva al punto global.\n\n/home tarda 2 segundos y tiene 30 segundos de enfriamiento. /spawn mantiene 8 segundos de preparación y 120 segundos de enfriamiento; recibir daño o moverte puede cancelar la espera."]
 	quest.3300000000000003.title: "TPA, solo cuando lo necesites"
 	quest.3300000000000003.quest_desc: ["&e/tpa <jugador>&r te lleva directamente hacia esa persona después de 2 segundos, sin que tenga que aceptar. Después debes esperar 30 segundos para volver a usarlo.\n\nEl comando solo te mueve a ti: no permite obligar a otra persona a teletransportarse. Moverte durante la preparación cancela el viaje."]
 	quest.3300000000000004.title: "Waystones"
@@ -178,7 +178,7 @@
 	task.4100000000000009.title: "Comprobé la voz con V"
 	task.410000000000000A.title: "Probé la rodada con R"
 	quest.3100000000000008.title: "Asegura tu punto de regreso"
-	quest.3100000000000008.quest_desc: ["Guarda una casa con &e/sethome base&r. Para volver usa &e/home base&r; hay 8 segundos de espera y 120 segundos de enfriamiento. Puedes tener hasta dos homes.\n\nDespués abre M y reclama desde el botón de chunks: clic izquierdo reclama y clic derecho libera. Los chunks forzados están desactivados para cuidar el servidor.\n\nEstos pasos protegen tu ubicación aunque no quieras crear ningún equipo."]
+	quest.3100000000000008.quest_desc: ["Guarda una casa con &e/sethome base&r. Para volver usa &e/home base&r; hay 2 segundos de espera y 30 segundos de enfriamiento. Puedes tener hasta dos homes.\n\nDespués abre M y reclama desde el botón de chunks: clic izquierdo reclama y clic derecho libera. Los chunks forzados están desactivados para cuidar el servidor.\n\nEstos pasos protegen tu ubicación aunque no quieras crear ningún equipo."]
 	task.410000000000000B.title: "Usé /sethome base"
 	task.410000000000000C.title: "Probé /home base"
 	task.410000000000000D.title: "Reclamé mi zona desde M"

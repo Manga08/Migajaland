@@ -50,11 +50,11 @@ hash = "8dfea9d6470e568437182f26c25f1d3a1330e654afa885c40abb44df18229b4f"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "81f54e37d67889297bf11c05a1e780aa8a531362a505f8384866ae6aa180fd25"
+hash = "0e844bc6045f781234e8a0f5fb83d6dda0a52e2dfeb127811a5bce8b0285990e"
 
 [[files]]
 file = "config/ftbquests/quests/lang/es_es.snbt"
-hash = "81f54e37d67889297bf11c05a1e780aa8a531362a505f8384866ae6aa180fd25"
+hash = "0e844bc6045f781234e8a0f5fb83d6dda0a52e2dfeb127811a5bce8b0285990e"
 
 [[files]]
 file = "MIGAJALAND-LEEME.txt"
