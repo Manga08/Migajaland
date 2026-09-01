@@ -823,22 +823,12 @@ hash = "c947f14440fc6b93448ee43ec00ff8cecc5bbbcbc61b53ba26ab7d6f210d6085"
 metafile = true
 
 [[files]]
-file = "options.txt"
-hash = "3fb362d494c7c97adab18c991cb49fea9752fe7a1136761440eec169d2f3e043"
-preserve = true
-
-[[files]]
 file = "resourcepacks/FreshAnimations_v1.10.4.zip"
 hash = "8e44b29560d2e7d952c0a4f77f0451e6dcb048f827189bffc712b446be8de7f2"
 
 [[files]]
 file = "resourcepacks/Migajaland-Espanol.zip"
 hash = "c2c2e4042e1764b09e782809e4cffa8ce0f36283bacd39fee3552bf1588aac0e"
-
-[[files]]
-file = "servers.dat"
-hash = "97105f33aeac3686a11cbb71085ea2d200ae49bdbbd0e78ab199d3ba31c86264"
-preserve = true
 
 [[files]]
 file = "shaderpacks/MakeUp-UltraFast-9.5d.zip"

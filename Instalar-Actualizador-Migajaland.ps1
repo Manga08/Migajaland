@@ -168,8 +168,6 @@ try {
         Invoke-WebRequest -UseBasicParsing -Uri $indexUrl -OutFile $indexDownload -TimeoutSec 30
         $actualIndexHash = (Get-FileHash -LiteralPath $indexDownload -Algorithm SHA256).Hash.ToLowerInvariant()
         if ($actualIndexHash -ne $expectedIndexHash) { Stop-WithMessage "El indice remoto no coincide con el hash firmado por pack.toml." }
-        $managedHashes = Get-PackwizFileHashes -IndexText (Get-Content -Raw -LiteralPath $indexDownload)
-
         $timestamp = Get-Date -Format "yyyyMMdd-HHmmss"
         $backup = Join-Path $instance (".migajaland-backups\actualizador-" + $timestamp)
         New-Item -ItemType Directory -Path $backup -Force | Out-Null
@@ -243,9 +241,9 @@ modpack_name=Migajaland
         [System.IO.File]::WriteAllText((Join-Path $minecraft 'unsup.ini'), $unsupIni, $utf8)
         [System.IO.File]::WriteAllLines($instanceCfg, $cfgLines, $utf8)
 
-        # unsup 1.2.7 no implementa el campo preserve de Packwiz durante el
-        # primer arranque. Preregistrar estos hashes hace que trate las copias
-        # personales existentes como conocidas y no las reemplace ni borre.
+        # options.txt y servers.dat pertenecen al jugador y no forman parte del
+        # canal automatico. Tambien se quitan de estados creados por versiones
+        # antiguas del instalador para impedir que unsup intente borrarlos.
         $statePath = Join-Path $minecraft '.unsup-state.json'
         if (Test-Path -LiteralPath $statePath -PathType Leaf) {
             try {
@@ -263,10 +261,7 @@ modpack_name=Migajaland
             Set-JsonProperty -Object $state.packwiz -Name 'lastState' -Value ([pscustomobject]@{})
         }
         foreach ($personalFile in @('options.txt', 'servers.dat')) {
-            $personalPath = Join-Path $minecraft $personalFile
-            if ((Test-Path -LiteralPath $personalPath -PathType Leaf) -and $managedHashes.ContainsKey($personalFile)) {
-                Set-JsonProperty -Object $state.packwiz.lastState -Name $personalFile -Value ("SHA-2 256:" + $managedHashes[$personalFile])
-            }
+            $state.packwiz.lastState.PSObject.Properties.Remove($personalFile)
         }
         [System.IO.File]::WriteAllText($statePath, ($state | ConvertTo-Json -Depth 100 -Compress) + "`n", $utf8)
 
