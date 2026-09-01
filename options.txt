@@ -1,6 +1,6 @@
 version:3955
 lang:es_es
-resourcePacks:["vanilla","file/Migajaland-Espanol.zip"]
+resourcePacks:["vanilla","file/Migajaland-Espanol.zip","file/FreshAnimations_v1.10.4.zip"]
 fullscreen:false
 onboardAccessibility:false
 skipMultiplayerWarning:true
@@ -26,3 +26,13 @@ key_key.ftbchunks.map:key.keyboard.m
 key_key.ftbquests.quests:key.keyboard.l
 key_keybinds.combat_roll.roll:key.keyboard.r
 key_key.smallships.ship_sail:key.keyboard.h
+key_key.advancements:key.keyboard.unknown
+key_key.inventoryessentials.sort_inventory:key.mouse.middle
+key_key.trashslot.toggle:key.keyboard.unknown
+key_key.craftingtweaks.compress_stack:key.keyboard.unknown
+key_iris.keybind.reload:key.keyboard.unknown
+key_iris.keybind.toggleShaders:key.keyboard.f8
+key_iris.keybind.shaderPackSelection:key.keyboard.f7
+key_key.emotecraft.fastchoose:key.keyboard.f6
+key_key.mute_microphone:key.keyboard.unknown
+key_key.hide_icons:key.keyboard.unknown

@@ -1,0 +1,8 @@
+name = "Armor of the Ages"
+filename = "armoroftheages-neoforge-1.21.1-1.5.10.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/vEgtiJIY/versions/p8G3gWwF/armoroftheages-neoforge-1.21.1-1.5.10.jar"
+hash-format = "sha256"
+hash = "0435f7cb0d07f6ed12d4b808163dd253541ec8e209a07001c43a1ee461cd7ad6"

@@ -32,13 +32,13 @@
 	quest.3200000000000001.title: "Cómo usar esta guía"
 	quest.3200000000000001.quest_desc: ["Abre la guía con &6L&r o desde el icono del libro en la esquina superior izquierda del inventario. Haz clic en un nodo para leerlo; el ✓ confirma que ya lo entendiste.\n\nLa línea principal es progresión. Este capítulo es consulta opcional: no desbloquea contenido ni entrega ventajas."]
 	quest.3200000000000002.title: "Teclas de Migajaland"
-	quest.3200000000000002.quest_desc: ["&6L&r guía · &6M&r mapa · &6K&r habilidades · &6B&r mochila · &6R&r rodada · &6V&r voz · &6G&r grupo de voz · &6O&r accesorios Curios · &6U&r historial de muertes · &6Y&r equipos FTB · &6J&r carcaj.\n\nPuedes revisar o cambiar todo en Opciones → Controles. El pack ya evita los conflictos principales."]
+	quest.3200000000000002.quest_desc: ["&6L&r guía · &6M&r mapa · &6K&r habilidades · &6B&r mochila · &6R&r rodada · &6V&r voz · &6G&r grupo de voz · &6O&r accesorios Curios · &6U&r historial de muertes · &6Y&r equipos FTB · &6J&r carcaj · &6F6&r emotes · &6F7&r menú de shaders · &6F8&r activar shader.\n\nPuedes revisar o cambiar todo en Opciones → Controles. Migajaland reserva K para habilidades y R para la rodada; los atajos secundarios incompatibles quedan sin asignar."]
 	quest.3200000000000003.title: "EMI: recetas y usos"
 	quest.3200000000000003.quest_desc: ["En el inventario, escribe en la barra inferior para buscar. Pon el cursor sobre un objeto y pulsa &eR&r para ver recetas; pulsa &eU&r para ver sus usos. Haz clic en ingredientes para navegar.\n\nSi dos mods comparten la misma receta, Polymorph muestra un botón para elegir el resultado correcto."]
 	quest.3200000000000004.title: "Jade: qué estoy mirando"
 	quest.3200000000000004.quest_desc: ["Jade identifica el bloque o criatura bajo tu mira y muestra datos útiles, como contenido, vida o estado. Funciona automáticamente.\n\nSi la información tapa demasiado, busca Jade en Controles o en la configuración de mods para ocultar partes; no necesitas desinstalarlo."]
-	quest.3200000000000005.title: "Inventario, Curios y Mouse Tweaks"
-	quest.3200000000000005.quest_desc: ["Mouse Tweaks permite arrastrar y repartir pilas con el ratón. Curios añade ranuras para mochila, accesorios y reliquias: ábrelas con &6O&r.\n\nUn accesorio debe estar equipado en una ranura compatible para aplicar su efecto; llevarlo suelto en el inventario normalmente no basta."]
+	quest.3200000000000005.title: "Ordenar inventario, mover objetos y Curios"
+	quest.3200000000000005.quest_desc: ["Dentro del inventario o de un cofre, pulsa el &6botón central o rueda del ratón&r sobre una casilla para ordenar. Inventory Essentials no muestra un botón: ese clic es su interfaz. También puedes mantener Shift y pasar el ratón por varias pilas para moverlas rápidamente.\n\nMouse Tweaks ayuda a arrastrar y repartir pilas. Curios añade ranuras para mochila, accesorios y reliquias: ábrelas con &6O&r. Un accesorio debe estar equipado en una ranura compatible para aplicar su efecto."]
 	quest.3200000000000006.title: "Hambre y saturación"
 	quest.3200000000000006.quest_desc: ["AppleSkin muestra cuánta hambre y saturación recupera la comida antes de comerla. Las marcas amarillas indican saturación, que retrasa la pérdida de hambre.\n\nEs solo información visual: no cambia el balance de comida."]
 	quest.3200000000000007.title: "Rendimiento del cliente"
@@ -85,7 +85,7 @@
 	quest.3800000000000004.title: "Completa y entrega"
 	quest.3800000000000004.quest_desc: ["Reúne todos los objetos indicados o completa las derrotas. Cuando el encargo marque los requisitos como cumplidos, sostenlo y haz clic derecho en un tablón para entregar.\n\nLos objetos requeridos se consumen al entregar. Un encargo vencido ya no sirve; revisa el reloj antes de dedicarle recursos raros."]
 	quest.3800000000000005.title: "Decretos y reputación"
-	quest.3800000000000005.quest_desc: ["Los decretos deciden el tema de las ofertas. Un tablón admite hasta tres: agricultura, pesca, cocina, carpintería, armaduras y otros oficios. Mezclarlos combina requisitos y recompensas.\n\nEntregar encargos mejora tu reputación en ese tablón: aparecen recompensas raras con más frecuencia y recibes mejores descuentos. Cocina y Carpintería conectan Farmer's Delight y Handcrafted con Bountiful."]
+	quest.3800000000000005.quest_desc: ["Los decretos deciden el tema de las ofertas. Un tablón admite hasta tres: agricultura, pesca, cocina, carpintería, armaduras y otros oficios. Mezclarlos combina requisitos y recompensas.\n\nEntregar encargos mejora tu reputación en ese tablón: aparecen recompensas raras con más frecuencia y recibes mejores descuentos. Cocina y Carpintería conectan Farmer's Delight y Refurbished Furniture con Bountiful."]
 	quest.3800000000000006.title: "Small Ships: elige un barco"
 	quest.3800000000000006.quest_desc: ["Busca &e@smallships&r en EMI. Cog y Brigg priorizan carga; Drakkar y galeras sirven para pasajeros o combate. Los barcos grandes requieren más materiales y espacio para colocarlos.\n\nFabrica primero uno acorde a tus recursos. Colócalo en agua abierta, lejos de orillas, hielo, puentes y muelles estrechos."]
 	quest.3800000000000007.title: "Sube, navega y abre la carga"
@@ -239,15 +239,15 @@
 	chapter.2000000000000005.title: "Vivienda, cocina y almacén"
 	chapter.2000000000000005.chapter_subtitle: ["Una base útil antes de hacerla bonita"]
 	quest.3500000000000001.title: "Orden recomendado para tu base"
-	quest.3500000000000001.quest_desc: ["Primero seguridad e iluminación; después comida renovable; luego almacenamiento y, por último, decoración. Nada impide construir desde el primer día, pero este orden evita perder recursos por hambre o desorden.\n\nFarmer's Delight, Handcrafted, Supplementaries y Sophisticated cubren estas etapas."]
+	quest.3500000000000001.quest_desc: ["Primero seguridad e iluminación; después comida renovable; luego almacenamiento y, por último, decoración. Nada impide construir desde el primer día, pero este orden evita perder recursos por hambre o desorden.\n\nFarmer's Delight, Refurbished Furniture, Supplementaries, Stoneworks, Lampcrafting y las familias de Macaw cubren estas etapas."]
 	quest.3500000000000002.title: "Cuchillo y tabla de cortar"
 	quest.3500000000000002.quest_desc: ["En Farmer's Delight, fabrica un cuchillo y una Cutting Board. Coloca el ingrediente sobre la tabla con clic derecho y usa la herramienta adecuada para cortarlo.\n\nMuchos cortes producen porciones adicionales o subproductos como paja. Pulsa R sobre la tabla y U sobre el cuchillo para ver recetas."]
 	quest.3500000000000003.title: "Cocina caliente"
 	quest.3500000000000003.quest_desc: ["La Stove cocina y sostiene Cooking Pots o Skillets. El Cooking Pot combina ingredientes y normalmente necesita un recipiente de salida; la Skillet cocina directamente.\n\nEMI muestra posición, ingredientes y recipiente. Las comidas completas dan más saturación y efectos útiles que comer ingredientes sueltos."]
 	quest.3500000000000004.title: "Cultivos de Farmer's Delight"
 	quest.3500000000000004.quest_desc: ["Explora para obtener tomates, coles, cebollas y arroz. El arroz se planta en agua poco profunda; tomates pueden crecer en cuerda; Rich Soil mejora la granja.\n\nGuarda semillas antes de cocinar todo y usa cajas o gabinetes para separar cosecha, utensilios y platos."]
-	quest.3500000000000005.title: "Handcrafted: muebles"
-	quest.3500000000000005.quest_desc: ["Handcrafted añade sillas, mesas, bancos, sofás, estantes, camas, mostradores, vajilla, trofeos y una cocina decorativa. El Hammer participa en varias recetas y variantes.\n\nEl Oven y la campana de cocina son parte del conjunto de vivienda. Usa EMI: muchos muebles se fabrican por familias de madera."]
+	quest.3500000000000005.title: "Construcción y decoración"
+	quest.3500000000000005.quest_desc: ["Refurbished Furniture es la colección principal de muebles funcionales: sillas, mesas, escritorios, cajones, baños, cocina, ventiladores, aparatos y electricidad. Usa EMI para descubrir recetas, conexiones y variantes de madera.\n\nStoneworks amplía las familias de piedra. Macaw's añade techos, ventanas, cercas, muros y luminarias; Lampcrafting suma lámparas decorativas. Combínalos libremente: son ramas de construcción opcionales y no bloquean la progresión RPG."]
 	quest.3500000000000006.title: "Supplementaries: bloques útiles"
 	quest.3500000000000006.quest_desc: ["Supplementaries amplía señales, cuerdas, recipientes, luces, mecanismos y decoración con interacción. Moonlight es su biblioteca y funciona en segundo plano.\n\nPrueba el objeto en un área segura, lee su tooltip y consulta R/U; algunos bloques reaccionan a redstone o a herramientas como la wrench."]
 	quest.3500000000000007.title: "Mochilas y upgrades"

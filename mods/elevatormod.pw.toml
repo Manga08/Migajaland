@@ -1,0 +1,8 @@
+name = "ElevatorMod"
+filename = "elevatorid-neoforge-1.21.1-1.11.4.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/hi2dSXTu/versions/NKEMiRIu/elevatorid-neoforge-1.21.1-1.11.4.jar"
+hash-format = "sha256"
+hash = "c3908b14549addaa18951c473d2d1f67a3df61bcf5599c6031e71ca5685bf14c"

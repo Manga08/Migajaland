@@ -1,0 +1,8 @@
+name = "MCA Reborn"
+filename = "mca-neoforge-7.7.36-beta.3+1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/1W98a849/versions/S2Ln2tIn/mca-neoforge-7.7.36-beta.3%2B1.21.1.jar"
+hash-format = "sha256"
+hash = "de4763d34a41cb84ffa392b87cdb23191beddda2323b56552a1a2fcd7c436fc3"

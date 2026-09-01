@@ -1,0 +1,8 @@
+name = "Advancement Plaques"
+filename = "AdvancementPlaques-1.21.1-neoforge-1.6.8.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/9NM0dXub/versions/OWylG33I/AdvancementPlaques-1.21.1-neoforge-1.6.8.jar"
+hash-format = "sha256"
+hash = "a24674330b8de59a02e0ebe4dd81fcff15d90e8c1cdcc32980d73c1cab050933"

@@ -1,0 +1,8 @@
+name = "Chococraft"
+filename = "chococraft-1.21.1-neoforge-0.11.12.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/bPTEaC7v/versions/1Bcz0w79/chococraft-1.21.1-neoforge-0.11.12.jar"
+hash-format = "sha256"
+hash = "6f095077e64a8c45fdbb74771da39e902e57e9699e45d8c1b510fc96c53ff765"

@@ -1,0 +1,8 @@
+name = "Effect Insights"
+filename = "EffectDescriptions-v21.1.1-1.21.1-NeoForge.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/Kw73iLDq/versions/gKgYWwEQ/EffectDescriptions-v21.1.1-1.21.1-NeoForge.jar"
+hash-format = "sha256"
+hash = "3e27780c83a604be23cae8b902a6324a11d9c49a20671a9ccde2d3d6589d8b89"

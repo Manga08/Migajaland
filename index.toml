@@ -1,12 +1,24 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/armoroftheages.json"
+hash = "f758ec6827ac146a43aa857c490017ae62816d31f4b5a37ba6aed5afa9d7a041"
+
+[[files]]
 file = "config/bountiful/bounty_decrees/carpenter.json"
 hash = "8e43af48454679f17b944c94b0354d6832c66f1b28c036cf0002f156aed1c087"
 
 [[files]]
 file = "config/bountiful/bounty_decrees/chef.json"
 hash = "a10a336756154d57bb864eee4aad8428858519f056cd9d4616eb7a013959045e"
+
+[[files]]
+file = "config/cosmeticarmorreworked-client.toml"
+hash = "4f9577e9c8002872f5f3382f9892a38cbeefb6e2772b2ca248beab44859068fc"
+
+[[files]]
+file = "config/cosmeticarmorreworked-common.toml"
+hash = "687143b4844094f166ff875447d139941970649475924d47ce8982e04ef1cf5d"
 
 [[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
@@ -42,7 +54,7 @@ hash = "70d21fc28775ba1c6917267a6ea9aab83166c37c253c7764d42845eb97a3e799"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/vivienda_almacen.snbt"
-hash = "ff692a4393c4ade583be6db93afda24c98d3c8aa9456c7959d387de257cfb722"
+hash = "f080d8362c79f83e2e9d9a500ea8f998304ae013dff86b78cb102c3c540a139d"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -50,15 +62,177 @@ hash = "8dfea9d6470e568437182f26c25f1d3a1330e654afa885c40abb44df18229b4f"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "0e844bc6045f781234e8a0f5fb83d6dda0a52e2dfeb127811a5bce8b0285990e"
+hash = "bfe273faf4945631a7f53ea651249caa6e059c24c3c54b72c8c74da9bb2fe883"
 
 [[files]]
 file = "config/ftbquests/quests/lang/es_es.snbt"
-hash = "0e844bc6045f781234e8a0f5fb83d6dda0a52e2dfeb127811a5bce8b0285990e"
+hash = "bfe273faf4945631a7f53ea651249caa6e059c24c3c54b72c8c74da9bb2fe883"
+
+[[files]]
+file = "config/fwa.json"
+hash = "f27999aaf3ea7a5414f69281ae83dbfd2e781c7f52b091ab9a98dc389dc3bf22"
+
+[[files]]
+file = "config/inventoryessentials-common.toml"
+hash = "440658632c045fbcf64cdf6cbd48a64c46e882e3b6dff6aaff2610fffee564ed"
+
+[[files]]
+file = "config/many_bows.json"
+hash = "7048a7c1f06b3a877cdc720b97475bd6a19862e2271f48f0c3f3c45f0a08feff"
+
+[[files]]
+file = "config/mca.json"
+hash = "c5d98c1f079aca9d3bba4aa380b6a8e01ec1514ee68a5fcc33ad499202e1658f"
+
+[[files]]
+file = "config/oculus.properties"
+hash = "040463560a8e20c78b08aee2039233a1ebaa64cb5d303c9388dd1d8949a28f81"
+
+[[files]]
+file = "config/skinlayers.json"
+hash = "45162f45aa2db525a0edc483959f35b6d958ba2e54066a4f87e7f3c3f0f99166"
+
+[[files]]
+file = "config/soundcontroller-presets.json"
+hash = "960aa009c7f7314aa935e21e893bd4b8ff1e5b475f889e8592d91a9e671153d8"
+
+[[files]]
+file = "emotes/bloop_dance.json"
+hash = "50b081a5b386c0cca87f55300ab68d1bc59245621a81ee78a854c2492b8575d8"
+
+[[files]]
+file = "emotes/bow.json"
+hash = "b4fda1c66eb925f5c7a398eec5c5d2356334b651309f4c460bdee435264f9678"
+
+[[files]]
+file = "emotes/campfire_sit.json"
+hash = "21f0870a3db57d9db4442bc96cd3d0f275b940e311b58f99c3644420fb57f188"
+
+[[files]]
+file = "emotes/club_penguin_dance.json"
+hash = "91aeba791641240d734179fb8ed3365fa113aaf472144dc5c4f392ee048ebc26"
+
+[[files]]
+file = "emotes/cool_sit.json"
+hash = "00ea3c4adc6c77cfcffafbba0c3fe44394f050860dfed78cc1fea8fa6970ba6a"
+
+[[files]]
+file = "emotes/cross_arms.json"
+hash = "67b2fb28541f1dc168a29b7c99c17e3b193a1a472d35123a8eb494622e8606f3"
+
+[[files]]
+file = "emotes/dab.json"
+hash = "5961c69156ee8b35a83bc9e91f4fff91792289009414525279b85ea836552602"
+
+[[files]]
+file = "emotes/dramatic_respawn.json"
+hash = "aa9f8d6ca98dcbaca21ff365e6c382c69c9a98751c834bb80ffe834fafe2b747"
+
+[[files]]
+file = "emotes/floss.json"
+hash = "20bffc968326f9b0c4748c037ebef14cb8e30070196ea0ecf720b60df2916ba5"
+
+[[files]]
+file = "emotes/grace.json"
+hash = "b39d8edd896da3bda890924fb44c975d582373a6b96d7fc9fb55f4f03682e66f"
+
+[[files]]
+file = "emotes/hand_on_heart.json"
+hash = "f2a8b2928b5d621b12d33fb450869c3da53110e6d019581c7140f9f60b3ad592"
+
+[[files]]
+file = "emotes/headball.json"
+hash = "9edfe4e4722a42fc42734ef65fbb69dc87d1641c7ec1c10d88a16a01994ed8e3"
+
+[[files]]
+file = "emotes/hug.json"
+hash = "97892b55a3dcfaac197626e1d76f583bec552c38d5f7cda8cd2222d260cc8fbd"
+
+[[files]]
+file = "emotes/hunchback.json"
+hash = "e521ed5634aa953333ac1db2d556d57b9df80b4128186b51946f6802e3ab6424"
+
+[[files]]
+file = "emotes/inspect.json"
+hash = "5a8487afce58be05e17a215f751ca9294d7daed6fd02c4bcde12c2e898b4cf4c"
+
+[[files]]
+file = "emotes/jumping_jacks.json"
+hash = "65714e9dc6f46da3045aa346abb4022cd81f6014c04e3a7b586f188178faa6ee"
+
+[[files]]
+file = "emotes/lay_down.json"
+hash = "c4d18b8359744e348641ac8a9bd115edd25921d3040c5ff361dcf78acf786840"
+
+[[files]]
+file = "emotes/lean.json"
+hash = "94cd2440ecf27c0d7ec0c97a9cbcbc68a9040b1055230287796487aeb9b42b44"
+
+[[files]]
+file = "emotes/look_around.json"
+hash = "77bb9f6ab288eae6c1afe2a5a115482ea25e6e540670e3c7faca5e11d361fe2b"
+
+[[files]]
+file = "emotes/meditation.json"
+hash = "83636221b87eed126e740a049d57af4b6152b59405b70673f9bb66bf52c24817"
+
+[[files]]
+file = "emotes/meeting.json"
+hash = "44a5f6ff0fa3d455a78d9a9058d204356090f9542a67e76bd16d9499ef230e29"
+
+[[files]]
+file = "emotes/naruto_run.json"
+hash = "a85a1300cda19da6e2c4cb5800a6c2beead1f429a326d4ce29ee05f5e113ae7e"
+
+[[files]]
+file = "emotes/nervous.json"
+hash = "7fd37c4a3120d3b76e0ec711e9c7efeca6ccae2fb33125f06c8fdd2530dbef5c"
+
+[[files]]
+file = "emotes/orange_justice.json"
+hash = "9fc76c73bcfc65e08d34eeb5be18ebd9c348f87559007127d7e09b0f6c5e8395"
+
+[[files]]
+file = "emotes/penguin_walk.json"
+hash = "83ce02fb9db009694e4c879ae861c120cfb523b0dbbc8d2c4bc78592990f5585"
+
+[[files]]
+file = "emotes/press_f.json"
+hash = "c2fa2fae73ce403266659b22c9426a09b7bba0a9cacd5909a6bed9d9aa816d74"
+
+[[files]]
+file = "emotes/selfie.json"
+hash = "8854e458a2b2f021b394ca9c64d9c6e6f993a89bd79bc09a33525dd72830ffa0"
+
+[[files]]
+file = "emotes/shake.json"
+hash = "1485bdfd8f9ddfb35b65dc3e07d29d661d769f74d94cff49d04a4a5005ef472f"
+
+[[files]]
+file = "emotes/show_item.json"
+hash = "003f0ab47f2e9e385f2e4c99bc610efb78321d1b49fcc5ebbcca56d5b4114482"
+
+[[files]]
+file = "emotes/take_the_l.json"
+hash = "8a41337862388ff29b436a74a8eec7828ea05afdd0efe14d3f9040a45598ff2a"
+
+[[files]]
+file = "emotes/tpose.json"
+hash = "e81cd74ece1639d5d8dd2077c39f2de0a1880ce1d2aafa0fe7b51641aa40ab94"
 
 [[files]]
 file = "MIGAJALAND-LEEME.txt"
-hash = "1b8bc866b034aefd759603b86cfff59ddf1e03c33269dfade5826ca66d42cdfd"
+hash = "6b5339371515a71047aa7486246b04d82aadacb06bb9eec65a2acc5139614036"
+
+[[files]]
+file = "mods/3dskinlayers.pw.toml"
+hash = "faa52d9eb077ae02725c954308c983bab41c6bf1757aa2ad45cd078b12690c06"
+metafile = true
+
+[[files]]
+file = "mods/advancement-plaques.pw.toml"
+hash = "b0b47fdda65ece28c83d33be9ff2458df94e660f80d03689448bdc5b6c0cb1e5"
+metafile = true
 
 [[files]]
 file = "mods/appleskin.pw.toml"
@@ -78,6 +252,11 @@ metafile = true
 [[files]]
 file = "mods/armageddon.pw.toml"
 hash = "32eba1a83ff1b6c398d54963a1cbf41d0ebb445aff54d2d551a98129e48297f2"
+metafile = true
+
+[[files]]
+file = "mods/armor-of-the-ages.pw.toml"
+hash = "07371653315f66e646c6c6bf003f7fe645d60a0c64374a6610d6e0f14620d692"
 metafile = true
 
 [[files]]
@@ -106,6 +285,11 @@ hash = "cf288a99af88e6045b973e0d29816ed2c5ccc4de7521ae164b25ca9308933c2e"
 metafile = true
 
 [[files]]
+file = "mods/better-advancements.pw.toml"
+hash = "6f923624b9cb714ae3caf86e07bb7dd4c8411af3b3c9a0f7b8893b8f597a6bab"
+metafile = true
+
+[[files]]
 file = "mods/better-combat.pw.toml"
 hash = "f9c4d4b86a15fc46a851c17ae17bf0311d2587441872a3cd3350c40b18be5a39"
 metafile = true
@@ -123,6 +307,21 @@ metafile = true
 [[files]]
 file = "mods/bundle-api.pw.toml"
 hash = "f6a374b2092c1f5f0c60ef2daccc513ddb05c192bbd93e8dd38edf82f36100fb"
+metafile = true
+
+[[files]]
+file = "mods/carry-on.pw.toml"
+hash = "5ff5ea1d30f816b92aa50ccb692582483317eb50cbe812bbb9375ab84ec9ef40"
+metafile = true
+
+[[files]]
+file = "mods/chat-heads.pw.toml"
+hash = "7c3637a80c31fa24f6eb1c4b902e06decec25224a12a6df07ce77435c802909c"
+metafile = true
+
+[[files]]
+file = "mods/chococraft.pw.toml"
+hash = "d1caef770e7c97667fb38a91217e8ae6a99d815b9fd65b5c1ba76e8f79a1f311"
 metafile = true
 
 [[files]]
@@ -146,13 +345,38 @@ hash = "8c89f48d9e1684f9577b064c2577529168b2b57b67d513dc761f160b1bbe34fd"
 metafile = true
 
 [[files]]
+file = "mods/comforts.pw.toml"
+hash = "d8c7c89677a52220fd4382a56df9d675b4c1564b42bd52044a06b11aa268811a"
+metafile = true
+
+[[files]]
 file = "mods/controlling.pw.toml"
 hash = "f56d4b2f7fd741c9a970a5deb2ffd55822e62bd5ab65208d1a3dcee48af74866"
 metafile = true
 
 [[files]]
+file = "mods/cooking-for-blockheads.pw.toml"
+hash = "02ed9aeaeff8cbf56cb38aca298d7e5bf600e8c8bda4734413c10385d59b38bc"
+metafile = true
+
+[[files]]
+file = "mods/corpse-x-cosmetic-armor-reworked-compat.pw.toml"
+hash = "04ab413dce2d8aa286d5c59a4ae4a87cce809bf22bd4c263cb8d776bff7053cd"
+metafile = true
+
+[[files]]
 file = "mods/corpse.pw.toml"
 hash = "e87ea66ab21cc8265e2f0186202ce38898419787886fd38d27c649afeec7609d"
+metafile = true
+
+[[files]]
+file = "mods/cosmetic-armor-reworked.pw.toml"
+hash = "0f81f4c019270a1cc87d81535191cd9d9e1d8df6e9413ebbb1701de811331ab5"
+metafile = true
+
+[[files]]
+file = "mods/crafting-tweaks.pw.toml"
+hash = "cc4145527e4ae092bd6c054e3e99dfa8b1456ed4f545582447cbfbdb2d5535d6"
 metafile = true
 
 [[files]]
@@ -176,6 +400,21 @@ hash = "4a10b793e2577c034dd27e62ee3977ed5727464867261b115d40cc0b9ea0a692"
 metafile = true
 
 [[files]]
+file = "mods/easy-anvils.pw.toml"
+hash = "a068959d284d1bd14b8651f09d9ee472dc8e2827c0e8a6c343f8d60c49cb49cb"
+metafile = true
+
+[[files]]
+file = "mods/effect-insights.pw.toml"
+hash = "5f45d665f5081abdd3505c098453606338e29e3b28134a71675f23b450c75893"
+metafile = true
+
+[[files]]
+file = "mods/elevatormod.pw.toml"
+hash = "b29c20c9a7f0bef578ea8a2d80e7f9b76acc7f6a80e0850aa32e8de3a14d4c66"
+metafile = true
+
+[[files]]
 file = "mods/embeddium.pw.toml"
 hash = "c0352c43b1ea944e9b1c0a0fe636cc0893cf65935455c7e9aba261715025cbb1"
 metafile = true
@@ -186,8 +425,13 @@ hash = "ed37517717998eb26cd74d92c13e3e0ba22ee8911bf5d9ea21377cea5284ea9f"
 metafile = true
 
 [[files]]
+file = "mods/emotecraft.pw.toml"
+hash = "82047599b2f0ef4fd391b56ee26bd200a589a776186ab79d8d20d3c9e16c6977"
+metafile = true
+
+[[files]]
 file = "mods/enchantment-descriptions.pw.toml"
-hash = "17c8c17c49b20d0b9352a46fa12218bdb52d7ea25820e65de12cc05820d2cb15"
+hash = "d18a6f47391b6e8e515cdbdf0d994503d5dec6ce3e097a777f445ef4d331725a"
 metafile = true
 
 [[files]]
@@ -196,8 +440,18 @@ hash = "8a33315160f17f17b50a5884ea323f7e25830575b11eccd8156f321b44364293"
 metafile = true
 
 [[files]]
+file = "mods/entity-model-features.pw.toml"
+hash = "3ae4436f92f47c072045c42e0d4dc1d207a7ac86b8e90592f53514997d614d54"
+metafile = true
+
+[[files]]
 file = "mods/entityculling.pw.toml"
 hash = "0556e7ab8cc0fc53b0ba08791807beae04431acc5a7deb63f2d00e9afd1ed8e5"
+metafile = true
+
+[[files]]
+file = "mods/entitytexturefeatures.pw.toml"
+hash = "f2d5b0d39884edf97932c7491a61ed5c7155c868183154dfed82d70c36019904"
 metafile = true
 
 [[files]]
@@ -216,23 +470,43 @@ hash = "8a6fcbab0e63bc22cca900e5c0da3677191e2e0e0560f64b7ff5ed921436d382"
 metafile = true
 
 [[files]]
+file = "mods/framework.pw.toml"
+hash = "f83f629e9f2445776b05096a413ae8974849f01435f6d1ba708c0af058ade963"
+metafile = true
+
+[[files]]
 file = "mods/ftb-chunks.pw.toml"
-hash = "8673e6042667b509161a68241ca01ec87f84957401cf80d01428c05ecd68b24c"
+hash = "4935d7c9c09599201b642d37cad49c53d704f9271b6a39f82ce154815b2db857"
 metafile = true
 
 [[files]]
 file = "mods/ftb-library.pw.toml"
-hash = "869521f1e972dab12b8eefebc8f3456d00c9396b770714135599e99ec59592be"
+hash = "899833d659bf7f5a5ebd99cf140e6a2374f2cf8c31c6939144c88010067d7eb3"
 metafile = true
 
 [[files]]
 file = "mods/ftb-quests.pw.toml"
-hash = "1abb3337ea960e1dac37ad7f0bb6e4b902b005ea0646152a45b280bbd18be1ef"
+hash = "ea282708afab27000c148ec1f89650a1e437e64e4008658c9bd0697380ee50e2"
 metafile = true
 
 [[files]]
 file = "mods/ftb-teams.pw.toml"
-hash = "409dc4d6419dbf47031eea68e7fa5a83f802699043ef76368dc7fa8dd0b0e4af"
+hash = "c8438bf19dac51120e02483648c30949ffb7b102296227e8778af3f733776061"
+metafile = true
+
+[[files]]
+file = "mods/ftb-ultimine.pw.toml"
+hash = "f15faad2ccc98d9564c052647fd0f285bacc7707267d3715f2626d164c6b7066"
+metafile = true
+
+[[files]]
+file = "mods/fwa.pw.toml"
+hash = "6bf6849b0b6dfb507904f64e9e5eb4c0a1a445fc71799d426b92e26c5b7d2137"
+metafile = true
+
+[[files]]
+file = "mods/fzzy-config.pw.toml"
+hash = "b6bd8fb4380bcb7b67bdcaf333d9ea6a0af381c24e4cbc0b46ffd8b2c05ad1ee"
 metafile = true
 
 [[files]]
@@ -246,18 +520,28 @@ hash = "31581ee3b7255d9c97080f6cda262dd66fbb776febd4ddad04c5a61f31bce62a"
 metafile = true
 
 [[files]]
-file = "mods/handcrafted.pw.toml"
-hash = "80302008e28b0d2fc47599ab87c7fb3feed1ce5b8504c104489866adac3d223f"
-metafile = true
-
-[[files]]
 file = "mods/iceberg.pw.toml"
-hash = "ac0ddc1c3f6e365cc00874f58f7a55280d95fb60e355599c20e29f80f595e042"
+hash = "480665362a1c17db67dcd0ef86325e7396358b56130f90ce64105aa9791908ab"
 metafile = true
 
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
 hash = "ac8dfe060536277929eaff4bd4eff325d45201627b4ec0a883987f379ceca14c"
+metafile = true
+
+[[files]]
+file = "mods/immersive-melodies.pw.toml"
+hash = "40bc61c0d6a7f607b7c5f44cbfc990b4d6f94457559fca99038282cb04eb929d"
+metafile = true
+
+[[files]]
+file = "mods/immersive-paintings.pw.toml"
+hash = "5582a7c67d12b6a44e03273f0f0106288e08c9c133146d51010e8f7e60bbb158"
+metafile = true
+
+[[files]]
+file = "mods/inventory-essentials.pw.toml"
+hash = "5b0b97c6e0b8d456b1f9d156f30820c8f8c2429aef615f49a850ef68e4b9f609"
 metafile = true
 
 [[files]]
@@ -276,6 +560,11 @@ hash = "0b7c4bf9a7d99ec216b2ea30f182b2a736eb78bed85fb89f44b0b13f69a577dc"
 metafile = true
 
 [[files]]
+file = "mods/lampcrafting.pw.toml"
+hash = "fb1cfcd4f8ea34e0db77da0e44ab56110f226a8115d5d722fbb9a71b341d75fe"
+metafile = true
+
+[[files]]
 file = "mods/lets-do-lilis-lucky-lures.pw.toml"
 hash = "a2a98cb0196a4a98e1677e7051c9c9474feaddca5a28cb149c643108546ca6de"
 metafile = true
@@ -286,8 +575,37 @@ hash = "6bc863e604390288d287d48f613fd06c4228112b22ad4c10d2a8e4237ec4ab26"
 metafile = true
 
 [[files]]
-file = "mods/migajaland-core-0.3.3.jar"
-hash = "421020938f7f4aacf3f073c4546a45b18fff0b5a94c25e577f885239c6217ce0"
+file = "mods/macaws-fences-and-walls.pw.toml"
+hash = "d4dea93a1603835d7d4233e539dea3bb0c409bcb4a1f8bd27a0b2f1b1e85c327"
+metafile = true
+
+[[files]]
+file = "mods/macaws-lights-and-lamps.pw.toml"
+hash = "86eb5228c9b9e11d933dfde4962c03a9a02ada7f4381ede6c49e978452b50d42"
+metafile = true
+
+[[files]]
+file = "mods/macaws-roofs.pw.toml"
+hash = "de6c8ff99ad6e388cb738c4b0df06161302f7233d354277e87568d89fe02a51c"
+metafile = true
+
+[[files]]
+file = "mods/macaws-windows.pw.toml"
+hash = "4a71eb7f52b348dd71bad0ca687eace4f8656b2643df188313f0909fbdfcd93f"
+metafile = true
+
+[[files]]
+file = "mods/migajaland-core-0.6.0.jar"
+hash = "aeafd0064f68ab7981aa4130b9d38ac62b4a2247cbe753df8a2370bd4f9b1691"
+
+[[files]]
+file = "mods/migajaland-melodies-1.0.0.jar"
+hash = "d769da1bb50c95eefb3d4dbaa0e78f3262005c543ebde904d4f5c6454228adb8"
+
+[[files]]
+file = "mods/minecraft-comes-alive-reborn.pw.toml"
+hash = "8cc87276275a7c43a4beb7cb4c9256f4576aa53d3f705bb1a1a6fe34c49d80ad"
+metafile = true
 
 [[files]]
 file = "mods/minetraps.pw.toml"
@@ -312,6 +630,16 @@ metafile = true
 [[files]]
 file = "mods/mowzies-mobs.pw.toml"
 hash = "c212cd63c20d4dad4897d7ff735aaf15cbb07423844fe29fb17da4b0a853fa0f"
+metafile = true
+
+[[files]]
+file = "mods/neoculus.pw.toml"
+hash = "8cbb3f99f2e4aca40aea216edb86229b137055fd15e4c21c278498860482f175"
+metafile = true
+
+[[files]]
+file = "mods/not-enough-animations.pw.toml"
+hash = "199fc79eb98593e08578bdb20d05baa37437b88d3c63ec20ae8d3dcf44940f2f"
 metafile = true
 
 [[files]]
@@ -340,6 +668,11 @@ hash = "b25bbf7c2a6407d71aa3adeb25d1aecc5f56e52b394e5ed4bc3e21fd1d1058a2"
 metafile = true
 
 [[files]]
+file = "mods/puzzles-lib.pw.toml"
+hash = "5e2a6e94dec41276d5eebc2162328517200d6bbb791cd9a20273a5e7b42a2de0"
+metafile = true
+
+[[files]]
 file = "mods/quick-skin.pw.toml"
 hash = "0af737aa3d3eabcb232260ca36114fe2b4d2007b3e6f40ca0d969b8ae528dd31"
 metafile = true
@@ -347,6 +680,11 @@ metafile = true
 [[files]]
 file = "mods/ranged-weapon-api.pw.toml"
 hash = "2c241f6795d2487faca8bfd4ac1712fe41b62efd22ef562c48c59c3d5291f6c5"
+metafile = true
+
+[[files]]
+file = "mods/refurbished-furniture.pw.toml"
+hash = "315653bb7ae4031624c701576ad8fc57b38a82cf42a4f7376f09ceec6dc3ed00"
 metafile = true
 
 [[files]]
@@ -410,6 +748,16 @@ hash = "b33a0c10ce9e77dd85791dd3b86cea2ba81aaf8f9473ee4c6a13d3e477fae7ba"
 metafile = true
 
 [[files]]
+file = "mods/sound-controller.pw.toml"
+hash = "c16f90f026060c81135c980a72420097328c04e6fbf353a6ed9269070e150e65"
+metafile = true
+
+[[files]]
+file = "mods/sound-physics-remastered.pw.toml"
+hash = "24d9e792f4b4513536eb6bf41339a3e7056794aa6c215a65fb377f585922f5de"
+metafile = true
+
+[[files]]
 file = "mods/spark.pw.toml"
 hash = "11429ed5d7224e74a45845a1dfb2cc31fb790d336c788e511102bd7c932bd6f8"
 metafile = true
@@ -425,6 +773,11 @@ hash = "f4d777a0e17bf893a0ff3b0a5855b030326e9ab2c0ba740c310de18742605fc9"
 metafile = true
 
 [[files]]
+file = "mods/stoneworks.pw.toml"
+hash = "10fbb221e2692c73ff1811e2a06bd869c3e2115b12aae13d98569419c331356c"
+metafile = true
+
+[[files]]
 file = "mods/structure-pool-api.pw.toml"
 hash = "147ed8bc86c61ff831e7005421b0be6029ba45d61b10bee7f19c692c51375191"
 metafile = true
@@ -432,6 +785,21 @@ metafile = true
 [[files]]
 file = "mods/supplementaries.pw.toml"
 hash = "269813658e102e1ba028cef933929941cb449804217013e1349fc9ee8bd2578d"
+metafile = true
+
+[[files]]
+file = "mods/too-many-bows.pw.toml"
+hash = "ad99f023fb7ec07f33ee3d5b458e8816dacd0318f813de3ff5f8012b4b577657"
+metafile = true
+
+[[files]]
+file = "mods/trashslot.pw.toml"
+hash = "b2bcdb4add9aa5def5466269960d4e8ec3e1c791200ce2692191030f90d6201b"
+metafile = true
+
+[[files]]
+file = "mods/visual-workbench.pw.toml"
+hash = "fba1fcf1bf2c44fcbcc6e2ec89e84f064f1e1816621347087da78af0d4d3899b"
 metafile = true
 
 [[files]]
@@ -445,14 +813,23 @@ hash = "c267313604d9d027324b99772c4bb265411bf6dc8ff145e612c4398a40c04454"
 metafile = true
 
 [[files]]
+file = "mods/yacl.pw.toml"
+hash = "38909677fd0b5fff78ddbc5ddbc16b5c8f3481a7352148faf10f0548a15e7f5b"
+metafile = true
+
+[[files]]
 file = "mods/yungs-api.pw.toml"
 hash = "c947f14440fc6b93448ee43ec00ff8cecc5bbbcbc61b53ba26ab7d6f210d6085"
 metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "4998e8dd6dfb1efbdfa220fc79fd265c71bac1be507944b3410f44aa4939c69b"
+hash = "3fb362d494c7c97adab18c991cb49fea9752fe7a1136761440eec169d2f3e043"
 preserve = true
+
+[[files]]
+file = "resourcepacks/FreshAnimations_v1.10.4.zip"
+hash = "8e44b29560d2e7d952c0a4f77f0451e6dcb048f827189bffc712b446be8de7f2"
 
 [[files]]
 file = "resourcepacks/Migajaland-Espanol.zip"
@@ -462,4 +839,12 @@ hash = "c2c2e4042e1764b09e782809e4cffa8ce0f36283bacd39fee3552bf1588aac0e"
 file = "servers.dat"
 hash = "97105f33aeac3686a11cbb71085ea2d200ae49bdbbd0e78ab199d3ba31c86264"
 preserve = true
+
+[[files]]
+file = "shaderpacks/MakeUp-UltraFast-9.5d.zip"
+hash = "b26b8eb9b23fbba41e3b16dc6b8ef4d2c7c645b3f6621aa414cdade68ad48966"
+
+[[files]]
+file = "shaderpacks/MakeUp-UltraFast-9.5d.zip.txt"
+hash = "ab719e80bcb7db64e9152ddf979b171c0faac7f7458ddecd381fcc7dff236195"
 

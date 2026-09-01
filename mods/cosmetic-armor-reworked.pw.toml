@@ -1,0 +1,8 @@
+name = "Cosmetic Armor Reworked"
+filename = "cosmeticarmorreworked-1.21.1-v1-neoforge.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/5610/814/cosmeticarmorreworked-1.21.1-v1-neoforge.jar"
+hash-format = "sha256"
+hash = "6328049755735159c55f5918ac301cff53a8d8790c3fe63e32e7d8a0e37f123f"

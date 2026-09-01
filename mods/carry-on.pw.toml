@@ -1,0 +1,8 @@
+name = "Carry On"
+filename = "carryon-neoforge-1.21.1-2.2.6.13.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/joEfVgkn/versions/PV8oLZ1q/carryon-neoforge-1.21.1-2.2.6.13.jar"
+hash-format = "sha256"
+hash = "d4f9576b6593db9486a89d35c1d84c31ee89141d99dbae2aa470350ab53c4e09"

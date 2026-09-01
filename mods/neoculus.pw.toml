@@ -1,0 +1,8 @@
+name = "NeOculus"
+filename = "neoculus-mc1.21.1-1.8.7.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/ndV543Q3/versions/ZMibIRkN/neoculus-mc1.21.1-1.8.7.jar"
+hash-format = "sha256"
+hash = "3213254321d6b5a76182ad3ec699a91cc13facce0c47c1416dfc680025f4fe44"

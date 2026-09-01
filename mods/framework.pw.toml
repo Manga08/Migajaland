@@ -1,0 +1,8 @@
+name = "Framework"
+filename = "framework-neoforge-1.21.1-0.13.11.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/7530/361/framework-neoforge-1.21.1-0.13.11.jar"
+hash-format = "sha256"
+hash = "429ea90a162d7c25c1463ee60979e4d7b1ddb525d9384a3a2a2f45d70bda03f5"

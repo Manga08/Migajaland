@@ -1,0 +1,8 @@
+name = "Too Many Bows"
+filename = "too_many_bows-neoforge-1.21.1-3.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/FOiJ92uI/versions/jkgwiMjB/too_many_bows-neoforge-1.21.1-3.0.0.jar"
+hash-format = "sha256"
+hash = "52633aefd4a62dcd932308d8631011ea29b3c9b06e25be1e191fe6af1ae8905e"

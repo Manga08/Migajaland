@@ -1,0 +1,8 @@
+name = "MrCrayfish's Furniture Mod: Refurbished"
+filename = "refurbished_furniture-neoforge-1.21.1-1.0.22.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/7473/565/refurbished_furniture-neoforge-1.21.1-1.0.22.jar"
+hash-format = "sha256"
+hash = "953a7840261eb79959769a97caa60cba2ee141700a4cbe208825268327136bdf"

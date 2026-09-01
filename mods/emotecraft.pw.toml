@@ -1,0 +1,8 @@
+name = "Emotecraft"
+filename = "emotecraft-for-MC1.21.1-2.4.12-neoforge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/pZ2wrerK/versions/fu6N0NgM/emotecraft-for-MC1.21.1-2.4.12-neoforge.jar"
+hash-format = "sha256"
+hash = "8cff63e900acd55bb39d41978cc2a70a974e326e2038c30ff20ccfde4c953a43"

@@ -1,0 +1,8 @@
+name = "Lampcrafting"
+filename = "Lampcrafting1.0.7_neoforge_minecraft1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Ec2eBEYf/versions/zMn15CMw/Lampcrafting1.0.7_neoforge_minecraft1.21.1.jar"
+hash-format = "sha256"
+hash = "fc8c82c8584b66eef2420c42787f6dbdcc4336ccb272f839d27d33c1e8fca43a"

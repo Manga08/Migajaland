@@ -15,7 +15,7 @@
 		{ id: "3500000000000002", dependencies: ["3500000000000001"], x: -4.5d, y: 3.0d, optional: true, icon: { id: "farmersdelight:cutting_board" }, tasks: [{ id: "4500000000000002", type: "checkmark" }] }
 		{ id: "3500000000000003", dependencies: ["3500000000000001"], x: -1.5d, y: 3.0d, optional: true, icon: { id: "farmersdelight:cooking_pot" }, tasks: [{ id: "4500000000000003", type: "checkmark" }] }
 		{ id: "3500000000000004", dependencies: ["3500000000000001"], x: 1.5d, y: 3.0d, optional: true, icon: { id: "farmersdelight:tomato" }, tasks: [{ id: "4500000000000004", type: "checkmark" }] }
-		{ id: "3500000000000005", dependencies: ["3500000000000001"], x: 4.5d, y: 3.0d, optional: true, icon: { id: "handcrafted:hammer" }, tasks: [{ id: "4500000000000005", type: "checkmark" }] }
+		{ id: "3500000000000005", dependencies: ["3500000000000001"], x: 4.5d, y: 3.0d, optional: true, icon: { id: "refurbished_furniture:oak_chair" }, tasks: [{ id: "4500000000000005", type: "checkmark" }] }
 		{ id: "3500000000000006", dependencies: ["3500000000000001"], x: -4.5d, y: 6.0d, optional: true, icon: { id: "supplementaries:wrench" }, tasks: [{ id: "4500000000000006", type: "checkmark" }] }
 		{ id: "3500000000000007", dependencies: ["3500000000000001"], x: -1.5d, y: 6.0d, optional: true, icon: { id: "sophisticatedbackpacks:backpack" }, tasks: [{ id: "4500000000000007", type: "checkmark" }] }
 		{ id: "3500000000000008", dependencies: ["3500000000000001"], x: 1.5d, y: 6.0d, optional: true, icon: { id: "sophisticatedstorage:chest" }, tasks: [{ id: "4500000000000008", type: "checkmark" }] }

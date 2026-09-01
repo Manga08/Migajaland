@@ -1,0 +1,8 @@
+name = "Better Advancements"
+filename = "BetterAdvancements-NeoForge-1.21.1-0.4.3.21.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/Q2OqKxDG/versions/FjTYILOi/BetterAdvancements-NeoForge-1.21.1-0.4.3.21.jar"
+hash-format = "sha256"
+hash = "60b548bef04a2f0e1da686ee9035c2e3d4ed0459a17d7a4836fc26af6de6b60e"

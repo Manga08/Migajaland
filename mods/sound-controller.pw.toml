@@ -1,0 +1,8 @@
+name = "Sound Controller"
+filename = "soundcontroller-neoforge-1.4.0-mc1.21.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/uY9zbflw/versions/3TaQzJJO/soundcontroller-neoforge-1.4.0-mc1.21.1.jar"
+hash-format = "sha256"
+hash = "58a6fef8dfb947901ebe4a9551bf5dd066e60c33ef03947305fa4268e5779780"
