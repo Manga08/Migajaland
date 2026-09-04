@@ -29,6 +29,10 @@ file = "config/ftbquests/quests/chapters/ayuda_problemas.snbt"
 hash = "850cb5dbe6b778cb973307307839c330c9caa799a52c2e70938a1418a2cb3d4e"
 
 [[files]]
+file = "config/ftbquests/quests/chapters/companeros_creatividad.snbt"
+hash = "bdab81b05ceda36956362bfcc8dbb80b03b65f7728c6e7f376c7663da3dfac06"
+
+[[files]]
 file = "config/ftbquests/quests/chapters/controles_interfaz.snbt"
 hash = "69a7619ecd95b99c70b65e405b7df3eae2bd78bf226cec81bb183af989653c6c"
 
@@ -50,11 +54,11 @@ hash = "e275193bef121d047d82407467513949c023724598d998b9c281a1cc7853f909"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ruta_principal.snbt"
-hash = "70d21fc28775ba1c6917267a6ea9aab83166c37c253c7764d42845eb97a3e799"
+hash = "e45767e16e3023ee0219c533bf5e9fe5814d920f08338cd5bc2332a5b6a8fe7c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/vivienda_almacen.snbt"
-hash = "f080d8362c79f83e2e9d9a500ea8f998304ae013dff86b78cb102c3c540a139d"
+hash = "92ce7a4b4d175c9f1a058cac130424ab2dd28215d1f3c2b82ee2097322150596"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -62,11 +66,11 @@ hash = "8dfea9d6470e568437182f26c25f1d3a1330e654afa885c40abb44df18229b4f"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "bfe273faf4945631a7f53ea651249caa6e059c24c3c54b72c8c74da9bb2fe883"
+hash = "58d39a75565de0011f5299d784edfcf2a54300dc3ca2182a5ffc1ad254884894"
 
 [[files]]
 file = "config/ftbquests/quests/lang/es_es.snbt"
-hash = "bfe273faf4945631a7f53ea651249caa6e059c24c3c54b72c8c74da9bb2fe883"
+hash = "58d39a75565de0011f5299d784edfcf2a54300dc3ca2182a5ffc1ad254884894"
 
 [[files]]
 file = "config/fwa.json"
@@ -221,8 +225,40 @@ file = "emotes/tpose.json"
 hash = "e81cd74ece1639d5d8dd2077c39f2de0a1880ce1d2aafa0fe7b51641aa40ab94"
 
 [[files]]
+file = "journeymap/config/6.0/journeymap.core.config"
+hash = "c25dab6735635289895b4c904335de25c8013c51cfa239e763f517bcfb82a2ab"
+
+[[files]]
+file = "journeymap/config/6.0/journeymap.fullmap.config"
+hash = "15b89d68dd5b9cfea739213e32ec3bc46ad77bacd541f67da3af2ec1b7b9f38d"
+
+[[files]]
+file = "journeymap/config/6.0/journeymap.minimap.config"
+hash = "732aaa9bceeb76863b0cbfcfa6220b23a62fd29e87811bb670a495476ab2bede"
+
+[[files]]
+file = "journeymap/config/6.0/journeymap.minimap2.config"
+hash = "dae5d47fc7ba1520a14d9df790ceb0a67313fef028ccbd0951b9a6232abde7c4"
+
+[[files]]
+file = "journeymap/config/6.0/journeymap.rendering.config"
+hash = "8ab7f51f966256ae6e860d097633e67236b74053c985282829e1c14c81172ae8"
+
+[[files]]
+file = "journeymap/config/6.0/journeymap.topo.config"
+hash = "93797226871d90eb70eb90f9b519e9a9a888e1068e67d19bd4c55bab4520c523"
+
+[[files]]
+file = "journeymap/config/6.0/journeymap.waypoint.config"
+hash = "5f220483208b159cbf2087364882d8b8277619bff93d8697f2ac0899297a120e"
+
+[[files]]
+file = "journeymap/config/6.0/journeymap.webmap.config"
+hash = "523c3b54a86a178a48d78fcb148cc9657925818f23a70475b66e91cbd362707f"
+
+[[files]]
 file = "MIGAJALAND-LEEME.txt"
-hash = "6b5339371515a71047aa7486246b04d82aadacb06bb9eec65a2acc5139614036"
+hash = "5c30ee7233157bf204d3a57041e4376712488ac2fbc8798d3efaaccef051e198"
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"
@@ -251,7 +287,7 @@ metafile = true
 
 [[files]]
 file = "mods/armageddon.pw.toml"
-hash = "32eba1a83ff1b6c398d54963a1cbf41d0ebb445aff54d2d551a98129e48297f2"
+hash = "eb78eefde67b7a7f7543ecd1449aa4b31b31d91877b05d867def9c389f112e05"
 metafile = true
 
 [[files]]
@@ -405,6 +441,11 @@ hash = "a068959d284d1bd14b8651f09d9ee472dc8e2827c0e8a6c343f8d60c49cb49cb"
 metafile = true
 
 [[files]]
+file = "mods/easy-disenchanting.pw.toml"
+hash = "c233acc55734c3b52992deb1918d9f1b42aaa54811ff39bdfff88a76317a66f6"
+metafile = true
+
+[[files]]
 file = "mods/effect-insights.pw.toml"
 hash = "5f45d665f5081abdd3505c098453606338e29e3b28134a71675f23b450c75893"
 metafile = true
@@ -431,7 +472,7 @@ metafile = true
 
 [[files]]
 file = "mods/enchantment-descriptions.pw.toml"
-hash = "d18a6f47391b6e8e515cdbdf0d994503d5dec6ce3e097a777f445ef4d331725a"
+hash = "17c8c17c49b20d0b9352a46fa12218bdb52d7ea25820e65de12cc05820d2cb15"
 metafile = true
 
 [[files]]
@@ -475,23 +516,18 @@ hash = "f83f629e9f2445776b05096a413ae8974849f01435f6d1ba708c0af058ade963"
 metafile = true
 
 [[files]]
-file = "mods/ftb-chunks.pw.toml"
-hash = "4935d7c9c09599201b642d37cad49c53d704f9271b6a39f82ce154815b2db857"
-metafile = true
-
-[[files]]
 file = "mods/ftb-library.pw.toml"
-hash = "899833d659bf7f5a5ebd99cf140e6a2374f2cf8c31c6939144c88010067d7eb3"
+hash = "869521f1e972dab12b8eefebc8f3456d00c9396b770714135599e99ec59592be"
 metafile = true
 
 [[files]]
 file = "mods/ftb-quests.pw.toml"
-hash = "ea282708afab27000c148ec1f89650a1e437e64e4008658c9bd0697380ee50e2"
+hash = "1abb3337ea960e1dac37ad7f0bb6e4b902b005ea0646152a45b280bbd18be1ef"
 metafile = true
 
 [[files]]
 file = "mods/ftb-teams.pw.toml"
-hash = "c8438bf19dac51120e02483648c30949ffb7b102296227e8778af3f733776061"
+hash = "409dc4d6419dbf47031eea68e7fa5a83f802699043ef76368dc7fa8dd0b0e4af"
 metafile = true
 
 [[files]]
@@ -501,7 +537,7 @@ metafile = true
 
 [[files]]
 file = "mods/fwa.pw.toml"
-hash = "6bf6849b0b6dfb507904f64e9e5eb4c0a1a445fc71799d426b92e26c5b7d2137"
+hash = "242884692297e96385e4e8ecac50191ffb2d4363c069b7002abede785dffe270"
 metafile = true
 
 [[files]]
@@ -521,7 +557,7 @@ metafile = true
 
 [[files]]
 file = "mods/iceberg.pw.toml"
-hash = "480665362a1c17db67dcd0ef86325e7396358b56130f90ce64105aa9791908ab"
+hash = "ac0ddc1c3f6e365cc00874f58f7a55280d95fb60e355599c20e29f80f595e042"
 metafile = true
 
 [[files]]
@@ -547,6 +583,11 @@ metafile = true
 [[files]]
 file = "mods/jade.pw.toml"
 hash = "480a0486170f19e87e41feaf773c01d66d84f69a36e209fc10a450c4bb6509a9"
+metafile = true
+
+[[files]]
+file = "mods/journeymap.pw.toml"
+hash = "c2c5fd31813f2ab37cd48d1e0c48e0b7ae83ef377c130240b8dd4ed14fbc7d80"
 metafile = true
 
 [[files]]
@@ -595,8 +636,8 @@ hash = "4a71eb7f52b348dd71bad0ca687eace4f8656b2643df188313f0909fbdfcd93f"
 metafile = true
 
 [[files]]
-file = "mods/migajaland-core-0.6.0.jar"
-hash = "aeafd0064f68ab7981aa4130b9d38ac62b4a2247cbe753df8a2370bd4f9b1691"
+file = "mods/migajaland-core-0.6.1.jar"
+hash = "23f2a169b36fd3e582b1086ca9588242330456ee185174dc10e7eea61825d412"
 
 [[files]]
 file = "mods/migajaland-melodies-1.0.0.jar"
@@ -798,6 +839,11 @@ hash = "b2bcdb4add9aa5def5466269960d4e8ec3e1c791200ce2692191030f90d6201b"
 metafile = true
 
 [[files]]
+file = "mods/txnilib.pw.toml"
+hash = "6d399cd0432d4199f4e1c7fa5111c7e399067d8b60eeb63529a835d9a18b3f85"
+metafile = true
+
+[[files]]
 file = "mods/visual-workbench.pw.toml"
 hash = "fba1fcf1bf2c44fcbcc6e2ec89e84f064f1e1816621347087da78af0d4d3899b"
 metafile = true
@@ -828,7 +874,7 @@ hash = "8e44b29560d2e7d952c0a4f77f0451e6dcb048f827189bffc712b446be8de7f2"
 
 [[files]]
 file = "resourcepacks/Migajaland-Espanol.zip"
-hash = "c2c2e4042e1764b09e782809e4cffa8ce0f36283bacd39fee3552bf1588aac0e"
+hash = "ab0d0d4d7b88413328cc22437121868b6688aab7263a8d02889c5ca6ab002f83"
 
 [[files]]
 file = "shaderpacks/MakeUp-UltraFast-9.5d.zip"

@@ -12,15 +12,26 @@
 	quest_links: [ ]
 	quests: [
 		{ id: "3500000000000001", x: 0.0d, y: 0.0d, size: 2.0d, shape: "hexagon", optional: true, icon: { id: "minecraft:oak_planks" }, tasks: [{ id: "4500000000000001", type: "checkmark" }] }
-		{ id: "3500000000000002", dependencies: ["3500000000000001"], x: -4.5d, y: 3.0d, optional: true, icon: { id: "farmersdelight:cutting_board" }, tasks: [{ id: "4500000000000002", type: "checkmark" }] }
-		{ id: "3500000000000003", dependencies: ["3500000000000001"], x: -1.5d, y: 3.0d, optional: true, icon: { id: "farmersdelight:cooking_pot" }, tasks: [{ id: "4500000000000003", type: "checkmark" }] }
-		{ id: "3500000000000004", dependencies: ["3500000000000001"], x: 1.5d, y: 3.0d, optional: true, icon: { id: "farmersdelight:tomato" }, tasks: [{ id: "4500000000000004", type: "checkmark" }] }
-		{ id: "3500000000000005", dependencies: ["3500000000000001"], x: 4.5d, y: 3.0d, optional: true, icon: { id: "refurbished_furniture:oak_chair" }, tasks: [{ id: "4500000000000005", type: "checkmark" }] }
-		{ id: "3500000000000006", dependencies: ["3500000000000001"], x: -4.5d, y: 6.0d, optional: true, icon: { id: "supplementaries:wrench" }, tasks: [{ id: "4500000000000006", type: "checkmark" }] }
-		{ id: "3500000000000007", dependencies: ["3500000000000001"], x: -1.5d, y: 6.0d, optional: true, icon: { id: "sophisticatedbackpacks:backpack" }, tasks: [{ id: "4500000000000007", type: "checkmark" }] }
-		{ id: "3500000000000008", dependencies: ["3500000000000001"], x: 1.5d, y: 6.0d, optional: true, icon: { id: "sophisticatedstorage:chest" }, tasks: [{ id: "4500000000000008", type: "checkmark" }] }
-		{ id: "3500000000000009", dependencies: ["3500000000000001"], x: 4.5d, y: 6.0d, optional: true, icon: { id: "sophisticatedstorage:controller" }, tasks: [{ id: "4500000000000009", type: "checkmark" }] }
-		{ id: "350000000000000A", dependencies: ["3500000000000001"], x: -2.0d, y: 9.0d, optional: true, icon: { id: "minetraps:bear_trap" }, tasks: [{ id: "450000000000000A", type: "checkmark" }] }
-		{ id: "350000000000000B", dependencies: ["3500000000000001"], x: 2.0d, y: 9.0d, optional: true, icon: { id: "minecraft:chest" }, tasks: [{ id: "450000000000000B", type: "checkmark" }] }
+		{ id: "3500000000000002", dependencies: ["3500000000000001"], x: -8.0d, y: 3.0d, optional: true, icon: { id: "farmersdelight:cutting_board" }, tasks: [{ id: "4500000000000002", type: "checkmark" }] }
+		{ id: "3500000000000003", dependencies: ["3500000000000002"], x: -8.0d, y: 6.0d, optional: true, icon: { id: "farmersdelight:cooking_pot" }, tasks: [{ id: "4500000000000003", type: "checkmark" }] }
+		{ id: "3500000000000004", dependencies: ["3500000000000003"], x: -8.0d, y: 9.0d, optional: true, icon: { id: "farmersdelight:tomato" }, tasks: [{ id: "4500000000000004", type: "checkmark" }] }
+		{ id: "3500000000000005", dependencies: ["3500000000000001"], x: 0.0d, y: 3.0d, optional: true, icon: { id: "refurbished_furniture:oak_chair" }, tasks: [{ id: "4500000000000005", type: "checkmark" }] }
+		{ id: "3500000000000006", dependencies: ["3500000000000001"], x: 8.0d, y: 3.0d, optional: true, icon: { id: "supplementaries:wrench" }, tasks: [{ id: "4500000000000006", type: "checkmark" }] }
+		{ id: "3500000000000007", dependencies: ["3500000000000001"], x: -4.0d, y: 3.0d, optional: true, icon: { id: "sophisticatedbackpacks:backpack" }, tasks: [{ id: "4500000000000007", type: "checkmark" }] }
+		{ id: "3500000000000008", dependencies: ["3500000000000007"], x: -4.0d, y: 6.0d, optional: true, icon: { id: "sophisticatedstorage:chest" }, tasks: [{ id: "4500000000000008", type: "checkmark" }] }
+		{ id: "3500000000000009", dependencies: ["3500000000000008"], x: -4.0d, y: 9.0d, optional: true, icon: { id: "sophisticatedstorage:controller" }, tasks: [{ id: "4500000000000009", type: "checkmark" }] }
+		{ id: "350000000000000A", dependencies: ["3500000000000006"], x: 10.0d, y: 6.0d, optional: true, icon: { id: "minetraps:bear_trap" }, tasks: [{ id: "450000000000000A", type: "checkmark" }] }
+		{ id: "350000000000000B", dependencies: ["3500000000000009"], x: -4.0d, y: 12.0d, optional: true, icon: { id: "minecraft:chest" }, tasks: [{ id: "450000000000000B", type: "checkmark" }] }
+		{ id: "350000000000000C", dependencies: ["3500000000000005"], x: 0.0d, y: 6.0d, optional: true, icon: { id: "minecraft:stonecutter" }, tasks: [{ id: "450000000000000C", type: "checkmark" }] }
+		{ id: "350000000000000D", dependencies: ["350000000000000C"], x: 0.0d, y: 9.0d, optional: true, icon: { id: "minecraft:bricks" }, tasks: [{ id: "450000000000000D", type: "checkmark" }] }
+		{ id: "350000000000000E", dependencies: ["350000000000000D"], x: 0.0d, y: 12.0d, optional: true, icon: { id: "minecraft:lantern" }, tasks: [{ id: "450000000000000E", type: "checkmark" }] }
+		{ id: "350000000000000F", dependencies: ["3500000000000001"], x: 4.0d, y: 3.0d, optional: true, icon: { id: "minecraft:crafting_table" }, tasks: [{ id: "450000000000000F", type: "checkmark" }] }
+		{ id: "3500000000000010", dependencies: ["350000000000000F"], x: 3.0d, y: 6.0d, optional: true, icon: { id: "minecraft:redstone" }, tasks: [{ id: "4500000000000010", type: "checkmark" }] }
+		{ id: "3500000000000011", dependencies: ["3500000000000010"], x: 3.0d, y: 9.0d, optional: true, icon: { id: "minecraft:cooked_beef" }, tasks: [{ id: "4500000000000011", type: "checkmark" }] }
+		{ id: "3500000000000012", dependencies: ["350000000000000F"], x: 5.0d, y: 6.0d, optional: true, icon: { id: "minecraft:iron_block" }, tasks: [{ id: "4500000000000012", type: "checkmark" }] }
+		{ id: "3500000000000013", dependencies: ["3500000000000012"], x: 5.0d, y: 9.0d, optional: true, icon: { id: "minecraft:painting" }, tasks: [{ id: "4500000000000013", type: "checkmark" }] }
+		{ id: "3500000000000014", dependencies: ["3500000000000013"], x: 5.0d, y: 12.0d, optional: true, icon: { id: "minecraft:white_bed" }, tasks: [{ id: "4500000000000014", type: "checkmark" }] }
+		{ id: "3500000000000015", dependencies: ["3500000000000006"], x: 8.0d, y: 6.0d, optional: true, icon: { id: "minecraft:chest" }, tasks: [{ id: "4500000000000015", type: "checkmark" }] }
+		{ id: "3500000000000016", dependencies: ["3500000000000015"], x: 8.0d, y: 9.0d, optional: true, icon: { id: "minecraft:anvil" }, tasks: [{ id: "4500000000000016", type: "checkmark" }] }
 	]
 }

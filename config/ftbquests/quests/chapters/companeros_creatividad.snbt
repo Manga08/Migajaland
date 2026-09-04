@@ -1,0 +1,29 @@
+{
+	id: "2000000000000009"
+	group: "1000000000000002"
+	order_index: 6
+	filename: "companeros_creatividad"
+	icon: { id: "minecraft:saddle" }
+	default_quest_shape: "rsquare"
+	default_hide_dependency_lines: false
+	progression_mode: "flexible"
+	autofocus_id: "3900000000000001"
+	images: [ ]
+	quest_links: [ ]
+	quests: [
+		{ id: "3900000000000001", x: 0.0d, y: 0.0d, size: 2.0d, shape: "hexagon", optional: true, icon: { id: "minecraft:saddle" }, tasks: [{ id: "4900000000000001", type: "checkmark" }] }
+		{ id: "3900000000000002", dependencies: ["3900000000000001"], x: -6.0d, y: 3.0d, optional: true, icon: { id: "minecraft:wheat_seeds" }, tasks: [{ id: "4900000000000002", type: "checkmark" }] }
+		{ id: "3900000000000003", dependencies: ["3900000000000002"], x: -6.0d, y: 6.0d, optional: true, icon: { id: "minecraft:wheat" }, tasks: [{ id: "4900000000000003", type: "checkmark" }] }
+		{ id: "3900000000000004", dependencies: ["3900000000000003"], x: -6.0d, y: 9.0d, optional: true, icon: { id: "minecraft:golden_apple" }, tasks: [{ id: "4900000000000004", type: "checkmark" }] }
+		{ id: "3900000000000005", dependencies: ["3900000000000004"], x: -6.0d, y: 12.0d, optional: true, icon: { id: "minecraft:feather" }, tasks: [{ id: "4900000000000005", type: "checkmark" }] }
+		{ id: "3900000000000006", dependencies: ["3900000000000005"], x: -6.0d, y: 15.0d, optional: true, icon: { id: "minecraft:saddle" }, tasks: [{ id: "4900000000000006", type: "checkmark" }] }
+		{ id: "3900000000000007", dependencies: ["3900000000000001"], x: -2.0d, y: 3.0d, optional: true, icon: { id: "minecraft:emerald" }, tasks: [{ id: "4900000000000007", type: "checkmark" }] }
+		{ id: "3900000000000008", dependencies: ["3900000000000007"], x: -2.0d, y: 6.0d, optional: true, icon: { id: "minecraft:red_tulip" }, tasks: [{ id: "4900000000000008", type: "checkmark" }] }
+		{ id: "3900000000000009", dependencies: ["3900000000000008"], x: -2.0d, y: 9.0d, optional: true, icon: { id: "minecraft:clock" }, tasks: [{ id: "4900000000000009", type: "checkmark" }] }
+		{ id: "390000000000000A", dependencies: ["3900000000000001"], x: 2.0d, y: 3.0d, optional: true, icon: { id: "minecraft:leather_chestplate" }, tasks: [{ id: "490000000000000A", type: "checkmark" }] }
+		{ id: "390000000000000B", dependencies: ["3900000000000001"], x: 6.0d, y: 3.0d, optional: true, icon: { id: "minecraft:note_block" }, tasks: [{ id: "490000000000000B", type: "checkmark" }] }
+		{ id: "390000000000000C", dependencies: ["390000000000000B"], x: 6.0d, y: 6.0d, optional: true, icon: { id: "minecraft:music_disc_cat" }, tasks: [{ id: "490000000000000C", type: "checkmark" }] }
+		{ id: "390000000000000D", dependencies: ["3900000000000001"], x: 2.0d, y: 6.0d, optional: true, icon: { id: "minecraft:player_head" }, tasks: [{ id: "490000000000000D", type: "checkmark" }] }
+		{ id: "390000000000000E", dependencies: ["3900000000000001"], x: 6.0d, y: 9.0d, optional: true, icon: { id: "minecraft:goat_horn" }, tasks: [{ id: "490000000000000E", type: "checkmark" }] }
+	]
+}

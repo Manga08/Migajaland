@@ -1,8 +1,8 @@
 name = "Armageddon"
-filename = "Armageddon for Neoforge 1.21.1 (v3.0.06) - Polished.jar"
+filename = "Armageddon for Neoforge 1.21.1 (v3.0.07) - Polished.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/6EBQAueX/versions/Z0JrlPcD/Armageddon%20for%20Neoforge%201.21.1%20%28v3.0.06%29%20-%20Polished.jar"
+url = "https://cdn.modrinth.com/data/6EBQAueX/versions/rVIl8NYc/Armageddon%20for%20Neoforge%201.21.1%20%28v3.0.07%29%20-%20Polished.jar"
 hash-format = "sha256"
-hash = "eef05c375a19eecc88829f0007e5d4b64a735d0311c2f6d2ffe795c16bb49604"
+hash = "9acb2d424eafdf9fffc208f072e1a7381e5b8ba035dd3f5ab122f73ac2a1c162"

@@ -1,0 +1,8 @@
+name = "JourneyMap"
+filename = "journeymap-neoforge-1.21.1-6.0.7.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/lfHFW1mp/versions/IAVJBO0C/journeymap-neoforge-1.21.1-6.0.7.jar"
+hash-format = "sha256"
+hash = "e984149ee3275020661f0d691a7e3256df98eede419f2c2833d27f27d26ad7af"

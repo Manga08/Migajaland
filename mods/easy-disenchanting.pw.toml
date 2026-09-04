@@ -1,0 +1,8 @@
+name = "Easy Disenchanting"
+filename = "easydisenchanting-neoforge-1.0.0-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/oytHeCkq/versions/DusvW4Bw/easydisenchanting-neoforge-1.0.0-1.21.1.jar"
+hash-format = "sha256"
+hash = "a5a05138f98c96615ac99cee6c69cedd2c78d82a02aa03dddb194796e9ac9d7c"

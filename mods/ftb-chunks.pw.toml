@@ -1,8 +1,0 @@
-name = "FTB Chunks"
-filename = "ftb-chunks-neoforge-2101.1.21.jar"
-side = "both"
-
-[download]
-url = "https://edge.forgecdn.net/files/8520/252/ftb-chunks-neoforge-2101.1.21.jar"
-hash-format = "sha256"
-hash = "2cc32a613dd04d9355b88e6f455235aaf00768c270489657c9949f23b9195588"
