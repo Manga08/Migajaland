@@ -1,0 +1,26 @@
+{
+	id: "200000000000000A"
+	group: "1000000000000002"
+	order_index: 7
+	filename: "granjas_mobs_experiencia"
+	icon: { id: "minecraft:experience_bottle" }
+	default_quest_shape: "rsquare"
+	default_hide_dependency_lines: false
+	progression_mode: "flexible"
+	autofocus_id: "3A00000000000001"
+	images: [ ]
+	quest_links: [ ]
+	quests: [
+		{ id: "3A00000000000001", x: 0.0d, y: 0.0d, size: 2.0d, shape: "hexagon", optional: true, icon: { id: "easy_mob_farm:monster_plains_cave_farm" }, tasks: [{ id: "4A00000000000001", type: "checkmark" }] }
+		{ id: "3A0000000000000A", dependencies: ["3A00000000000001"], x: -3.0d, y: 3.0d, optional: true, icon: { id: "easy_mob_farm:mob_capture_card" }, tasks: [{ id: "4A0000000000000A", type: "checkmark" }] }
+		{ id: "3A00000000000002", dependencies: ["3A0000000000000A"], x: -3.0d, y: 6.0d, optional: true, icon: { id: "easy_mob_farm:enduring_capture_net" }, tasks: [{ id: "4A00000000000002", type: "checkmark" }] }
+		{ id: "3A00000000000003", dependencies: ["3A00000000000002"], x: -3.0d, y: 9.0d, optional: true, icon: { id: "easy_mob_farm:ironbound_containment_cage" }, tasks: [{ id: "4A00000000000003", type: "checkmark" }] }
+		{ id: "3A00000000000004", dependencies: ["3A00000000000003"], x: -3.0d, y: 12.0d, optional: true, icon: { id: "easy_mob_farm:mystic_binding_crystal" }, tasks: [{ id: "4A00000000000004", type: "checkmark" }] }
+		{ id: "3A00000000000005", dependencies: ["3A00000000000001"], x: 3.0d, y: 3.0d, optional: true, icon: { id: "easy_mob_farm:tier0_mob_farm_template" }, tasks: [{ id: "4A00000000000005", type: "checkmark" }] }
+		{ id: "3A0000000000000B", dependencies: ["3A00000000000005"], x: 3.0d, y: 6.0d, optional: true, icon: { id: "easy_mob_farm:animal_plains_farm" }, tasks: [{ id: "4A0000000000000B", type: "checkmark" }] }
+		{ id: "3A00000000000006", dependencies: ["3A0000000000000B"], x: 3.0d, y: 9.0d, optional: true, icon: { id: "easy_mob_farm:experience_enhancement" }, tasks: [{ id: "4A00000000000006", type: "checkmark" }] }
+		{ id: "3A00000000000007", dependencies: ["3A00000000000006"], x: 3.0d, y: 12.0d, optional: true, icon: { id: "easy_mob_farm:speed_enhancement" }, tasks: [{ id: "4A00000000000007", type: "checkmark" }] }
+		{ id: "3A00000000000008", dependencies: ["3A00000000000004", "3A00000000000007"], x: 0.0d, y: 15.0d, optional: true, icon: { id: "minecraft:hopper" }, tasks: [{ id: "4A00000000000008", type: "checkmark" }] }
+		{ id: "3A00000000000009", dependencies: ["3A00000000000008"], x: 0.0d, y: 18.0d, optional: true, icon: { id: "minecraft:barrier" }, tasks: [{ id: "4A00000000000009", type: "checkmark" }] }
+	]
+}

@@ -1,4 +1,4 @@
-Migajaland 0.6.1
+Migajaland 0.6.2
 
 Esta carpeta es la fuente de actualizaciones automaticas del cliente.
 No contiene mundos, cuentas, contrasenas, registros ni datos de jugadores.

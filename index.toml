@@ -21,6 +21,18 @@ file = "config/cosmeticarmorreworked-common.toml"
 hash = "687143b4844094f166ff875447d139941970649475924d47ce8982e04ef1cf5d"
 
 [[files]]
+file = "config/easy_mob_farm/mob_capture_card.cfg"
+hash = "aabc5b576ce35107907a2869f9a88838d41026e3c93cbec3cbede06d2f4973de"
+
+[[files]]
+file = "config/easy_mob_farm/mob_catcher.cfg"
+hash = "1e67309cd8f542cf28dd6537a6f5f27036e99f0c585bcdd6e2c15e39025ed5e4"
+
+[[files]]
+file = "config/easy_mob_farm/mob_farm.cfg"
+hash = "483d6cc477b7ea70e75af1c5f3542d1c56ede98c70dcf7786208d3ce6f0bc3ab"
+
+[[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
 hash = "9c4a0f155c1ee96013d6229e81044c3703935ffcb1d30129a856e5bee28abc20"
 
@@ -45,6 +57,10 @@ file = "config/ftbquests/quests/chapters/exploracion_aventura.snbt"
 hash = "4cfb1986b36f122a917501e794ee7919d62b56170e90d235d38578fd5a94a8b8"
 
 [[files]]
+file = "config/ftbquests/quests/chapters/granjas_mobs_experiencia.snbt"
+hash = "10bdadfa0e48f9b82b62ebe20a64a9be04bf57f217d8bba5f572e84d61ce0f0e"
+
+[[files]]
 file = "config/ftbquests/quests/chapters/hogar_viajes.snbt"
 hash = "188cd7ad58413e10170c90bb6405368e0c4487e5828e622599650699b2fba719"
 
@@ -66,11 +82,11 @@ hash = "8dfea9d6470e568437182f26c25f1d3a1330e654afa885c40abb44df18229b4f"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "58d39a75565de0011f5299d784edfcf2a54300dc3ca2182a5ffc1ad254884894"
+hash = "1f2033bf7a83aafe71e6f411bd9aa37671300bcf134667f8a43c43b50be71a69"
 
 [[files]]
 file = "config/ftbquests/quests/lang/es_es.snbt"
-hash = "58d39a75565de0011f5299d784edfcf2a54300dc3ca2182a5ffc1ad254884894"
+hash = "1f2033bf7a83aafe71e6f411bd9aa37671300bcf134667f8a43c43b50be71a69"
 
 [[files]]
 file = "config/fwa.json"
@@ -87,6 +103,10 @@ hash = "7048a7c1f06b3a877cdc720b97475bd6a19862e2271f48f0c3f3c45f0a08feff"
 [[files]]
 file = "config/mca.json"
 hash = "c5d98c1f079aca9d3bba4aa380b6a8e01ec1514ee68a5fcc33ad499202e1658f"
+
+[[files]]
+file = "config/minetraps-server.toml"
+hash = "1647836b4d23e5cb5e2cd0248082ee630766b266d26b65b09dad34372a84164d"
 
 [[files]]
 file = "config/oculus.properties"
@@ -258,7 +278,7 @@ hash = "523c3b54a86a178a48d78fcb148cc9657925818f23a70475b66e91cbd362707f"
 
 [[files]]
 file = "MIGAJALAND-LEEME.txt"
-hash = "5c30ee7233157bf204d3a57041e4376712488ac2fbc8798d3efaaccef051e198"
+hash = "03a4c8919488cb96585e945853702fcc9d17cae74e816bf0c8069ff406f8179b"
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"
@@ -446,6 +466,11 @@ hash = "c233acc55734c3b52992deb1918d9f1b42aaa54811ff39bdfff88a76317a66f6"
 metafile = true
 
 [[files]]
+file = "mods/easy-mob-farm.pw.toml"
+hash = "e7be7628d5af8cebced13b6912bee14a711b00c5175396128888ca0ce26cdd1c"
+metafile = true
+
+[[files]]
 file = "mods/effect-insights.pw.toml"
 hash = "5f45d665f5081abdd3505c098453606338e29e3b28134a71675f23b450c75893"
 metafile = true
@@ -582,7 +607,7 @@ metafile = true
 
 [[files]]
 file = "mods/jade.pw.toml"
-hash = "480a0486170f19e87e41feaf773c01d66d84f69a36e209fc10a450c4bb6509a9"
+hash = "a6b84e7db4a8f0da5d9d940c973d1e5fcf9e3312e0001500aa35d1e2634cf27b"
 metafile = true
 
 [[files]]
@@ -636,8 +661,8 @@ hash = "4a71eb7f52b348dd71bad0ca687eace4f8656b2643df188313f0909fbdfcd93f"
 metafile = true
 
 [[files]]
-file = "mods/migajaland-core-0.6.1.jar"
-hash = "23f2a169b36fd3e582b1086ca9588242330456ee185174dc10e7eea61825d412"
+file = "mods/migajaland-core-0.6.2.jar"
+hash = "2c49b0c0e73d9bd2d78f52be75702df920b5c96f0341d82767eb32e6a6cc8c0b"
 
 [[files]]
 file = "mods/migajaland-melodies-1.0.0.jar"
@@ -874,7 +899,7 @@ hash = "8e44b29560d2e7d952c0a4f77f0451e6dcb048f827189bffc712b446be8de7f2"
 
 [[files]]
 file = "resourcepacks/Migajaland-Espanol.zip"
-hash = "ab0d0d4d7b88413328cc22437121868b6688aab7263a8d02889c5ca6ab002f83"
+hash = "d1071d5cc8111b37f2ba4c46523c07c42cd055efd0add8cf34cd3d8509206959"
 
 [[files]]
 file = "shaderpacks/MakeUp-UltraFast-9.5d.zip"
