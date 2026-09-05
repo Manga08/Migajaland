@@ -246,19 +246,19 @@ hash = "e81cd74ece1639d5d8dd2077c39f2de0a1880ce1d2aafa0fe7b51641aa40ab94"
 
 [[files]]
 file = "journeymap/config/6.0/journeymap.core.config"
-hash = "c25dab6735635289895b4c904335de25c8013c51cfa239e763f517bcfb82a2ab"
+hash = "38ec692bb55919725eab0ecce2718ff1ffa551b6f450316ce2aa758a5a454045"
 
 [[files]]
 file = "journeymap/config/6.0/journeymap.fullmap.config"
-hash = "15b89d68dd5b9cfea739213e32ec3bc46ad77bacd541f67da3af2ec1b7b9f38d"
+hash = "8e0d2704bbd1d83b919d59b7171f2e35078544d67ceed1e77e7f7b42f6f7164c"
 
 [[files]]
 file = "journeymap/config/6.0/journeymap.minimap.config"
-hash = "732aaa9bceeb76863b0cbfcfa6220b23a62fd29e87811bb670a495476ab2bede"
+hash = "a361a8370365ed5b2ed59474a0b0d499f91820f6101d622b50029b4405a49f56"
 
 [[files]]
 file = "journeymap/config/6.0/journeymap.minimap2.config"
-hash = "dae5d47fc7ba1520a14d9df790ceb0a67313fef028ccbd0951b9a6232abde7c4"
+hash = "4947fc8fbff97b5c570aa7efef6a2d74d5279645177e2e516dce1782de544604"
 
 [[files]]
 file = "journeymap/config/6.0/journeymap.rendering.config"
