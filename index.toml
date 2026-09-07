@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "mods/migajaland-skin-bridge-1.0.0.jar"
+hash = "bb7c452681bba8913e4228552f8557226ec92ce345ebc50964b071cf4867448d"
+
+[[files]]
 file = "config/armoroftheages.json"
 hash = "f758ec6827ac146a43aa857c490017ae62816d31f4b5a37ba6aed5afa9d7a041"
 
@@ -908,4 +912,3 @@ hash = "b26b8eb9b23fbba41e3b16dc6b8ef4d2c7c645b3f6621aa414cdade68ad48966"
 [[files]]
 file = "shaderpacks/MakeUp-UltraFast-9.5d.zip.txt"
 hash = "ab719e80bcb7db64e9152ddf979b171c0faac7f7458ddecd381fcc7dff236195"
-
