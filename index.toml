@@ -1,10 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = "mods/migajaland-skin-bridge-1.0.1.jar"
-hash = "23843450c6dfe83977947569be5645df79a4b7b420581700f267560319cca54d"
-
-[[files]]
 file = "config/armoroftheages.json"
 hash = "f758ec6827ac146a43aa857c490017ae62816d31f4b5a37ba6aed5afa9d7a041"
 
@@ -86,11 +82,11 @@ hash = "8dfea9d6470e568437182f26c25f1d3a1330e654afa885c40abb44df18229b4f"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "1f2033bf7a83aafe71e6f411bd9aa37671300bcf134667f8a43c43b50be71a69"
+hash = "eea7b8537be7ba9e47ccc571ba5554e5264cc1bb16b75bf97061778a73888db3"
 
 [[files]]
 file = "config/ftbquests/quests/lang/es_es.snbt"
-hash = "1f2033bf7a83aafe71e6f411bd9aa37671300bcf134667f8a43c43b50be71a69"
+hash = "eea7b8537be7ba9e47ccc571ba5554e5264cc1bb16b75bf97061778a73888db3"
 
 [[files]]
 file = "config/fwa.json"
@@ -565,6 +561,11 @@ hash = "f15faad2ccc98d9564c052647fd0f285bacc7707267d3715f2626d164c6b7066"
 metafile = true
 
 [[files]]
+file = "mods/fusion-connected-textures.pw.toml"
+hash = "63e71264580c37a64b031214d983c4a0927f084a9646bf7c88a58c3884b9dfc5"
+metafile = true
+
+[[files]]
 file = "mods/fwa.pw.toml"
 hash = "242884692297e96385e4e8ecac50191ffb2d4363c069b7002abede785dffe270"
 metafile = true
@@ -611,7 +612,7 @@ metafile = true
 
 [[files]]
 file = "mods/jade.pw.toml"
-hash = "a6b84e7db4a8f0da5d9d940c973d1e5fcf9e3312e0001500aa35d1e2634cf27b"
+hash = "480a0486170f19e87e41feaf773c01d66d84f69a36e209fc10a450c4bb6509a9"
 metafile = true
 
 [[files]]
@@ -645,6 +646,16 @@ hash = "6bc863e604390288d287d48f613fd06c4228112b22ad4c10d2a8e4237ec4ab26"
 metafile = true
 
 [[files]]
+file = "mods/macaws-bridges.pw.toml"
+hash = "6bdb41cd735731c595ee2e464e860cb80e45026e646cdeb4eab04ca7dd0d4dae"
+metafile = true
+
+[[files]]
+file = "mods/macaws-doors.pw.toml"
+hash = "4f8ae60b045797149637ed2fe3a922bbc440269879291c0d8f18d679eb6d4be9"
+metafile = true
+
+[[files]]
 file = "mods/macaws-fences-and-walls.pw.toml"
 hash = "d4dea93a1603835d7d4233e539dea3bb0c409bcb4a1f8bd27a0b2f1b1e85c327"
 metafile = true
@@ -660,17 +671,26 @@ hash = "de6c8ff99ad6e388cb738c4b0df06161302f7233d354277e87568d89fe02a51c"
 metafile = true
 
 [[files]]
+file = "mods/macaws-trapdoors.pw.toml"
+hash = "ba9d4db02bcdb944efa7ec68e7d6bb78892bcf7297c8bd740d733e4403586790"
+metafile = true
+
+[[files]]
 file = "mods/macaws-windows.pw.toml"
 hash = "4a71eb7f52b348dd71bad0ca687eace4f8656b2643df188313f0909fbdfcd93f"
 metafile = true
 
 [[files]]
 file = "mods/migajaland-core-0.6.2.jar"
-hash = "2c49b0c0e73d9bd2d78f52be75702df920b5c96f0341d82767eb32e6a6cc8c0b"
+hash = "cb4b06197248716541136768fa0bff26498cf77b0cf1672ed58302d021e338c6"
 
 [[files]]
 file = "mods/migajaland-melodies-1.0.0.jar"
 hash = "d769da1bb50c95eefb3d4dbaa0e78f3262005c543ebde904d4f5c6454228adb8"
+
+[[files]]
+file = "mods/migajaland-skin-bridge-1.0.1.jar"
+hash = "23843450c6dfe83977947569be5645df79a4b7b420581700f267560319cca54d"
 
 [[files]]
 file = "mods/minecraft-comes-alive-reborn.pw.toml"
@@ -902,8 +922,13 @@ file = "resourcepacks/FreshAnimations_v1.10.4.zip"
 hash = "8e44b29560d2e7d952c0a4f77f0451e6dcb048f827189bffc712b446be8de7f2"
 
 [[files]]
+file = "resourcepacks/fusion-connected-glass.pw.toml"
+hash = "3f6646bb9dd3f69d4a046e93df9affc9ee9fdfeb9b1993c2392b7ce5437849e2"
+metafile = true
+
+[[files]]
 file = "resourcepacks/Migajaland-Espanol.zip"
-hash = "d1071d5cc8111b37f2ba4c46523c07c42cd055efd0add8cf34cd3d8509206959"
+hash = "08d846c5515a4dde05139ed0b473c6a131f80391bdfcfb6fc2bc911551343e0e"
 
 [[files]]
 file = "shaderpacks/MakeUp-UltraFast-9.5d.zip"
@@ -912,3 +937,4 @@ hash = "b26b8eb9b23fbba41e3b16dc6b8ef4d2c7c645b3f6621aa414cdade68ad48966"
 [[files]]
 file = "shaderpacks/MakeUp-UltraFast-9.5d.zip.txt"
 hash = "ab719e80bcb7db64e9152ddf979b171c0faac7f7458ddecd381fcc7dff236195"
+

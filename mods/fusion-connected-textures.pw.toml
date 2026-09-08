@@ -1,0 +1,8 @@
+name = "Fusion (Connected Textures)"
+filename = "fusion-1.3.15a-neoforge-mc1.21.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/p19vrgc2/versions/JSbPU3oG/fusion-1.3.15a-neoforge-mc1.21.1.jar"
+hash-format = "sha256"
+hash = "0ae37e908293fd7c4df7364e2481d1b3793e2e921ec7597e3485bc039c08c6d4"

@@ -1,0 +1,8 @@
+name = "Macaw's Trapdoors"
+filename = "mcw-trapdoors-1.1.5-mc1.21.1neoforge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/n2fvCDlM/versions/StnP0RNi/mcw-trapdoors-1.1.5-mc1.21.1neoforge.jar"
+hash-format = "sha256"
+hash = "1408d46bc2e7515b25b4da8393f8dbb3d79bcd9fb6d51fcf26fe84734c2597af"
