@@ -1,8 +1,8 @@
 hash-format = "sha256"
 
 [[files]]
-file = "mods/migajaland-skin-bridge-1.0.0.jar"
-hash = "bb7c452681bba8913e4228552f8557226ec92ce345ebc50964b071cf4867448d"
+file = "mods/migajaland-skin-bridge-1.0.1.jar"
+hash = "23843450c6dfe83977947569be5645df79a4b7b420581700f267560319cca54d"
 
 [[files]]
 file = "config/armoroftheages.json"

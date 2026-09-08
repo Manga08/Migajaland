@@ -1,12 +1,12 @@
 name = "Migajaland"
 author = "Migajaland"
-version = "0.6.2+skins.1"
+version = "0.6.2+map.1"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "d6c46a1bb8409d9204f2c7041053a099e66b3df480970d8e5521043fa060f17d"
+hash = "7c24bac46622142a8e6e2fdd9dc85a3c1594d4727ec20d43137895ee703fdfd5"
 
 [versions]
 minecraft = "1.21.1"
