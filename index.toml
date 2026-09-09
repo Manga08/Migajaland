@@ -33,6 +33,74 @@ file = "config/easy_mob_farm/mob_farm.cfg"
 hash = "483d6cc477b7ea70e75af1c5f3542d1c56ede98c70dcf7786208d3ce6f0bc3ab"
 
 [[files]]
+file = "config/EndRemastered-NeoForge/endrem.json"
+hash = "5a8e5f5fa575402b8c9d415833a7acc1858e124729ae81fdfa305a602cb4c180"
+
+[[files]]
+file = "config/EndRemastered-NeoForge/Eyes/black_eye.json"
+hash = "caa69e7086c7815933af0d0bcf83c163af187d84ee6a7213dc4c4bcbf788d2c5"
+
+[[files]]
+file = "config/EndRemastered-NeoForge/Eyes/cold_eye.json"
+hash = "5ddd5ea22e71bf040c1c28df7a273dd42cc6756f67390dfc082540bded9a2a80"
+
+[[files]]
+file = "config/EndRemastered-NeoForge/Eyes/corrupted_eye.json"
+hash = "479ff5ac6b643e377a5b1a1350637ecb208a2a77fb74488c57aae2be252ed13f"
+
+[[files]]
+file = "config/EndRemastered-NeoForge/Eyes/cryptic_eye.json"
+hash = "ef23863e4d876d0aa07af8d57f5d561b90ca72ef47441321fee2afdcf6202624"
+
+[[files]]
+file = "config/EndRemastered-NeoForge/Eyes/cursed_eye.json"
+hash = "adbcd8f9d6adc308fc9db65416bcd53d66133c4885d0c61620d3ccc276463342"
+
+[[files]]
+file = "config/EndRemastered-NeoForge/Eyes/evil_eye.json"
+hash = "f5c592ff7652da20f93acc2137675a1cee29b4ecb905f56e9b35dadebd396e65"
+
+[[files]]
+file = "config/EndRemastered-NeoForge/Eyes/exotic_eye.json"
+hash = "b2bc84a480810af68e8c555b366fff36ecb67e6eeda2782210eb38d15c957353"
+
+[[files]]
+file = "config/EndRemastered-NeoForge/Eyes/guardian_eye.json"
+hash = "a1c9380a91f328df917aad9bb1e4e605f2ca5695be7b8207cf581b8e03d63a63"
+
+[[files]]
+file = "config/EndRemastered-NeoForge/Eyes/lost_eye.json"
+hash = "5c0f8b71b7f53dc13c64c3e48fffa2927f0826971d3414b31095ab3abc1fdc68"
+
+[[files]]
+file = "config/EndRemastered-NeoForge/Eyes/magical_eye.json"
+hash = "1249d8322568693f552dc08271969dd24a357f53368820bc620f49abdc22dcf0"
+
+[[files]]
+file = "config/EndRemastered-NeoForge/Eyes/nether_eye.json"
+hash = "6f506df4a9baed975a154c50ecca0f234f7f60805149a92d6efd31ee03b06a63"
+
+[[files]]
+file = "config/EndRemastered-NeoForge/Eyes/old_eye.json"
+hash = "a5a1c648426b2ea61e4741758151904d5650fda8bc884fad6a0f4e04f5997927"
+
+[[files]]
+file = "config/EndRemastered-NeoForge/Eyes/rogue_eye.json"
+hash = "9014c3d9a26758515da1970d85c31b80df22c819c23e86ecbf739fb43ef2c036"
+
+[[files]]
+file = "config/EndRemastered-NeoForge/Eyes/undead_eye.json"
+hash = "a9a571a279c7c20672d48aa7fb2546c461868cf1b80962e1367409f104c63ee8"
+
+[[files]]
+file = "config/EndRemastered-NeoForge/Eyes/witch_eye.json"
+hash = "41de53ad16ce01009a92b3d9f96e35aeac8a68a3de588d8fd9374b33f343a088"
+
+[[files]]
+file = "config/EndRemastered-NeoForge/Eyes/wither_eye.json"
+hash = "86499d5affe90f36aac3df626303ac797e44fd1f08719d3041f5be4174e458c7"
+
+[[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
 hash = "9c4a0f155c1ee96013d6229e81044c3703935ffcb1d30129a856e5bee28abc20"
 
@@ -82,11 +150,11 @@ hash = "8dfea9d6470e568437182f26c25f1d3a1330e654afa885c40abb44df18229b4f"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "eea7b8537be7ba9e47ccc571ba5554e5264cc1bb16b75bf97061778a73888db3"
+hash = "bd85e76f8fc55f0b0e7565cdc02b55a2f654a69ee1763d4f28bf5139db0d1112"
 
 [[files]]
 file = "config/ftbquests/quests/lang/es_es.snbt"
-hash = "eea7b8537be7ba9e47ccc571ba5554e5264cc1bb16b75bf97061778a73888db3"
+hash = "bd85e76f8fc55f0b0e7565cdc02b55a2f654a69ee1763d4f28bf5139db0d1112"
 
 [[files]]
 file = "config/fwa.json"
@@ -95,6 +163,10 @@ hash = "f27999aaf3ea7a5414f69281ae83dbfd2e781c7f52b091ab9a98dc389dc3bf22"
 [[files]]
 file = "config/inventoryessentials-common.toml"
 hash = "440658632c045fbcf64cdf6cbd48a64c46e882e3b6dff6aaff2610fffee564ed"
+
+[[files]]
+file = "config/lootr-common.toml"
+hash = "f87fffc93bd5edd2433cb46d0c373cd211b43ddc001d0bf6d4cd289440662513"
 
 [[files]]
 file = "config/many_bows.json"
@@ -111,6 +183,18 @@ hash = "1647836b4d23e5cb5e2cd0248082ee630766b266d26b65b09dad34372a84164d"
 [[files]]
 file = "config/oculus.properties"
 hash = "040463560a8e20c78b08aee2039233a1ebaa64cb5d303c9388dd1d8949a28f81"
+
+[[files]]
+file = "config/rpg_series/loot_equipment_v2.json"
+hash = "fc853e1b6279eb3c891f460b7f76bcedc05745da52b1227ef59c90163a966ce6"
+
+[[files]]
+file = "config/rpg_series/loot_scrolls_v2.json"
+hash = "05c8ce9414ca8a4b7f5b53425dbfe84a100754d878a166d1638b63c9ea14c5ae"
+
+[[files]]
+file = "config/rpg_series/tag_cache.json"
+hash = "d6279d4d2faa9ef7818ea22946c2fd25166ea18992d5f8595908a089f590a15c"
 
 [[files]]
 file = "config/skinlayers.json"
@@ -278,7 +362,7 @@ hash = "523c3b54a86a178a48d78fcb148cc9657925818f23a70475b66e91cbd362707f"
 
 [[files]]
 file = "MIGAJALAND-LEEME.txt"
-hash = "03a4c8919488cb96585e945853702fcc9d17cae74e816bf0c8069ff406f8179b"
+hash = "b6f65186ef954b79d16d99c691a36080f52c08410909382aa5fe0ea3a8133269"
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"
@@ -681,8 +765,8 @@ hash = "4a71eb7f52b348dd71bad0ca687eace4f8656b2643df188313f0909fbdfcd93f"
 metafile = true
 
 [[files]]
-file = "mods/migajaland-core-0.6.2.jar"
-hash = "cb4b06197248716541136768fa0bff26498cf77b0cf1672ed58302d021e338c6"
+file = "mods/migajaland-core-0.6.3.jar"
+hash = "4018d1638821f20af3439d305441d94020d9c487d9edcbe15b6a9bece8b5cdd0"
 
 [[files]]
 file = "mods/migajaland-melodies-1.0.0.jar"
