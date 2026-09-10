@@ -150,11 +150,11 @@ hash = "8dfea9d6470e568437182f26c25f1d3a1330e654afa885c40abb44df18229b4f"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "bd85e76f8fc55f0b0e7565cdc02b55a2f654a69ee1763d4f28bf5139db0d1112"
+hash = "fd07d0b9136624ad365603902f34f2b847f1906cd570f681e94fa4739d62a956"
 
 [[files]]
 file = "config/ftbquests/quests/lang/es_es.snbt"
-hash = "bd85e76f8fc55f0b0e7565cdc02b55a2f654a69ee1763d4f28bf5139db0d1112"
+hash = "fd07d0b9136624ad365603902f34f2b847f1906cd570f681e94fa4739d62a956"
 
 [[files]]
 file = "config/fwa.json"
@@ -362,7 +362,7 @@ hash = "523c3b54a86a178a48d78fcb148cc9657925818f23a70475b66e91cbd362707f"
 
 [[files]]
 file = "MIGAJALAND-LEEME.txt"
-hash = "b6f65186ef954b79d16d99c691a36080f52c08410909382aa5fe0ea3a8133269"
+hash = "be6b230c4634bf63fafd1b4197bc3b8f63108d654feab7cb1fff99a81df8d8ef"
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"
@@ -750,8 +750,18 @@ hash = "86eb5228c9b9e11d933dfde4962c03a9a02ada7f4381ede6c49e978452b50d42"
 metafile = true
 
 [[files]]
+file = "mods/macaws-paths-and-pavings.pw.toml"
+hash = "5f7ceec48031adcc3dab07e33a0c3844a85a4cb4beeb23aca702e56cc2cb8c89"
+metafile = true
+
+[[files]]
 file = "mods/macaws-roofs.pw.toml"
 hash = "de6c8ff99ad6e388cb738c4b0df06161302f7233d354277e87568d89fe02a51c"
+metafile = true
+
+[[files]]
+file = "mods/macaws-stairs.pw.toml"
+hash = "70ec5540ad8d952d624a1d9475f0d4e740d2b590d6b6728401ea5f2777644619"
 metafile = true
 
 [[files]]
@@ -765,8 +775,8 @@ hash = "4a71eb7f52b348dd71bad0ca687eace4f8656b2643df188313f0909fbdfcd93f"
 metafile = true
 
 [[files]]
-file = "mods/migajaland-core-0.6.3.jar"
-hash = "4018d1638821f20af3439d305441d94020d9c487d9edcbe15b6a9bece8b5cdd0"
+file = "mods/migajaland-core-0.6.4.jar"
+hash = "586267103d16d53503d9d53b62762afa62cccfffcf6d662edc57ea182bc936d6"
 
 [[files]]
 file = "mods/migajaland-melodies-1.0.0.jar"
@@ -1012,7 +1022,7 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/Migajaland-Espanol.zip"
-hash = "08d846c5515a4dde05139ed0b473c6a131f80391bdfcfb6fc2bc911551343e0e"
+hash = "8227b337379f12dc145f295ac54ae772e6205a77f62007847467ea14c935d011"
 
 [[files]]
 file = "shaderpacks/MakeUp-UltraFast-9.5d.zip"

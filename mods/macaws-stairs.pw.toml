@@ -1,0 +1,8 @@
+name = "Macaw's Stairs"
+filename = "mcw-mcwstairs-1.0.2-mc1.21.1neoforge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/iP3wH1ha/versions/4t8L0dGP/mcw-mcwstairs-1.0.2-mc1.21.1neoforge.jar"
+hash-format = "sha256"
+hash = "177fe382ff22caa14983d862ead2717321315a5e4afa778d245e9acd2f61608d"
