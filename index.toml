@@ -776,7 +776,7 @@ metafile = true
 
 [[files]]
 file = "mods/migajaland-core-0.6.5.jar"
-hash = "0f393496a0797eee22d1a2737eead2515656cad330a01c2825f4a47d3774d305"
+hash = "31bd75fab428c0e8bb74117cc2ecf550c5d5a6a0574316bc4f52362807b9b83a"
 
 [[files]]
 file = "mods/migajaland-melodies-1.0.0.jar"
