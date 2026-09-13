@@ -362,7 +362,7 @@ hash = "523c3b54a86a178a48d78fcb148cc9657925818f23a70475b66e91cbd362707f"
 
 [[files]]
 file = "MIGAJALAND-LEEME.txt"
-hash = "be6b230c4634bf63fafd1b4197bc3b8f63108d654feab7cb1fff99a81df8d8ef"
+hash = "727242d07ef82b815614b44a5bcb5b4f4698e1443b5cbed913a3b7025a7a77f2"
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"
@@ -775,8 +775,8 @@ hash = "4a71eb7f52b348dd71bad0ca687eace4f8656b2643df188313f0909fbdfcd93f"
 metafile = true
 
 [[files]]
-file = "mods/migajaland-core-0.6.4.jar"
-hash = "586267103d16d53503d9d53b62762afa62cccfffcf6d662edc57ea182bc936d6"
+file = "mods/migajaland-core-0.6.5.jar"
+hash = "0f393496a0797eee22d1a2737eead2515656cad330a01c2825f4a47d3774d305"
 
 [[files]]
 file = "mods/migajaland-melodies-1.0.0.jar"
@@ -948,7 +948,7 @@ metafile = true
 
 [[files]]
 file = "mods/spell-engine.pw.toml"
-hash = "375048f2b8bc7e1936831fbe5ef41c7ad6041f85c0a860167d39c41b4755989e"
+hash = "c43128e246db5ba40a2263ccf7843ccb63c7aef1157dc681299138518604fd10"
 metafile = true
 
 [[files]]

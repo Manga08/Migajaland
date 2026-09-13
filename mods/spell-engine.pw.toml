@@ -1,8 +1,8 @@
 name = "Spell Engine"
-filename = "spell_engine-neoforge-1.10.2+1.21.1.jar"
+filename = "spell_engine-neoforge-1.10.5+1.21.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/XvoWJaA2/versions/jNkZJ9wR/spell_engine-neoforge-1.10.2%2B1.21.1.jar"
+url = "https://cdn.modrinth.com/data/XvoWJaA2/versions/VQ29MaF4/spell_engine-neoforge-1.10.5%2B1.21.1.jar"
 hash-format = "sha256"
-hash = "403201cdd5224b0651272405a9d067264c766599975c916211b0ae1f37008e12"
+hash = "08a2b0c5cdf3cdf723e71dbe113e7055aeb491c6e6a77bcce7982a67ce9d84b5"
