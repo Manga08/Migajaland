@@ -206,7 +206,7 @@ hash = "960aa009c7f7314aa935e21e893bd4b8ff1e5b475f889e8592d91a9e671153d8"
 
 [[files]]
 file = "config/upgrader-common.toml"
-hash = "be6ad9e772f7adea2b46b5991f410ccb69a4e236282d1ac34a9b638d36da99d3"
+hash = "af6dbae9a243709500345732ca9aa0e8d311856f7c5bb81fda106a12e8f6944a"
 
 [[files]]
 file = "emotes/bloop_dance.json"
@@ -366,7 +366,7 @@ hash = "523c3b54a86a178a48d78fcb148cc9657925818f23a70475b66e91cbd362707f"
 
 [[files]]
 file = "MIGAJALAND-LEEME.txt"
-hash = "1b0aa78cd55fa5f3f29d6f992914a46594c2ad2751f9687426a7558791898b77"
+hash = "3fe4e3d540419473282f4280a60f384d6b925b7230fbe28e036ef4f55dd6e2c3"
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"
@@ -779,8 +779,8 @@ hash = "4a71eb7f52b348dd71bad0ca687eace4f8656b2643df188313f0909fbdfcd93f"
 metafile = true
 
 [[files]]
-file = "mods/migajaland-core-0.6.6-rc2.jar"
-hash = "e4fbbb57ad5dc9d4dbc974ecd1eea987ac4a3b2d79e35b76446303cae539ec33"
+file = "mods/migajaland-core-0.6.6-rc3.jar"
+hash = "16f30e9d3f7b4bebe2e2900ee1cf504d8514dea7ef88426f7e88a289799094ea"
 
 [[files]]
 file = "mods/migajaland-melodies-1.0.0.jar"
