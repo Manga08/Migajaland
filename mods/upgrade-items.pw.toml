@@ -1,0 +1,8 @@
+name = "Upgrader items"
+filename = "upgrader-neoforge-1.2.0+1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/UQgc9Wcb/versions/wb3qhutU/upgrader-neoforge-1.2.0%2B1.21.1.jar"
+hash-format = "sha256"
+hash = "c7673b47770225ccafe11967e8c52bd12497f87cb780ca6c5531b779730edef3"
