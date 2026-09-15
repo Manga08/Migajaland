@@ -134,7 +134,7 @@ hash = "188cd7ad58413e10170c90bb6405368e0c4487e5828e622599650699b2fba719"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/personaje_combate.snbt"
-hash = "5825e3f2e3cbb069725d607bb1be50d73aa2463b22cf6de251b352dc740dbd6b"
+hash = "427cfd7bbd16d8953d4801a2e80c6de915a7a8c86f312a560c10563f899c9c80"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ruta_principal.snbt"
@@ -150,11 +150,11 @@ hash = "8dfea9d6470e568437182f26c25f1d3a1330e654afa885c40abb44df18229b4f"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "1d4cf273b9511c111aacd12c72f6ba73499c481ae8b08ab81f450657cf59e1ad"
+hash = "dc25608f8172d0b8cc496c08c0cd57c016be57a74704e5b981742c872bcd706b"
 
 [[files]]
 file = "config/ftbquests/quests/lang/es_es.snbt"
-hash = "1d4cf273b9511c111aacd12c72f6ba73499c481ae8b08ab81f450657cf59e1ad"
+hash = "dc25608f8172d0b8cc496c08c0cd57c016be57a74704e5b981742c872bcd706b"
 
 [[files]]
 file = "config/fwa.json"
@@ -203,10 +203,6 @@ hash = "45162f45aa2db525a0edc483959f35b6d958ba2e54066a4f87e7f3c3f0f99166"
 [[files]]
 file = "config/soundcontroller-presets.json"
 hash = "960aa009c7f7314aa935e21e893bd4b8ff1e5b475f889e8592d91a9e671153d8"
-
-[[files]]
-file = "config/upgrader-common.toml"
-hash = "e0b58b1932b2f5acfd2b36c6690ff2ead93d99666e8d5f4618937a401c2731ef"
 
 [[files]]
 file = "emotes/bloop_dance.json"
@@ -366,7 +362,7 @@ hash = "523c3b54a86a178a48d78fcb148cc9657925818f23a70475b66e91cbd362707f"
 
 [[files]]
 file = "MIGAJALAND-LEEME.txt"
-hash = "99f7210a22885b44e1c5a6f1082036c45b6be2d2cd3e0f5a2b6da51b648df2a6"
+hash = "a4ab5d854238c5ea4c7e9318c61f144c07186c2623ffec987b5c3c1f9679fb65"
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"
@@ -779,8 +775,8 @@ hash = "4a71eb7f52b348dd71bad0ca687eace4f8656b2643df188313f0909fbdfcd93f"
 metafile = true
 
 [[files]]
-file = "mods/migajaland-core-0.6.6-rc4.jar"
-hash = "75542eb9f99b03236f806e6700109d37d58d82b32a0e583c0ea54728f003a3b8"
+file = "mods/migajaland-core-0.6.6-rc5.jar"
+hash = "ede7964ec62f343d3db784f32f2e75b9a5679fc5ec83cdacd1055b6b8b27df75"
 
 [[files]]
 file = "mods/migajaland-melodies-1.0.0.jar"
@@ -991,11 +987,6 @@ hash = "6d399cd0432d4199f4e1c7fa5111c7e399067d8b60eeb63529a835d9a18b3f85"
 metafile = true
 
 [[files]]
-file = "mods/upgrade-items.pw.toml"
-hash = "63e73f59099c13b5509013250d8eb8ec76816153419b5ea8f0bf88373c38f115"
-metafile = true
-
-[[files]]
 file = "mods/visual-workbench.pw.toml"
 hash = "fba1fcf1bf2c44fcbcc6e2ec89e84f064f1e1816621347087da78af0d4d3899b"
 metafile = true
@@ -1031,7 +1022,7 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/Migajaland-Espanol.zip"
-hash = "6e44324b2c8d413aa8744444623fd0cf1cbe579f2942118ad3cea43e5b216479"
+hash = "71ae17fe5c5efe5342dbcd3b4fe8519502a69d9a03acd08a3fd2b8e3995844a3"
 
 [[files]]
 file = "shaderpacks/MakeUp-UltraFast-9.5d.zip"

@@ -26,6 +26,5 @@
 		{ id: "340000000000000D", dependencies: ["3400000000000001"], x: -1.5d, y: 12.0d, optional: true, icon: { id: "arsenal:unique_claymore_1" }, tasks: [{ id: "440000000000000D", type: "checkmark" }] }
 		{ id: "340000000000000E", dependencies: ["3400000000000001"], x: 1.5d, y: 12.0d, optional: true, icon: { id: "arsenal:unique_shield_1" }, tasks: [{ id: "440000000000000E", type: "checkmark" }] }
 		{ id: "340000000000000F", dependencies: ["3400000000000005"], x: 7.5d, y: 6.0d, optional: true, icon: { id: "too_many_bows:arcane_bow" }, tasks: [{ id: "440000000000000F", type: "checkmark" }] }
-		{ id: "3400000000000010", dependencies: ["3400000000000001"], x: 4.5d, y: 12.0d, optional: true, icon: { id: "upgrader:upgrader" }, tasks: [{ id: "4400000000000010", type: "checkmark" }] }
 	]
 }
