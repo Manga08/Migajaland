@@ -150,11 +150,11 @@ hash = "8dfea9d6470e568437182f26c25f1d3a1330e654afa885c40abb44df18229b4f"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "ec79b35e2e0ee7895a3efc21b53644b598980a6e6a1fb53cf1a1a61c4518a691"
+hash = "1d4cf273b9511c111aacd12c72f6ba73499c481ae8b08ab81f450657cf59e1ad"
 
 [[files]]
 file = "config/ftbquests/quests/lang/es_es.snbt"
-hash = "ec79b35e2e0ee7895a3efc21b53644b598980a6e6a1fb53cf1a1a61c4518a691"
+hash = "1d4cf273b9511c111aacd12c72f6ba73499c481ae8b08ab81f450657cf59e1ad"
 
 [[files]]
 file = "config/fwa.json"
@@ -206,7 +206,7 @@ hash = "960aa009c7f7314aa935e21e893bd4b8ff1e5b475f889e8592d91a9e671153d8"
 
 [[files]]
 file = "config/upgrader-common.toml"
-hash = "af6dbae9a243709500345732ca9aa0e8d311856f7c5bb81fda106a12e8f6944a"
+hash = "e0b58b1932b2f5acfd2b36c6690ff2ead93d99666e8d5f4618937a401c2731ef"
 
 [[files]]
 file = "emotes/bloop_dance.json"
@@ -366,7 +366,7 @@ hash = "523c3b54a86a178a48d78fcb148cc9657925818f23a70475b66e91cbd362707f"
 
 [[files]]
 file = "MIGAJALAND-LEEME.txt"
-hash = "3fe4e3d540419473282f4280a60f384d6b925b7230fbe28e036ef4f55dd6e2c3"
+hash = "99f7210a22885b44e1c5a6f1082036c45b6be2d2cd3e0f5a2b6da51b648df2a6"
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"
@@ -779,8 +779,8 @@ hash = "4a71eb7f52b348dd71bad0ca687eace4f8656b2643df188313f0909fbdfcd93f"
 metafile = true
 
 [[files]]
-file = "mods/migajaland-core-0.6.6-rc3.jar"
-hash = "16f30e9d3f7b4bebe2e2900ee1cf504d8514dea7ef88426f7e88a289799094ea"
+file = "mods/migajaland-core-0.6.6-rc4.jar"
+hash = "75542eb9f99b03236f806e6700109d37d58d82b32a0e583c0ea54728f003a3b8"
 
 [[files]]
 file = "mods/migajaland-melodies-1.0.0.jar"
